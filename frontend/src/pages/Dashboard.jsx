@@ -13,39 +13,28 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
+import { ResponsiveHeatMap } from "@nivo/heatmap";
 
-const foodPrices = [
-  { item: "Biryani",  price: 142 },
-  { item: "Dosa",     price: 68  },
-  { item: "Vada Pav", price: 28  },
-  { item: "Pani Puri",price: 25  },
-  { item: "Samosa",   price: 18  },
-  { item: "Chai",     price: 12  },
-];
+import {
+  foodPrices,
+  inflationData,
+  cityComparison,
+  affordabilityMatrix,
+  appVsStreetPrices,
+  dashboardKPIs
+} from "../data/dummyData";
+import { getItemAverages } from "../utils/dataCalculations";
 
-const inflationData = [
-  { month: "Jan", sfpi: 100,   cpi: 100,   appIndex: 100   },
-  { month: "Feb", sfpi: 102,   cpi: 101,   appIndex: 103   },
-  { month: "Mar", sfpi: 104,   cpi: 102,   appIndex: 106   },
-  { month: "Apr", sfpi: 106,   cpi: 103,   appIndex: 110   },
-  { month: "May", sfpi: 108,   cpi: 104,   appIndex: 113   },
-  { month: "Jun", sfpi: 108.4, cpi: 105.1, appIndex: 114.2 },
-];
-
-const cityData = [
-  { city: "Hyderabad", avg: 135, vs: "-5%",  cls: "tlo", trend: "▼ stable", tcolor: "#085041" },
-  { city: "Mumbai",    avg: 168, vs: "+18%", cls: "thi", trend: "▲ rising", tcolor: "#A32D2D" },
-  { city: "Delhi",     avg: 152, vs: "+7%",  cls: "tmd", trend: "▲ rising", tcolor: "#633806" },
-  { city: "Bengaluru", avg: 144, vs: "+1%",  cls: "tmd", trend: "— flat",   tcolor: "#633806" },
-  { city: "Chennai",   avg: 118, vs: "-17%", cls: "tlo", trend: "▼ stable", tcolor: "#085041" },
-];
-
-const kpis = [
-  { label: "Avg price",      val: "₹87",   stroke: "#1D9E75", points: "0,18 9,16 18,15 28,13 37,10 46,8 56,6", delta: "+6.2% this quarter",    cls: "delta-up",  icon: "ti-trending-up"    },
-  { label: "SFPI inflation", val: "8.4%",  stroke: "#D85A30", points: "0,18 9,17 18,15 28,13 37,11 46,9 56,7", delta: "vs CPI food 5.1%",       cls: "delta-up",  icon: "ti-alert-triangle" },
-  { label: "App premium",    val: "2.1×",  stroke: "#534AB7", points: "0,16 9,15 18,14 28,12 37,10 46,8 56,6", delta: "app prices 110% higher", cls: "delta-up",  icon: "ti-device-mobile"  },
-  { label: "Records",        val: "1,240", stroke: "#888780", points: "0,20 9,18 18,16 28,14 37,11 46,9 56,7", delta: "5 cities · 14 items",    cls: "delta-neu", icon: "ti-database"       },
-];
+const transformHeatMapData = (data) => {
+  const cities = ["Hyderabad", "Mumbai", "Delhi", "Bengaluru", "Chennai"];
+  return cities.map(city => ({
+    id: city,
+    data: data.map(item => ({
+      x: item.item,
+      y: item[city],
+    })),
+  }));
+};
 
 const insights = [
   { bg: "#FCEBEB", iconColor: "#A32D2D", icon: "ti-trending-up",
@@ -59,7 +48,61 @@ const insights = [
     sub: "Central zones price 34% above peripheral on average" },
 ];
 
+// KPI summary cards (sparkline data, deltas, etc.)
+const kpis = [
+  {
+    label: "Avg Price",
+    val: `₹${dashboardKPIs.avgPrice}`,
+    stroke: "#1D9E75",
+    points: "0,18 9,16 18,15 28,13 37,10 46,8 56,6",
+    delta: "+6.2% this quarter",
+    cls: "delta-up",
+    icon: "ti-trending-up",
+  },
+  {
+    label: "SFPI Inflation",
+    val: `${dashboardKPIs.sfpiInflation}%`,
+    stroke: "#D85A30",
+    points: "0,18 9,17 18,15 28,13 37,11 46,9 56,7",
+    delta: "vs CPI food 5.1%",
+    cls: "delta-up",
+    icon: "ti-alert-triangle",
+  },
+  {
+    label: "App Premium",
+    val: `${dashboardKPIs.appPremium}×`,
+    stroke: "#534AB7",
+    points: "0,16 9,15 18,14 28,12 37,10 46,8 56,6",
+    delta: "app prices 110% higher",
+    cls: "delta-up",
+    icon: "ti-device-mobile",
+  },
+  {
+    label: "Records",
+    val: dashboardKPIs.records,
+    stroke: "#888780",
+    points: "0,20 9,18 18,16 28,14 37,11 46,9 56,7",
+    delta: "5 cities · 14 items",
+    cls: "delta-neu",
+    icon: "ti-database",
+  },
+];
+
+// City comparison table data (Biryani street prices vs median)
+const cityData = [
+  { city: "Hyderabad", avg: 135, vs: "-5%",  cls: "tlo", trend: "▼ stable", tcolor: "#085041" },
+  { city: "Mumbai",    avg: 168, vs: "+18%", cls: "thi", trend: "▲ rising", tcolor: "#A32D2D" },
+  { city: "Delhi",     avg: 152, vs: "+7%",  cls: "tmd", trend: "▲ rising", tcolor: "#633806" },
+  { city: "Bengaluru", avg: 144, vs: "+1%",  cls: "tmd", trend: "— flat",   tcolor: "#633806" },
+  { city: "Chennai",   avg: 118, vs: "-17%", cls: "tlo", trend: "▼ stable", tcolor: "#085041" },
+];
+
 function Dashboard() {
+  const chartData = getItemAverages(foodPrices).map(({ item, avg }) => ({
+    item,
+    price: Math.round(avg * 10) / 10,
+  }));
+
   return (
     <div className="db" style={{ margin: '20px' }}>
 
@@ -120,21 +163,50 @@ function Dashboard() {
           ))}
         </div>
 
-        {/* Hero row — map (left 2/3) + bar chart (right 1/3) */}
+        {/* Hero row — heatmap (left 2/3) + bar chart (right 1/3) */}
         <div className="hero-row">
           <div className="card">
-            <div className="ctitle">Price heat map — by city &amp; zone</div>
-            <div className="csub">Average price (₹) across all selected items · darker = costlier</div>
-            <div className="map-area">
-              <i className="ti ti-map-2" style={{ fontSize: '22px', color: '#6b7280' }} aria-hidden="true" />
-              <span>Choropleth renders here (Folium / Plotly)</span>
-              <span style={{ fontSize: '10px' }}>Click any zone to filter dashboard</span>
-            </div>
-            <div className="scale-row">
-              <span className="scale-label">₹18</span>
-              <div className="scale-bar" />
-              <span className="scale-label">₹280</span>
-              <span style={{ fontSize: '10px', color: '#6b7280', marginLeft: '6px' }}>· 5 cities mapped</span>
+            <div className="ctitle">Price heat map — by item &amp; city</div>
+            <div className="csub">Street food prices (₹) · darker = costlier</div>
+            <div className="nivo-heatmap-container">
+              <ResponsiveHeatMap
+                data={transformHeatMapData(affordabilityMatrix)}
+                margin={{ top: 30, right: 120, bottom: 40, left: 60 }}
+                valueFormat=">-.0f"
+                colors={{
+                  type: 'diverging',
+                  scheme: 'spectral',
+                  divergeAt: 0.5,
+                  minValue: 10,
+                  maxValue: 180,
+                }}
+                cellOpacity={1}
+                cellRadius={4}
+                cellBorderWidth={1.5}
+                cellBorderColor="#ffffff"
+                labelTextColor={{ from: 'color', modifiers: [['darker', 3]] }}
+                xAxisLabel="Food Item"
+                yAxisLabel="City"
+                xAxisPosition="bottom"
+                yAxisPosition="left"
+                motionConfig="stiff"
+                tooltip={({ xValue, yValue, value }) => (
+                  <div className="nivo-tooltip">
+                    <strong>₹{value}</strong>
+                    <div style={{ fontSize: '11px', color: '#666' }}>{xValue} in {yValue}</div>
+                  </div>
+                )}
+                legends={[
+                  {
+                    anchor: 'right',
+                    direction: 'column',
+                    length: 200,
+                    thickness: 12,
+                    title: 'Price Range (₹)',
+                    titleOffset: 10,
+                  },
+                ]}
+              />
             </div>
           </div>
 
@@ -142,7 +214,7 @@ function Dashboard() {
             <div className="ctitle">Avg price by item</div>
             <div className="csub">Street stalls · all cities</div>
             <ResponsiveContainer width="100%" height={210}>
-              <BarChart data={foodPrices} margin={{ top: 4, right: 8, left: -20, bottom: 0 }}>
+              <BarChart data={chartData} margin={{ top: 4, right: 8, left: -20, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                 <XAxis dataKey="item" tick={{ fontSize: 10, fill: '#6b7280' }} />
                 <YAxis tick={{ fontSize: 10, fill: '#6b7280' }} />
