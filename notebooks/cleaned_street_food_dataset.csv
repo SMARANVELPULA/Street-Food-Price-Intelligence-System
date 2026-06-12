@@ -1,0 +1,1501 @@
+record_id,date,city,item_name,category,veg_nonveg,street_price,app_price,price_gap,app_premium_percent,restaurant_name,platform,rating
+1,2025-08-27,Chennai,Upma,South Indian,Veg,51,74,23,45,Food Junction,Magicpin,4.5
+2,2025-07-08,Delhi,Masala Dosa,South Indian,Veg,91,147,56,61,Pista House,Zomato,4.2
+3,2025-11-20,Hyderabad,Masala Dosa,South Indian,Veg,114,240,126,110,Pista House,Swiggy,3.8
+4,2025-05-06,Bangalore,Chicken Fried Rice,Rice,Non-Veg,172,245,73,43,Spice Hub,Zomato,3.5
+5,2025-02-25,Hyderabad,Idli,South Indian,Veg,26,57,31,120,Pista House,Zomato,4.6
+6,2025-06-22,Bangalore,Chicken Biryani,Biryani,Non-Veg,242,354,112,46,Food Junction,Swiggy,4.2
+7,2025-12-21,Chennai,Manchurian,Street Food,Veg,147,295,148,101,Food Junction,Zomato,3.5
+8,2025-01-12,Kolkata,Chicken Biryani,Biryani,Non-Veg,341,449,109,32,Street Treats,Magicpin,3.7
+9,2025-01-06,Kolkata,Chicken Burger,Fast Food,Non-Veg,165,383,218,132,Shah Ghouse,Zomato,4.0
+10,2025-02-07,Chennai,Chicken Burger,Fast Food,Non-Veg,122,169,47,38,Pista House,Magicpin,4.4
+11,2025-09-28,Bangalore,Uttapam,South Indian,Veg,70,122,52,74,Pista House,Zomato,4.9
+12,2025-07-12,Hyderabad,Uttapam,South Indian,Veg,79,97,19,24,Urban Bites,Magicpin,4.2
+13,2025-12-05,Kolkata,Upma,South Indian,Veg,57,136,80,140,Cafe Delight,Magicpin,3.5
+14,2025-03-05,Hyderabad,Pizza Slice,Fast Food,Veg,168,406,238,141,Tasty Corner,Swiggy,4.4
+15,2025-03-21,Chennai,Veg Biryani,Biryani,Veg,124,151,27,22,Spice Hub,Zomato,4.5
+16,2025-05-21,Kolkata,Fried Rice,Rice,Veg,137,190,53,39,Cafe Delight,Zomato,4.7
+17,2025-04-26,Delhi,Uttapam,South Indian,Veg,69,124,56,81,Mehfil,Swiggy,4.2
+18,2025-05-26,Chennai,Masala Dosa,South Indian,Veg,113,232,119,106,Tasty Corner,Magicpin,4.5
+19,2025-07-01,Kolkata,Vada,South Indian,Veg,48,94,45,94,Food Junction,Magicpin,3.8
+20,2025-04-10,Kolkata,Chicken Burger,Fast Food,Non-Veg,154,202,48,31,Cafe Delight,Zomato,4.3
+21,2025-03-17,Bangalore,Paneer Biryani,Biryani,Veg,194,274,80,41,Cafe Delight,Swiggy,4.8
+22,2025-11-29,Bangalore,Noodles,Street Food,Veg,128,243,115,90,Street Treats,Magicpin,3.5
+23,2025-04-11,Kolkata,Tea,Beverage,Veg,24,52,28,120,Pista House,Zomato,4.7
+24,2025-07-11,Chennai,Upma,South Indian,Veg,43,85,42,97,Shah Ghouse,Swiggy,4.7
+25,2025-09-24,Mumbai,Noodles,Street Food,Veg,158,378,220,139,Tasty Corner,Magicpin,4.0
+26,2025-04-20,Delhi,Tea,Beverage,Veg,22,28,5,23,Food Junction,Magicpin,4.9
+27,2025-11-16,Bangalore,Momos,Street Food,Veg,79,117,38,48,Paradise,Magicpin,4.8
+28,2025-04-26,Chennai,Veg Burger,Fast Food,Veg,97,138,41,42,Pista House,Zomato,4.7
+29,2025-08-06,Mumbai,Vada,South Indian,Veg,34,60,25,73,Street Treats,Swiggy,4.6
+30,2025-01-01,Delhi,Chicken Biryani,Biryani,Non-Veg,209,441,232,111,Shah Ghouse,Zomato,3.8
+31,2025-02-22,Chennai,Coffee,Beverage,Veg,39,56,17,43,Food Junction,Magicpin,3.8
+32,2025-04-14,Hyderabad,Momos,Street Food,Veg,109,145,35,32,Mehfil,Magicpin,3.8
+33,2025-06-21,Chennai,Veg Burger,Fast Food,Veg,108,156,48,44,Paradise,Swiggy,4.7
+34,2025-08-17,Hyderabad,Noodles,Street Food,Veg,85,168,82,97,Mehfil,Magicpin,4.7
+35,2025-08-05,Chennai,Veg Puff,Bakery,Veg,28,46,19,68,Shah Ghouse,Zomato,4.5
+36,2025-01-29,Kolkata,Pizza Slice,Fast Food,Veg,114,233,118,103,Urban Bites,Magicpin,4.7
+37,2025-11-04,Hyderabad,Manchurian,Street Food,Veg,113,197,84,74,Street Treats,Swiggy,4.0
+38,2025-01-18,Chennai,Manchurian,Street Food,Veg,100,155,55,56,Paradise,Magicpin,4.3
+39,2025-10-03,Mumbai,Noodles,Street Food,Veg,152,290,138,91,Mehfil,Swiggy,4.9
+40,2025-03-17,Kolkata,Momos,Street Food,Veg,87,130,43,49,Pista House,Magicpin,4.4
+41,2025-11-09,Mumbai,Veg Biryani,Biryani,Veg,171,306,134,78,Food Junction,Swiggy,4.5
+42,2025-06-22,Delhi,Sandwich,Fast Food,Veg,79,112,34,43,Street Treats,Magicpin,4.2
+43,2025-12-01,Chennai,Momos,Street Food,Veg,125,251,126,101,Spice Hub,Magicpin,3.8
+44,2025-07-13,Mumbai,Tea,Beverage,Veg,11,14,3,25,Paradise,Swiggy,4.1
+45,2025-11-26,Delhi,Masala Dosa,South Indian,Veg,68,107,40,59,Tasty Corner,Zomato,4.5
+46,2025-09-06,Bangalore,Chicken Fried Rice,Rice,Non-Veg,215,450,235,110,Mehfil,Swiggy,4.0
+47,2025-02-22,Bangalore,Veg Burger,Fast Food,Veg,128,171,43,34,Paradise,Zomato,4.1
+48,2025-09-10,Kolkata,Manchurian,Street Food,Veg,158,362,204,129,Cafe Delight,Zomato,3.5
+49,2025-01-17,Bangalore,Veg Pulao,Rice,Veg,99,148,50,50,Cafe Delight,Magicpin,4.0
+50,2025-05-29,Hyderabad,Sandwich,Fast Food,Veg,77,179,102,133,Shah Ghouse,Swiggy,4.6
+51,2025-11-13,Mumbai,Paneer Biryani,Biryani,Veg,254,505,250,99,Food Junction,Swiggy,4.0
+52,2025-02-25,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,166,290,124,74,Pista House,Magicpin,4.9
+53,2025-04-12,Hyderabad,Veg Puff,Bakery,Veg,35,64,29,84,Mehfil,Zomato,4.7
+54,2025-10-03,Hyderabad,Sandwich,Fast Food,Veg,116,260,144,124,Tasty Corner,Zomato,3.7
+55,2025-04-15,Kolkata,Noodles,Street Food,Veg,115,247,132,114,Pista House,Zomato,3.6
+56,2025-10-08,Bangalore,Grilled Sandwich,Fast Food,Veg,92,128,36,38,Food Junction,Swiggy,4.3
+57,2025-03-02,Delhi,Plain Dosa,South Indian,Veg,61,79,18,30,Urban Bites,Magicpin,4.9
+58,2025-04-10,Delhi,Fried Rice,Rice,Veg,101,165,65,64,Food Junction,Zomato,3.7
+59,2025-06-26,Chennai,Uttapam,South Indian,Veg,79,96,17,22,Shah Ghouse,Magicpin,3.5
+60,2025-02-05,Chennai,Pizza Slice,Fast Food,Veg,86,208,122,142,Spice Hub,Magicpin,4.6
+61,2025-03-28,Delhi,Manchurian,Street Food,Veg,86,142,56,64,Urban Bites,Zomato,4.5
+62,2025-01-21,Mumbai,Sandwich,Fast Food,Veg,90,193,103,115,Street Treats,Swiggy,4.8
+63,2025-12-06,Mumbai,Veg Burger,Fast Food,Veg,65,143,79,121,Paradise,Magicpin,4.9
+64,2025-07-18,Kolkata,Pizza Slice,Fast Food,Veg,104,216,112,108,Spice Hub,Swiggy,3.7
+65,2025-12-19,Hyderabad,Upma,South Indian,Veg,46,110,64,139,Urban Bites,Magicpin,4.1
+66,2025-03-02,Kolkata,Pani Puri,Street Food,Veg,47,96,49,105,Cafe Delight,Zomato,4.2
+67,2025-03-23,Hyderabad,Momos,Street Food,Veg,105,158,54,51,Tasty Corner,Magicpin,4.1
+68,2025-04-01,Mumbai,Plain Dosa,South Indian,Veg,32,49,17,52,Shah Ghouse,Magicpin,4.2
+69,2025-12-08,Chennai,Plain Dosa,South Indian,Veg,46,57,11,23,Tasty Corner,Swiggy,4.7
+70,2025-02-25,Chennai,Fried Rice,Rice,Veg,108,231,123,113,Paradise,Magicpin,3.6
+71,2025-11-03,Chennai,Fried Rice,Rice,Veg,129,183,54,42,Paradise,Zomato,4.0
+72,2025-11-05,Chennai,Veg Biryani,Biryani,Veg,143,190,46,32,Food Junction,Swiggy,4.1
+73,2025-04-15,Delhi,Plain Dosa,South Indian,Veg,47,72,25,52,Cafe Delight,Magicpin,4.2
+74,2025-05-28,Chennai,Momos,Street Food,Veg,109,246,137,126,Urban Bites,Zomato,3.7
+75,2025-02-28,Hyderabad,Tea,Beverage,Veg,25,61,36,146,Food Junction,Swiggy,4.5
+76,2025-08-13,Bangalore,Grilled Sandwich,Fast Food,Veg,134,202,68,51,Urban Bites,Zomato,3.6
+77,2025-11-19,Chennai,Plain Dosa,South Indian,Veg,41,83,42,101,Street Treats,Zomato,3.9
+78,2025-12-03,Kolkata,Noodles,Street Food,Veg,143,204,61,43,Spice Hub,Magicpin,3.7
+79,2025-11-21,Kolkata,Idli,South Indian,Veg,35,57,23,66,Food Junction,Swiggy,4.2
+80,2025-12-12,Bangalore,Sandwich,Fast Food,Veg,111,255,144,130,Paradise,Magicpin,4.4
+81,2025-09-28,Kolkata,Manchurian,Street Food,Veg,142,331,189,134,Spice Hub,Zomato,4.1
+82,2025-09-18,Chennai,Noodles,Street Food,Veg,124,162,38,30,Shah Ghouse,Swiggy,4.4
+83,2025-10-21,Bangalore,Masala Dosa,South Indian,Veg,86,104,17,20,Spice Hub,Swiggy,4.5
+84,2025-04-13,Delhi,Plain Dosa,South Indian,Veg,47,100,52,110,Tasty Corner,Magicpin,4.5
+85,2025-10-23,Hyderabad,Veg Biryani,Biryani,Veg,145,312,167,115,Food Junction,Swiggy,4.8
+86,2025-02-16,Kolkata,Paneer Biryani,Biryani,Veg,241,452,211,88,Street Treats,Magicpin,4.6
+87,2025-01-04,Chennai,Paneer Biryani,Biryani,Veg,241,340,99,41,Paradise,Zomato,4.7
+88,2025-08-31,Hyderabad,Chicken Burger,Fast Food,Non-Veg,220,408,189,86,Shah Ghouse,Swiggy,4.6
+89,2025-08-16,Kolkata,Uttapam,South Indian,Veg,128,298,170,132,Cafe Delight,Magicpin,4.0
+90,2025-10-23,Chennai,Pizza Slice,Fast Food,Veg,94,214,120,128,Pista House,Zomato,4.2
+91,2025-04-25,Bangalore,Sandwich,Fast Food,Veg,116,207,91,78,Street Treats,Magicpin,4.2
+92,2025-08-23,Mumbai,Chicken Burger,Fast Food,Non-Veg,210,292,82,39,Pista House,Zomato,3.9
+93,2025-10-17,Mumbai,Pizza Slice,Fast Food,Veg,160,194,33,21,Urban Bites,Magicpin,4.0
+94,2025-05-07,Chennai,Noodles,Street Food,Veg,118,223,105,89,Mehfil,Swiggy,4.0
+95,2025-05-05,Delhi,Noodles,Street Food,Veg,126,157,31,25,Paradise,Zomato,3.7
+96,2025-11-05,Hyderabad,Pizza Slice,Fast Food,Veg,157,203,45,29,Pista House,Swiggy,4.5
+97,2025-08-01,Bangalore,Grilled Sandwich,Fast Food,Veg,132,240,108,82,Tasty Corner,Zomato,4.5
+98,2025-06-03,Bangalore,Manchurian,Street Food,Veg,153,367,214,140,Paradise,Zomato,4.4
+99,2025-05-28,Delhi,Manchurian,Street Food,Veg,142,225,83,59,Pista House,Swiggy,4.1
+100,2025-04-14,Hyderabad,Veg Biryani,Biryani,Veg,170,369,200,118,Shah Ghouse,Swiggy,4.5
+101,2025-03-14,Mumbai,Chicken Burger,Fast Food,Non-Veg,118,282,164,139,Urban Bites,Swiggy,3.6
+102,2025-05-06,Bangalore,Grilled Sandwich,Fast Food,Veg,136,163,27,20,Tasty Corner,Zomato,3.6
+103,2025-05-14,Bangalore,Vada,South Indian,Veg,27,52,25,91,Tasty Corner,Zomato,4.3
+104,2025-01-26,Hyderabad,Coffee,Beverage,Veg,37,72,34,92,Shah Ghouse,Swiggy,4.8
+105,2025-07-28,Delhi,Noodles,Street Food,Veg,64,120,57,89,Pista House,Zomato,4.0
+106,2025-09-07,Chennai,Tea,Beverage,Veg,22,30,7,34,Food Junction,Zomato,4.0
+107,2025-07-20,Bangalore,Chicken Biryani,Biryani,Non-Veg,312,694,382,122,Spice Hub,Magicpin,3.7
+108,2025-12-04,Delhi,Momos,Street Food,Veg,132,246,114,87,Pista House,Magicpin,3.7
+109,2025-03-06,Delhi,Chicken Biryani,Biryani,Non-Veg,212,438,226,107,Pista House,Magicpin,4.3
+110,2025-12-11,Bangalore,Uttapam,South Indian,Veg,79,94,16,20,Tasty Corner,Magicpin,3.5
+111,2025-05-22,Hyderabad,Paneer Biryani,Biryani,Veg,158,357,199,126,Urban Bites,Magicpin,3.6
+112,2025-09-11,Delhi,Plain Dosa,South Indian,Veg,57,105,48,83,Street Treats,Magicpin,4.0
+113,2025-04-14,Bangalore,French Fries,Fast Food,Veg,135,309,174,129,Food Junction,Magicpin,3.8
+114,2025-06-13,Kolkata,Pani Puri,Street Food,Veg,35,56,20,57,Urban Bites,Swiggy,4.3
+115,2025-03-11,Hyderabad,Pizza Slice,Fast Food,Veg,88,141,53,60,Street Treats,Swiggy,4.3
+116,2025-06-21,Hyderabad,Veg Puff,Bakery,Veg,24,59,35,149,Tasty Corner,Swiggy,4.0
+117,2025-02-22,Mumbai,Sandwich,Fast Food,Veg,117,159,42,36,Spice Hub,Zomato,3.9
+118,2025-08-29,Chennai,Masala Dosa,South Indian,Veg,78,129,51,66,Mehfil,Zomato,4.3
+119,2025-11-13,Kolkata,Pizza Slice,Fast Food,Veg,105,207,102,96,Street Treats,Magicpin,4.3
+120,2025-02-07,Hyderabad,Uttapam,South Indian,Veg,79,117,38,49,Pista House,Magicpin,4.3
+121,2025-09-08,Bangalore,Vada,South Indian,Veg,23,34,10,45,Pista House,Zomato,3.6
+122,2025-07-13,Mumbai,Idli,South Indian,Veg,28,49,21,75,Urban Bites,Zomato,3.8
+123,2025-08-03,Mumbai,Pizza Slice,Fast Food,Veg,177,258,80,45,Street Treats,Swiggy,4.2
+124,2025-12-03,Hyderabad,French Fries,Fast Food,Veg,50,86,36,71,Street Treats,Swiggy,4.0
+125,2025-01-03,Kolkata,Veg Puff,Bakery,Veg,25,44,19,76,Cafe Delight,Zomato,3.8
+126,2025-01-23,Hyderabad,Momos,Street Food,Veg,116,265,150,129,Urban Bites,Zomato,4.1
+127,2025-04-01,Bangalore,Uttapam,South Indian,Veg,109,175,66,61,Tasty Corner,Zomato,4.8
+128,2025-09-30,Delhi,Veg Biryani,Biryani,Veg,243,587,344,141,Pista House,Zomato,3.7
+129,2025-11-25,Bangalore,Veg Puff,Bakery,Veg,22,30,9,40,Paradise,Zomato,4.3
+130,2025-10-02,Mumbai,Grilled Sandwich,Fast Food,Veg,133,313,180,135,Tasty Corner,Magicpin,4.1
+131,2025-12-05,Mumbai,Fried Rice,Rice,Veg,165,218,53,32,Mehfil,Magicpin,4.8
+132,2025-04-13,Chennai,Vada,South Indian,Veg,33,45,11,34,Shah Ghouse,Magicpin,4.7
+133,2025-04-20,Chennai,Chicken Biryani,Biryani,Non-Veg,252,530,277,110,Urban Bites,Swiggy,4.3
+134,2025-08-25,Delhi,Veg Puff,Bakery,Veg,31,56,25,80,Food Junction,Magicpin,3.6
+135,2025-04-12,Hyderabad,Uttapam,South Indian,Veg,86,144,58,68,Pista House,Zomato,3.7
+136,2025-10-23,Mumbai,Pizza Slice,Fast Food,Veg,114,169,55,49,Paradise,Magicpin,3.8
+137,2025-04-09,Bangalore,Momos,Street Food,Veg,85,123,38,45,Mehfil,Magicpin,4.9
+138,2025-01-11,Bangalore,Upma,South Indian,Veg,56,93,38,67,Shah Ghouse,Zomato,4.1
+139,2025-11-25,Mumbai,Uttapam,South Indian,Veg,83,158,75,90,Street Treats,Swiggy,4.9
+140,2025-06-08,Mumbai,Grilled Sandwich,Fast Food,Veg,116,209,94,81,Urban Bites,Zomato,4.6
+141,2025-07-11,Mumbai,Coffee,Beverage,Veg,34,71,37,108,Shah Ghouse,Zomato,3.9
+142,2025-03-25,Bangalore,Veg Biryani,Biryani,Veg,193,348,156,81,Paradise,Zomato,3.8
+143,2025-11-22,Chennai,Manchurian,Street Food,Veg,147,292,145,98,Food Junction,Zomato,3.5
+144,2025-06-11,Mumbai,Fried Rice,Rice,Veg,125,196,71,56,Mehfil,Zomato,3.6
+145,2025-08-22,Bangalore,Chicken Biryani,Biryani,Non-Veg,196,436,240,123,Tasty Corner,Zomato,3.7
+146,2025-01-10,Delhi,Grilled Sandwich,Fast Food,Veg,90,208,117,130,Spice Hub,Magicpin,4.8
+147,2025-11-08,Delhi,Veg Pulao,Rice,Veg,99,165,66,67,Urban Bites,Magicpin,4.7
+148,2025-11-03,Hyderabad,Vada,South Indian,Veg,21,39,18,88,Urban Bites,Magicpin,4.2
+149,2025-11-21,Delhi,Idli,South Indian,Veg,50,69,18,37,Tasty Corner,Swiggy,4.1
+150,2025-10-30,Chennai,Momos,Street Food,Veg,122,233,112,92,Street Treats,Zomato,4.4
+151,2025-12-20,Delhi,Tea,Beverage,Veg,13,33,19,147,Street Treats,Zomato,4.1
+152,2025-07-31,Kolkata,French Fries,Fast Food,Veg,72,148,76,106,Food Junction,Magicpin,4.7
+153,2025-07-30,Delhi,Chicken Biryani,Biryani,Non-Veg,222,513,291,131,Urban Bites,Swiggy,4.5
+154,2025-11-07,Mumbai,Veg Biryani,Biryani,Veg,195,435,240,123,Tasty Corner,Magicpin,4.3
+155,2025-09-13,Delhi,Paneer Biryani,Biryani,Veg,258,449,191,74,Mehfil,Magicpin,4.5
+156,2025-10-30,Kolkata,Sandwich,Fast Food,Veg,115,193,78,68,Pista House,Zomato,3.7
+157,2025-12-10,Mumbai,Grilled Sandwich,Fast Food,Veg,91,171,80,88,Mehfil,Magicpin,3.6
+158,2025-11-16,Kolkata,Vada,South Indian,Veg,38,89,51,134,Urban Bites,Magicpin,4.9
+159,2025-10-25,Chennai,Idli,South Indian,Veg,52,75,23,43,Street Treats,Zomato,4.4
+160,2025-09-25,Chennai,Upma,South Indian,Veg,37,81,45,122,Spice Hub,Swiggy,4.2
+161,2025-02-05,Bangalore,Pizza Slice,Fast Food,Veg,121,253,131,108,Urban Bites,Magicpin,3.5
+162,2025-02-08,Chennai,Veg Burger,Fast Food,Veg,98,136,38,39,Urban Bites,Zomato,4.1
+163,2025-05-01,Chennai,Plain Dosa,South Indian,Veg,31,59,28,89,Mehfil,Magicpin,4.1
+164,2025-10-11,Chennai,Chicken Biryani,Biryani,Non-Veg,197,386,189,96,Food Junction,Swiggy,4.7
+165,2025-06-04,Hyderabad,Chicken Burger,Fast Food,Non-Veg,219,516,298,136,Cafe Delight,Magicpin,3.9
+166,2025-03-09,Bangalore,Veg Biryani,Biryani,Veg,220,422,202,92,Cafe Delight,Magicpin,4.0
+167,2025-06-05,Delhi,Vada,South Indian,Veg,20,28,8,39,Paradise,Swiggy,3.6
+168,2025-06-04,Delhi,Vada,South Indian,Veg,26,31,5,21,Food Junction,Zomato,4.6
+169,2025-07-30,Delhi,Chicken Burger,Fast Food,Non-Veg,161,400,239,149,Street Treats,Magicpin,4.1
+170,2025-02-08,Delhi,Sandwich,Fast Food,Veg,72,132,60,83,Mehfil,Magicpin,3.7
+171,2025-04-30,Delhi,Sandwich,Fast Food,Veg,59,88,28,48,Tasty Corner,Zomato,4.7
+172,2025-02-15,Hyderabad,Plain Dosa,South Indian,Veg,68,87,19,29,Mehfil,Swiggy,4.3
+173,2025-04-06,Hyderabad,French Fries,Fast Food,Veg,83,188,105,126,Paradise,Zomato,4.6
+174,2025-12-01,Chennai,Vada,South Indian,Veg,34,60,26,76,Mehfil,Swiggy,3.5
+175,2025-11-22,Chennai,Veg Biryani,Biryani,Veg,221,388,167,76,Food Junction,Swiggy,4.4
+176,2025-10-06,Mumbai,Pizza Slice,Fast Food,Veg,141,228,87,61,Cafe Delight,Zomato,3.9
+177,2025-07-21,Delhi,Pizza Slice,Fast Food,Veg,180,445,265,147,Urban Bites,Magicpin,4.2
+178,2025-06-11,Delhi,Vada,South Indian,Veg,40,48,8,20,Cafe Delight,Magicpin,3.7
+179,2025-03-02,Kolkata,Coffee,Beverage,Veg,33,56,23,68,Spice Hub,Zomato,4.7
+180,2025-10-08,Kolkata,Plain Dosa,South Indian,Veg,43,60,18,41,Tasty Corner,Magicpin,4.7
+181,2025-02-08,Kolkata,Masala Dosa,South Indian,Veg,110,261,152,139,Spice Hub,Magicpin,4.4
+182,2025-09-06,Hyderabad,Sandwich,Fast Food,Veg,51,125,74,145,Tasty Corner,Swiggy,4.4
+183,2025-12-26,Kolkata,Momos,Street Food,Veg,71,131,60,84,Spice Hub,Magicpin,4.7
+184,2025-01-19,Hyderabad,Idli,South Indian,Veg,32,70,38,118,Cafe Delight,Magicpin,4.2
+185,2025-08-29,Mumbai,Manchurian,Street Food,Veg,99,243,144,146,Paradise,Zomato,3.5
+186,2025-05-29,Kolkata,Idli,South Indian,Veg,24,55,31,129,Spice Hub,Zomato,3.6
+187,2025-04-12,Chennai,Momos,Street Food,Veg,42,54,12,28,Pista House,Zomato,3.9
+188,2025-11-15,Kolkata,Masala Dosa,South Indian,Veg,109,132,23,21,Spice Hub,Magicpin,4.8
+189,2025-01-27,Kolkata,Uttapam,South Indian,Veg,69,94,25,36,Mehfil,Magicpin,3.8
+190,2025-02-24,Hyderabad,Upma,South Indian,Veg,68,167,100,148,Mehfil,Magicpin,4.1
+191,2025-04-17,Kolkata,Pizza Slice,Fast Food,Veg,165,333,168,102,Tasty Corner,Magicpin,3.5
+192,2025-07-15,Delhi,Chicken Fried Rice,Rice,Non-Veg,177,221,45,25,Food Junction,Swiggy,4.2
+193,2025-12-12,Delhi,French Fries,Fast Food,Veg,84,190,106,126,Pista House,Magicpin,4.7
+194,2025-11-27,Bangalore,Paneer Biryani,Biryani,Veg,233,437,204,88,Spice Hub,Zomato,4.3
+195,2025-06-13,Mumbai,Pani Puri,Street Food,Veg,21,37,16,76,Spice Hub,Swiggy,4.2
+196,2025-12-28,Delhi,French Fries,Fast Food,Veg,59,120,62,105,Urban Bites,Zomato,4.1
+197,2025-07-23,Hyderabad,Idli,South Indian,Veg,48,95,47,97,Street Treats,Magicpin,4.6
+198,2025-07-20,Mumbai,Vada,South Indian,Veg,48,76,28,58,Spice Hub,Swiggy,4.3
+199,2025-08-18,Delhi,Chicken Biryani,Biryani,Non-Veg,247,478,231,94,Food Junction,Zomato,4.7
+200,2025-01-02,Delhi,Masala Dosa,South Indian,Veg,76,130,54,71,Street Treats,Magicpin,4.5
+201,2025-10-10,Delhi,Plain Dosa,South Indian,Veg,62,108,47,75,Cafe Delight,Magicpin,4.6
+202,2025-02-28,Mumbai,Sandwich,Fast Food,Veg,57,113,56,98,Cafe Delight,Zomato,4.7
+203,2025-07-11,Bangalore,Coffee,Beverage,Veg,27,48,21,77,Pista House,Magicpin,3.6
+204,2025-03-23,Kolkata,Fried Rice,Rice,Veg,179,436,257,144,Street Treats,Swiggy,4.3
+205,2025-09-27,Bangalore,Plain Dosa,South Indian,Veg,52,95,42,81,Tasty Corner,Zomato,4.3
+206,2025-06-14,Kolkata,Noodles,Street Food,Veg,101,148,47,47,Pista House,Magicpin,4.0
+207,2025-08-15,Kolkata,French Fries,Fast Food,Veg,117,213,96,82,Cafe Delight,Swiggy,4.3
+208,2025-09-01,Hyderabad,Veg Pulao,Rice,Veg,120,188,68,57,Cafe Delight,Magicpin,4.0
+209,2025-06-17,Chennai,Fried Rice,Rice,Veg,135,210,76,56,Tasty Corner,Magicpin,4.2
+210,2025-06-20,Hyderabad,Idli,South Indian,Veg,35,75,40,116,Mehfil,Magicpin,4.1
+211,2025-12-01,Mumbai,Vada,South Indian,Veg,34,83,49,145,Paradise,Swiggy,3.6
+212,2025-02-13,Chennai,Sandwich,Fast Food,Veg,114,215,101,89,Cafe Delight,Zomato,4.1
+213,2025-02-18,Delhi,Tea,Beverage,Veg,17,35,19,111,Cafe Delight,Zomato,3.7
+214,2025-01-15,Kolkata,Idli,South Indian,Veg,39,65,26,65,Urban Bites,Swiggy,4.4
+215,2025-12-10,Delhi,Paneer Biryani,Biryani,Veg,198,432,234,118,Mehfil,Zomato,4.8
+216,2025-05-08,Bangalore,Idli,South Indian,Veg,40,73,33,82,Shah Ghouse,Swiggy,4.0
+217,2025-02-28,Hyderabad,Pani Puri,Street Food,Veg,36,83,47,133,Tasty Corner,Magicpin,3.9
+218,2025-11-19,Kolkata,Veg Pulao,Rice,Veg,175,290,115,65,Street Treats,Swiggy,4.2
+219,2025-04-04,Hyderabad,Manchurian,Street Food,Veg,107,239,132,123,Food Junction,Zomato,4.8
+220,2025-05-18,Kolkata,Upma,South Indian,Veg,62,81,19,30,Spice Hub,Magicpin,4.9
+221,2025-09-27,Bangalore,Grilled Sandwich,Fast Food,Veg,100,140,40,40,Urban Bites,Swiggy,4.7
+222,2025-01-20,Bangalore,Chicken Fried Rice,Rice,Non-Veg,135,245,111,82,Tasty Corner,Magicpin,4.4
+223,2025-02-01,Mumbai,Pani Puri,Street Food,Veg,56,94,38,69,Pista House,Zomato,4.5
+224,2025-09-26,Bangalore,Masala Dosa,South Indian,Veg,95,118,23,24,Shah Ghouse,Swiggy,4.2
+225,2025-07-03,Delhi,Noodles,Street Food,Veg,121,186,65,54,Shah Ghouse,Swiggy,4.5
+226,2025-03-06,Chennai,Veg Biryani,Biryani,Veg,189,241,51,27,Tasty Corner,Magicpin,4.0
+227,2025-07-03,Bangalore,Veg Biryani,Biryani,Veg,160,323,164,103,Paradise,Swiggy,4.2
+228,2025-01-05,Mumbai,Idli,South Indian,Veg,23,43,20,88,Food Junction,Swiggy,4.5
+229,2025-11-21,Hyderabad,Vada,South Indian,Veg,27,49,21,78,Shah Ghouse,Magicpin,3.8
+230,2025-04-18,Chennai,Chicken Biryani,Biryani,Non-Veg,181,382,201,111,Urban Bites,Swiggy,4.2
+231,2025-09-04,Mumbai,Veg Burger,Fast Food,Veg,67,89,22,32,Pista House,Magicpin,4.1
+232,2025-08-28,Mumbai,Chicken Burger,Fast Food,Non-Veg,104,212,107,103,Shah Ghouse,Zomato,4.3
+233,2025-10-18,Kolkata,Coffee,Beverage,Veg,55,68,13,24,Shah Ghouse,Zomato,4.4
+234,2025-01-14,Kolkata,Veg Burger,Fast Food,Veg,102,212,110,108,Mehfil,Magicpin,4.5
+235,2025-10-08,Chennai,Chicken Biryani,Biryani,Non-Veg,239,436,197,83,Urban Bites,Zomato,4.6
+236,2025-06-08,Mumbai,Plain Dosa,South Indian,Veg,50,112,61,122,Paradise,Magicpin,3.8
+237,2025-01-30,Mumbai,Chicken Biryani,Biryani,Non-Veg,233,499,266,114,Tasty Corner,Swiggy,4.6
+238,2025-12-08,Hyderabad,Fried Rice,Rice,Veg,120,294,174,145,Food Junction,Magicpin,3.8
+239,2025-12-08,Delhi,Veg Burger,Fast Food,Veg,84,175,91,109,Cafe Delight,Magicpin,4.3
+240,2025-03-25,Chennai,Sandwich,Fast Food,Veg,57,90,33,57,Shah Ghouse,Magicpin,4.0
+241,2025-12-22,Kolkata,Plain Dosa,South Indian,Veg,43,52,10,22,Street Treats,Swiggy,4.1
+242,2025-12-07,Delhi,Veg Puff,Bakery,Veg,47,91,44,92,Cafe Delight,Zomato,3.5
+243,2025-06-10,Hyderabad,Coffee,Beverage,Veg,38,56,17,44,Pista House,Swiggy,4.0
+244,2025-01-16,Delhi,Pani Puri,Street Food,Veg,28,70,41,146,Paradise,Magicpin,4.8
+245,2025-10-20,Hyderabad,Pani Puri,Street Food,Veg,24,48,23,95,Urban Bites,Magicpin,4.6
+246,2025-05-04,Kolkata,Tea,Beverage,Veg,16,34,19,119,Urban Bites,Zomato,4.4
+247,2025-08-13,Bangalore,Upma,South Indian,Veg,50,105,55,110,Urban Bites,Magicpin,4.2
+248,2025-04-10,Bangalore,Uttapam,South Indian,Veg,97,173,76,78,Tasty Corner,Magicpin,4.0
+249,2025-12-23,Kolkata,Veg Burger,Fast Food,Veg,70,112,42,60,Spice Hub,Swiggy,4.4
+250,2025-07-01,Chennai,Chicken Fried Rice,Rice,Non-Veg,190,309,119,62,Tasty Corner,Swiggy,4.5
+251,2025-02-17,Kolkata,Chicken Burger,Fast Food,Non-Veg,97,182,85,88,Tasty Corner,Magicpin,4.6
+252,2025-03-31,Delhi,Chicken Biryani,Biryani,Non-Veg,229,440,211,92,Food Junction,Swiggy,3.7
+253,2025-09-05,Chennai,Vada,South Indian,Veg,47,99,52,109,Pista House,Swiggy,4.6
+254,2025-05-14,Bangalore,Chicken Fried Rice,Rice,Non-Veg,139,297,157,113,Spice Hub,Magicpin,3.6
+255,2025-05-09,Delhi,Pani Puri,Street Food,Veg,51,117,66,129,Tasty Corner,Magicpin,4.4
+256,2025-02-21,Kolkata,Pani Puri,Street Food,Veg,50,101,51,103,Shah Ghouse,Swiggy,4.6
+257,2025-08-11,Delhi,Chicken Fried Rice,Rice,Non-Veg,166,294,128,77,Mehfil,Magicpin,4.1
+258,2025-12-22,Bangalore,Tea,Beverage,Veg,12,17,5,45,Shah Ghouse,Swiggy,4.1
+259,2025-07-07,Delhi,Pani Puri,Street Food,Veg,36,86,50,139,Food Junction,Swiggy,4.0
+260,2025-02-23,Chennai,Veg Pulao,Rice,Veg,104,258,153,147,Tasty Corner,Zomato,4.0
+261,2025-06-21,Delhi,Paneer Biryani,Biryani,Veg,233,464,231,99,Street Treats,Zomato,4.0
+262,2025-10-06,Bangalore,Uttapam,South Indian,Veg,101,223,122,121,Paradise,Magicpin,4.3
+263,2025-12-11,Hyderabad,Fried Rice,Rice,Veg,92,171,79,86,Paradise,Zomato,4.5
+264,2025-09-10,Bangalore,French Fries,Fast Food,Veg,61,130,69,115,Mehfil,Zomato,4.5
+265,2025-10-10,Mumbai,Coffee,Beverage,Veg,39,66,27,69,Cafe Delight,Magicpin,4.1
+266,2025-02-19,Bangalore,Uttapam,South Indian,Veg,98,195,98,100,Shah Ghouse,Magicpin,4.3
+267,2025-09-30,Delhi,Momos,Street Food,Veg,78,135,57,72,Pista House,Zomato,3.9
+268,2025-10-29,Hyderabad,Momos,Street Food,Veg,68,98,30,45,Spice Hub,Swiggy,3.7
+269,2025-12-20,Kolkata,Manchurian,Street Food,Veg,136,195,60,44,Urban Bites,Magicpin,4.7
+270,2025-10-17,Bangalore,Pani Puri,Street Food,Veg,45,61,16,35,Mehfil,Swiggy,3.8
+271,2025-01-03,Chennai,Idli,South Indian,Veg,42,51,9,21,Tasty Corner,Magicpin,3.8
+272,2025-08-07,Mumbai,Plain Dosa,South Indian,Veg,71,88,17,24,Street Treats,Zomato,4.1
+273,2025-12-06,Delhi,Veg Pulao,Rice,Veg,132,330,198,150,Spice Hub,Magicpin,4.7
+274,2025-07-12,Chennai,Noodles,Street Food,Veg,76,183,107,140,Urban Bites,Swiggy,3.7
+275,2025-09-03,Delhi,Uttapam,South Indian,Veg,90,222,132,147,Mehfil,Zomato,4.1
+276,2025-05-10,Hyderabad,Masala Dosa,South Indian,Veg,88,165,77,88,Tasty Corner,Magicpin,4.3
+277,2025-02-13,Delhi,French Fries,Fast Food,Veg,119,207,88,74,Cafe Delight,Magicpin,4.8
+278,2025-02-11,Hyderabad,Manchurian,Street Food,Veg,69,160,91,131,Street Treats,Magicpin,4.4
+279,2025-04-08,Bangalore,Coffee,Beverage,Veg,46,88,42,90,Tasty Corner,Magicpin,4.0
+280,2025-02-09,Hyderabad,Uttapam,South Indian,Veg,109,270,161,147,Paradise,Swiggy,3.5
+281,2025-09-13,Delhi,Chicken Fried Rice,Rice,Non-Veg,157,248,91,58,Spice Hub,Magicpin,3.5
+282,2025-05-22,Chennai,French Fries,Fast Food,Veg,73,161,88,121,Urban Bites,Magicpin,3.5
+283,2025-03-15,Bangalore,Tea,Beverage,Veg,12,23,11,89,Spice Hub,Swiggy,4.8
+284,2025-07-03,Delhi,Chicken Biryani,Biryani,Non-Veg,345,508,163,47,Cafe Delight,Swiggy,4.4
+285,2025-05-25,Kolkata,Coffee,Beverage,Veg,36,65,29,82,Food Junction,Swiggy,4.4
+286,2025-12-06,Chennai,Plain Dosa,South Indian,Veg,54,110,56,104,Shah Ghouse,Magicpin,3.9
+287,2025-01-05,Bangalore,Grilled Sandwich,Fast Food,Veg,84,117,33,39,Tasty Corner,Magicpin,4.7
+288,2025-01-10,Hyderabad,Sandwich,Fast Food,Veg,69,137,69,100,Paradise,Swiggy,4.4
+289,2025-03-18,Chennai,French Fries,Fast Food,Veg,78,103,25,32,Urban Bites,Zomato,4.8
+290,2025-06-22,Mumbai,French Fries,Fast Food,Veg,67,106,39,58,Urban Bites,Zomato,3.5
+291,2025-04-16,Chennai,Grilled Sandwich,Fast Food,Veg,145,244,99,68,Cafe Delight,Magicpin,4.7
+292,2025-12-01,Delhi,French Fries,Fast Food,Veg,98,191,92,94,Cafe Delight,Magicpin,4.6
+293,2025-12-02,Mumbai,Momos,Street Food,Veg,101,247,146,145,Food Junction,Magicpin,3.9
+294,2025-10-29,Mumbai,Pani Puri,Street Food,Veg,24,43,19,78,Mehfil,Zomato,4.3
+295,2025-03-05,Mumbai,Momos,Street Food,Veg,56,80,24,43,Spice Hub,Swiggy,4.2
+296,2025-09-22,Kolkata,Uttapam,South Indian,Veg,63,144,81,128,Mehfil,Zomato,3.9
+297,2025-05-06,Kolkata,Paneer Biryani,Biryani,Veg,236,412,176,75,Spice Hub,Swiggy,4.1
+298,2025-04-20,Mumbai,Chicken Biryani,Biryani,Non-Veg,244,381,137,56,Paradise,Magicpin,4.6
+299,2025-01-23,Hyderabad,Chicken Burger,Fast Food,Non-Veg,140,287,147,105,Mehfil,Swiggy,4.7
+300,2025-10-15,Hyderabad,Uttapam,South Indian,Veg,116,240,123,106,Spice Hub,Magicpin,4.3
+301,2025-06-18,Mumbai,Upma,South Indian,Veg,55,128,72,131,Mehfil,Magicpin,3.7
+302,2025-10-31,Delhi,Uttapam,South Indian,Veg,69,104,36,52,Tasty Corner,Magicpin,4.6
+303,2025-12-15,Delhi,Idli,South Indian,Veg,37,65,28,74,Paradise,Swiggy,4.4
+304,2025-11-24,Mumbai,Veg Burger,Fast Food,Veg,71,146,75,107,Pista House,Swiggy,3.8
+305,2025-01-04,Hyderabad,Coffee,Beverage,Veg,53,103,49,92,Spice Hub,Swiggy,3.7
+306,2025-01-27,Delhi,Chicken Fried Rice,Rice,Non-Veg,128,200,72,56,Paradise,Zomato,4.6
+307,2025-07-29,Hyderabad,Paneer Biryani,Biryani,Veg,233,414,181,77,Tasty Corner,Swiggy,3.7
+308,2025-01-30,Bangalore,Vada,South Indian,Veg,48,113,65,137,Pista House,Swiggy,4.0
+309,2025-01-23,Hyderabad,Masala Dosa,South Indian,Veg,80,191,111,138,Tasty Corner,Zomato,4.6
+310,2025-08-17,Kolkata,Grilled Sandwich,Fast Food,Veg,139,342,204,147,Urban Bites,Zomato,4.5
+311,2025-09-06,Mumbai,Uttapam,South Indian,Veg,117,144,27,23,Food Junction,Swiggy,4.6
+312,2025-01-19,Hyderabad,Upma,South Indian,Veg,49,84,34,70,Food Junction,Zomato,3.6
+313,2025-09-08,Delhi,Sandwich,Fast Food,Veg,89,195,105,118,Shah Ghouse,Magicpin,4.2
+314,2025-07-14,Chennai,Uttapam,South Indian,Veg,107,169,62,58,Cafe Delight,Zomato,4.8
+315,2025-10-02,Hyderabad,Veg Pulao,Rice,Veg,141,301,159,113,Shah Ghouse,Zomato,3.9
+316,2025-02-08,Mumbai,Vada,South Indian,Veg,38,54,16,41,Street Treats,Magicpin,4.2
+317,2025-10-24,Chennai,Manchurian,Street Food,Veg,168,246,78,46,Cafe Delight,Magicpin,4.6
+318,2025-11-03,Chennai,Upma,South Indian,Veg,69,121,52,76,Mehfil,Magicpin,3.6
+319,2025-09-14,Mumbai,Paneer Biryani,Biryani,Veg,194,405,211,109,Pista House,Zomato,4.1
+320,2025-03-10,Hyderabad,Masala Dosa,South Indian,Veg,106,172,66,62,Pista House,Magicpin,4.2
+321,2025-09-24,Chennai,Idli,South Indian,Veg,60,93,34,56,Paradise,Magicpin,3.9
+322,2025-08-26,Chennai,Sandwich,Fast Food,Veg,104,257,153,147,Cafe Delight,Magicpin,3.5
+323,2025-01-04,Bangalore,Upma,South Indian,Veg,52,123,70,134,Urban Bites,Magicpin,3.9
+324,2025-08-28,Delhi,Chicken Fried Rice,Rice,Non-Veg,209,326,117,56,Tasty Corner,Zomato,3.6
+325,2025-02-28,Kolkata,Noodles,Street Food,Veg,96,239,143,148,Pista House,Zomato,3.9
+326,2025-07-14,Delhi,Upma,South Indian,Veg,44,88,44,100,Shah Ghouse,Magicpin,4.1
+327,2025-02-16,Kolkata,Veg Puff,Bakery,Veg,28,66,38,139,Cafe Delight,Magicpin,4.7
+328,2025-04-25,Chennai,French Fries,Fast Food,Veg,114,278,163,143,Street Treats,Zomato,4.4
+329,2025-05-19,Chennai,Plain Dosa,South Indian,Veg,40,78,38,93,Food Junction,Magicpin,4.1
+330,2025-07-14,Kolkata,Chicken Biryani,Biryani,Non-Veg,277,341,64,23,Paradise,Magicpin,4.7
+331,2025-06-23,Bangalore,Veg Pulao,Rice,Veg,142,256,114,80,Urban Bites,Magicpin,4.6
+332,2025-09-03,Hyderabad,Noodles,Street Food,Veg,63,77,15,23,Food Junction,Magicpin,4.3
+333,2025-02-09,Bangalore,Pizza Slice,Fast Food,Veg,165,325,160,97,Paradise,Magicpin,4.4
+334,2025-10-15,Mumbai,Sandwich,Fast Food,Veg,117,230,113,97,Shah Ghouse,Magicpin,3.9
+335,2025-11-12,Mumbai,French Fries,Fast Food,Veg,67,88,21,31,Mehfil,Magicpin,4.5
+336,2025-12-21,Delhi,Pizza Slice,Fast Food,Veg,136,255,119,88,Urban Bites,Zomato,4.3
+337,2025-03-31,Hyderabad,Veg Biryani,Biryani,Veg,165,359,194,118,Paradise,Zomato,3.9
+338,2025-01-11,Mumbai,Fried Rice,Rice,Veg,179,279,100,56,Paradise,Zomato,4.0
+339,2025-05-10,Kolkata,Chicken Burger,Fast Food,Non-Veg,155,264,109,70,Street Treats,Swiggy,3.9
+340,2025-07-21,Mumbai,Manchurian,Street Food,Veg,86,148,62,73,Cafe Delight,Swiggy,4.4
+341,2025-03-20,Hyderabad,Chicken Biryani,Biryani,Non-Veg,244,587,343,140,Mehfil,Zomato,3.5
+342,2025-11-20,Chennai,Sandwich,Fast Food,Veg,74,126,52,69,Paradise,Swiggy,4.9
+343,2025-07-13,Mumbai,Grilled Sandwich,Fast Food,Veg,145,322,177,121,Tasty Corner,Zomato,4.2
+344,2025-04-09,Kolkata,Paneer Biryani,Biryani,Veg,202,337,135,67,Street Treats,Magicpin,4.2
+345,2025-10-17,Chennai,Masala Dosa,South Indian,Veg,71,122,51,72,Urban Bites,Swiggy,4.6
+346,2025-09-28,Bangalore,Noodles,Street Food,Veg,60,111,51,86,Street Treats,Zomato,4.6
+347,2025-10-25,Kolkata,Veg Puff,Bakery,Veg,33,41,8,24,Tasty Corner,Zomato,3.9
+348,2025-03-23,Bangalore,French Fries,Fast Food,Veg,115,220,105,92,Street Treats,Zomato,3.6
+349,2025-11-27,Mumbai,Chicken Fried Rice,Rice,Non-Veg,131,215,84,64,Food Junction,Swiggy,4.7
+350,2025-07-10,Kolkata,Upma,South Indian,Veg,67,156,89,134,Spice Hub,Zomato,4.7
+351,2025-11-26,Delhi,Manchurian,Street Food,Veg,79,100,22,27,Cafe Delight,Swiggy,3.8
+352,2025-07-02,Mumbai,Coffee,Beverage,Veg,30,51,21,72,Spice Hub,Zomato,3.9
+353,2025-12-26,Delhi,Tea,Beverage,Veg,20,33,13,65,Shah Ghouse,Swiggy,4.3
+354,2025-01-18,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,168,276,109,65,Pista House,Zomato,4.6
+355,2025-05-08,Mumbai,Chicken Biryani,Biryani,Non-Veg,204,492,288,141,Mehfil,Magicpin,3.7
+356,2025-03-11,Bangalore,Chicken Biryani,Biryani,Non-Veg,211,346,135,64,Street Treats,Swiggy,3.7
+357,2025-07-10,Mumbai,Plain Dosa,South Indian,Veg,52,71,19,37,Street Treats,Magicpin,4.5
+358,2025-04-26,Hyderabad,Plain Dosa,South Indian,Veg,69,115,46,68,Street Treats,Magicpin,4.7
+359,2025-04-18,Kolkata,Pani Puri,Street Food,Veg,56,123,67,121,Urban Bites,Zomato,4.8
+360,2025-06-06,Hyderabad,Veg Burger,Fast Food,Veg,98,193,94,96,Spice Hub,Swiggy,4.1
+361,2025-11-02,Chennai,Upma,South Indian,Veg,63,93,30,48,Food Junction,Zomato,4.2
+362,2025-09-15,Chennai,Grilled Sandwich,Fast Food,Veg,141,170,29,20,Food Junction,Swiggy,4.8
+363,2025-12-19,Hyderabad,Chicken Burger,Fast Food,Non-Veg,151,215,64,42,Tasty Corner,Magicpin,4.2
+364,2025-02-18,Bangalore,Pani Puri,Street Food,Veg,22,32,10,48,Cafe Delight,Zomato,4.8
+365,2025-12-09,Kolkata,Grilled Sandwich,Fast Food,Veg,97,151,54,56,Shah Ghouse,Magicpin,4.6
+366,2025-04-06,Chennai,Grilled Sandwich,Fast Food,Veg,94,203,109,115,Pista House,Swiggy,4.2
+367,2025-08-11,Bangalore,Fried Rice,Rice,Veg,95,133,39,41,Food Junction,Zomato,4.3
+368,2025-03-16,Bangalore,Veg Biryani,Biryani,Veg,194,287,94,48,Pista House,Magicpin,4.6
+369,2025-04-27,Bangalore,Masala Dosa,South Indian,Veg,84,146,63,75,Shah Ghouse,Magicpin,4.5
+370,2025-10-18,Bangalore,Veg Biryani,Biryani,Veg,175,294,120,69,Street Treats,Swiggy,4.8
+371,2025-07-17,Hyderabad,Vada,South Indian,Veg,34,79,45,132,Shah Ghouse,Swiggy,3.8
+372,2025-01-11,Kolkata,Fried Rice,Rice,Veg,107,167,59,55,Mehfil,Swiggy,4.3
+373,2025-04-18,Delhi,Upma,South Indian,Veg,69,142,74,107,Pista House,Magicpin,4.3
+374,2025-11-09,Hyderabad,Plain Dosa,South Indian,Veg,49,64,15,30,Tasty Corner,Magicpin,3.5
+375,2025-06-09,Hyderabad,Upma,South Indian,Veg,38,64,26,69,Pista House,Swiggy,3.6
+376,2025-10-23,Kolkata,Veg Puff,Bakery,Veg,27,35,9,32,Urban Bites,Swiggy,4.3
+377,2025-08-03,Mumbai,Pani Puri,Street Food,Veg,47,102,55,117,Paradise,Magicpin,3.7
+378,2025-06-25,Mumbai,Noodles,Street Food,Veg,134,243,109,81,Urban Bites,Magicpin,3.8
+379,2025-01-23,Hyderabad,Uttapam,South Indian,Veg,82,194,112,136,Cafe Delight,Magicpin,4.7
+380,2025-01-29,Hyderabad,Vada,South Indian,Veg,36,49,13,35,Tasty Corner,Zomato,4.0
+381,2025-09-26,Delhi,Veg Biryani,Biryani,Veg,209,406,197,94,Urban Bites,Zomato,3.7
+382,2025-05-15,Delhi,Chicken Biryani,Biryani,Non-Veg,255,578,323,126,Cafe Delight,Magicpin,3.7
+383,2025-11-21,Bangalore,Manchurian,Street Food,Veg,146,332,186,128,Mehfil,Swiggy,3.7
+384,2025-04-19,Mumbai,Chicken Burger,Fast Food,Non-Veg,144,358,215,149,Food Junction,Zomato,4.4
+385,2025-07-25,Delhi,Veg Burger,Fast Food,Veg,116,245,128,110,Tasty Corner,Zomato,3.5
+386,2025-12-13,Hyderabad,Sandwich,Fast Food,Veg,81,119,38,47,Cafe Delight,Swiggy,3.7
+387,2025-12-26,Delhi,Noodles,Street Food,Veg,100,168,68,68,Shah Ghouse,Swiggy,4.6
+388,2025-09-16,Kolkata,Pani Puri,Street Food,Veg,41,77,36,87,Food Junction,Magicpin,4.7
+389,2025-04-07,Chennai,Upma,South Indian,Veg,33,52,19,56,Paradise,Magicpin,3.6
+390,2025-05-18,Kolkata,Uttapam,South Indian,Veg,77,111,34,44,Shah Ghouse,Magicpin,4.6
+391,2025-03-19,Delhi,Pani Puri,Street Food,Veg,23,34,11,49,Cafe Delight,Zomato,4.5
+392,2025-08-28,Delhi,Veg Burger,Fast Food,Veg,77,184,107,139,Food Junction,Swiggy,4.7
+393,2025-02-01,Kolkata,Veg Biryani,Biryani,Veg,237,581,344,145,Food Junction,Swiggy,4.4
+394,2025-12-13,Mumbai,Idli,South Indian,Veg,51,62,11,22,Food Junction,Swiggy,4.8
+395,2025-08-03,Mumbai,Chicken Burger,Fast Food,Non-Veg,194,461,267,137,Street Treats,Magicpin,4.7
+396,2025-06-25,Kolkata,Plain Dosa,South Indian,Veg,38,88,50,132,Urban Bites,Zomato,4.7
+397,2025-02-05,Delhi,Veg Burger,Fast Food,Veg,64,112,47,73,Tasty Corner,Zomato,4.2
+398,2025-04-13,Chennai,Fried Rice,Rice,Veg,161,267,106,66,Shah Ghouse,Zomato,4.5
+399,2025-10-26,Bangalore,Tea,Beverage,Veg,23,34,11,48,Urban Bites,Zomato,4.3
+400,2025-06-12,Delhi,Veg Burger,Fast Food,Veg,110,191,81,73,Urban Bites,Swiggy,4.1
+401,2025-09-22,Chennai,Grilled Sandwich,Fast Food,Veg,109,137,28,26,Shah Ghouse,Magicpin,3.6
+402,2025-01-16,Hyderabad,Chicken Burger,Fast Food,Non-Veg,117,253,136,117,Tasty Corner,Swiggy,4.5
+403,2025-05-05,Mumbai,Fried Rice,Rice,Veg,93,164,71,77,Paradise,Swiggy,4.6
+404,2025-05-17,Bangalore,Upma,South Indian,Veg,59,108,49,83,Tasty Corner,Swiggy,4.5
+405,2025-11-17,Chennai,Tea,Beverage,Veg,24,47,24,100,Spice Hub,Swiggy,4.4
+406,2025-07-20,Delhi,Veg Pulao,Rice,Veg,152,312,160,105,Pista House,Zomato,4.5
+407,2025-10-04,Hyderabad,Coffee,Beverage,Veg,51,86,35,70,Paradise,Zomato,3.6
+408,2025-11-13,Bangalore,Paneer Biryani,Biryani,Veg,190,253,63,33,Shah Ghouse,Magicpin,3.6
+409,2025-08-28,Chennai,French Fries,Fast Food,Veg,57,83,26,46,Street Treats,Swiggy,3.6
+410,2025-08-07,Delhi,Tea,Beverage,Veg,24,34,10,41,Pista House,Swiggy,3.5
+411,2025-12-18,Hyderabad,Tea,Beverage,Veg,13,27,14,106,Tasty Corner,Magicpin,4.6
+412,2025-04-14,Delhi,Pani Puri,Street Food,Veg,29,49,20,67,Spice Hub,Swiggy,4.2
+413,2025-02-23,Kolkata,Masala Dosa,South Indian,Veg,111,169,57,52,Spice Hub,Swiggy,4.6
+414,2025-10-09,Kolkata,Grilled Sandwich,Fast Food,Veg,154,226,73,47,Tasty Corner,Magicpin,4.4
+415,2025-03-15,Kolkata,Veg Biryani,Biryani,Veg,164,243,79,48,Paradise,Zomato,3.6
+416,2025-08-14,Delhi,Chicken Biryani,Biryani,Non-Veg,260,648,388,150,Food Junction,Swiggy,4.8
+417,2025-05-13,Mumbai,Noodles,Street Food,Veg,146,348,202,138,Paradise,Magicpin,4.2
+418,2025-03-06,Chennai,Chicken Biryani,Biryani,Non-Veg,319,678,359,113,Urban Bites,Swiggy,3.9
+419,2025-02-09,Kolkata,Chicken Biryani,Biryani,Non-Veg,185,415,229,124,Street Treats,Magicpin,3.6
+420,2025-07-12,Bangalore,Tea,Beverage,Veg,23,43,20,87,Shah Ghouse,Swiggy,3.6
+421,2025-02-05,Mumbai,Veg Biryani,Biryani,Veg,246,606,361,147,Mehfil,Zomato,4.4
+422,2025-10-12,Hyderabad,Paneer Biryani,Biryani,Veg,259,522,262,101,Urban Bites,Magicpin,3.7
+423,2025-08-04,Bangalore,Uttapam,South Indian,Veg,95,149,54,57,Street Treats,Swiggy,3.9
+424,2025-10-10,Bangalore,Pizza Slice,Fast Food,Veg,174,242,68,39,Shah Ghouse,Swiggy,3.7
+425,2025-04-13,Mumbai,Chicken Burger,Fast Food,Non-Veg,213,299,86,41,Food Junction,Magicpin,3.8
+426,2025-03-20,Mumbai,Vada,South Indian,Veg,25,32,6,25,Spice Hub,Magicpin,3.6
+427,2025-09-08,Delhi,Idli,South Indian,Veg,22,43,22,100,Urban Bites,Magicpin,4.5
+428,2025-10-24,Bangalore,Idli,South Indian,Veg,59,122,62,105,Street Treats,Magicpin,3.8
+429,2025-08-26,Hyderabad,Sandwich,Fast Food,Veg,65,111,46,72,Tasty Corner,Swiggy,4.4
+430,2025-04-25,Hyderabad,Veg Puff,Bakery,Veg,37,52,15,42,Mehfil,Magicpin,4.8
+431,2025-02-19,Bangalore,Chicken Biryani,Biryani,Non-Veg,262,342,80,30,Food Junction,Swiggy,4.7
+432,2025-02-03,Delhi,Veg Biryani,Biryani,Veg,181,381,200,111,Spice Hub,Swiggy,4.3
+433,2025-06-05,Hyderabad,Grilled Sandwich,Fast Food,Veg,97,220,122,126,Paradise,Zomato,4.2
+434,2025-12-05,Mumbai,Momos,Street Food,Veg,91,145,54,59,Street Treats,Zomato,3.7
+435,2025-04-16,Chennai,Manchurian,Street Food,Veg,169,232,63,38,Mehfil,Magicpin,3.6
+436,2025-01-21,Delhi,Pizza Slice,Fast Food,Veg,92,167,74,80,Urban Bites,Zomato,4.7
+437,2025-09-09,Chennai,Vada,South Indian,Veg,26,42,15,57,Cafe Delight,Magicpin,3.9
+438,2025-11-10,Kolkata,Pani Puri,Street Food,Veg,28,52,24,83,Urban Bites,Zomato,3.8
+439,2025-09-03,Bangalore,Veg Puff,Bakery,Veg,30,41,11,36,Mehfil,Swiggy,4.4
+440,2025-07-31,Bangalore,Veg Pulao,Rice,Veg,126,227,101,80,Urban Bites,Zomato,3.9
+441,2025-03-17,Bangalore,Paneer Biryani,Biryani,Veg,172,245,73,42,Food Junction,Zomato,4.6
+442,2025-08-12,Bangalore,Masala Dosa,South Indian,Veg,118,282,163,138,Spice Hub,Zomato,4.0
+443,2025-08-24,Kolkata,Veg Puff,Bakery,Veg,25,34,10,39,Cafe Delight,Magicpin,4.2
+444,2025-07-14,Kolkata,Veg Burger,Fast Food,Veg,101,216,114,113,Shah Ghouse,Swiggy,4.6
+445,2025-01-11,Kolkata,French Fries,Fast Food,Veg,97,187,91,94,Pista House,Zomato,4.4
+446,2025-09-24,Chennai,Vada,South Indian,Veg,32,41,9,29,Mehfil,Zomato,4.5
+447,2025-01-31,Bangalore,Plain Dosa,South Indian,Veg,39,92,53,138,Tasty Corner,Zomato,4.6
+448,2025-01-06,Chennai,Uttapam,South Indian,Veg,104,221,117,112,Urban Bites,Zomato,4.8
+449,2025-03-08,Hyderabad,Pizza Slice,Fast Food,Veg,94,206,112,119,Cafe Delight,Swiggy,4.6
+450,2025-12-27,Mumbai,Chicken Biryani,Biryani,Non-Veg,186,365,180,97,Paradise,Zomato,4.7
+451,2025-06-02,Kolkata,Paneer Biryani,Biryani,Veg,181,406,225,124,Urban Bites,Swiggy,4.6
+452,2025-12-25,Delhi,Chicken Biryani,Biryani,Non-Veg,260,450,191,73,Shah Ghouse,Magicpin,3.6
+453,2025-11-03,Hyderabad,Tea,Beverage,Veg,15,20,5,33,Urban Bites,Swiggy,3.6
+454,2025-09-30,Hyderabad,Fried Rice,Rice,Veg,124,166,43,34,Paradise,Swiggy,4.4
+455,2025-04-12,Bangalore,Upma,South Indian,Veg,56,90,34,61,Paradise,Swiggy,4.2
+456,2025-01-08,Mumbai,French Fries,Fast Food,Veg,117,150,34,29,Pista House,Swiggy,4.2
+457,2025-03-14,Hyderabad,Pizza Slice,Fast Food,Veg,84,203,119,142,Food Junction,Zomato,3.9
+458,2025-11-12,Delhi,Upma,South Indian,Veg,61,120,59,98,Shah Ghouse,Magicpin,4.5
+459,2025-01-15,Mumbai,Fried Rice,Rice,Veg,177,437,260,147,Cafe Delight,Magicpin,3.7
+460,2025-06-24,Bangalore,Coffee,Beverage,Veg,42,87,45,105,Urban Bites,Swiggy,4.3
+461,2025-12-14,Chennai,Coffee,Beverage,Veg,52,73,22,42,Pista House,Magicpin,4.8
+462,2025-07-30,Kolkata,Chicken Fried Rice,Rice,Non-Veg,156,375,219,140,Tasty Corner,Magicpin,3.7
+463,2025-07-18,Delhi,Chicken Fried Rice,Rice,Non-Veg,146,300,154,106,Street Treats,Zomato,3.9
+464,2025-06-05,Hyderabad,Grilled Sandwich,Fast Food,Veg,102,217,115,112,Shah Ghouse,Swiggy,3.8
+465,2025-12-08,Kolkata,Pani Puri,Street Food,Veg,22,48,26,114,Cafe Delight,Zomato,4.0
+466,2025-04-20,Chennai,Idli,South Indian,Veg,26,42,16,64,Food Junction,Zomato,3.9
+467,2025-12-05,Chennai,Chicken Fried Rice,Rice,Non-Veg,143,236,94,66,Cafe Delight,Magicpin,4.6
+468,2025-04-04,Bangalore,Chicken Burger,Fast Food,Non-Veg,210,505,295,140,Urban Bites,Swiggy,4.6
+469,2025-05-08,Bangalore,Chicken Biryani,Biryani,Non-Veg,348,636,288,83,Tasty Corner,Zomato,3.5
+470,2025-05-09,Delhi,Veg Biryani,Biryani,Veg,233,428,194,83,Urban Bites,Swiggy,3.9
+471,2025-08-01,Mumbai,Chicken Burger,Fast Food,Non-Veg,179,405,225,126,Food Junction,Swiggy,3.5
+472,2025-11-28,Delhi,Masala Dosa,South Indian,Veg,118,226,108,91,Shah Ghouse,Swiggy,4.5
+473,2025-05-08,Delhi,Paneer Biryani,Biryani,Veg,252,422,171,68,Shah Ghouse,Swiggy,4.6
+474,2025-11-22,Mumbai,Tea,Beverage,Veg,17,39,22,132,Street Treats,Magicpin,4.6
+475,2025-04-04,Bangalore,Noodles,Street Food,Veg,90,203,114,127,Street Treats,Zomato,4.2
+476,2025-09-09,Kolkata,Chicken Burger,Fast Food,Non-Veg,110,142,31,28,Tasty Corner,Swiggy,4.6
+477,2025-07-28,Kolkata,Fried Rice,Rice,Veg,81,118,37,46,Tasty Corner,Swiggy,4.4
+478,2025-05-06,Chennai,Plain Dosa,South Indian,Veg,75,166,91,122,Shah Ghouse,Magicpin,4.1
+479,2025-12-21,Chennai,Chicken Burger,Fast Food,Non-Veg,198,421,223,113,Cafe Delight,Swiggy,4.4
+480,2025-03-24,Kolkata,Fried Rice,Rice,Veg,108,194,86,80,Cafe Delight,Zomato,4.4
+481,2025-11-11,Delhi,Chicken Biryani,Biryani,Non-Veg,261,591,330,127,Tasty Corner,Swiggy,3.7
+482,2025-12-27,Hyderabad,Pani Puri,Street Food,Veg,42,62,20,49,Tasty Corner,Swiggy,4.9
+483,2025-03-13,Kolkata,Masala Dosa,South Indian,Veg,109,138,29,26,Paradise,Magicpin,4.4
+484,2025-06-21,Delhi,Uttapam,South Indian,Veg,116,252,136,118,Pista House,Zomato,3.9
+485,2025-05-26,Kolkata,Veg Burger,Fast Food,Veg,143,179,36,26,Mehfil,Zomato,3.6
+486,2025-01-30,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,169,306,137,81,Spice Hub,Swiggy,4.1
+487,2025-06-20,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,122,244,123,100,Cafe Delight,Magicpin,3.6
+488,2025-12-16,Chennai,Chicken Burger,Fast Food,Non-Veg,196,289,93,47,Food Junction,Swiggy,3.9
+489,2025-03-28,Kolkata,Veg Pulao,Rice,Veg,138,332,193,139,Paradise,Magicpin,4.1
+490,2025-05-23,Hyderabad,Coffee,Beverage,Veg,40,84,44,109,Shah Ghouse,Magicpin,4.5
+491,2025-01-14,Kolkata,Veg Puff,Bakery,Veg,28,49,21,73,Paradise,Magicpin,4.6
+492,2025-02-22,Kolkata,Plain Dosa,South Indian,Veg,59,78,19,32,Cafe Delight,Magicpin,3.9
+493,2025-05-22,Delhi,Chicken Biryani,Biryani,Non-Veg,237,532,294,124,Cafe Delight,Zomato,3.6
+494,2025-04-08,Hyderabad,Veg Pulao,Rice,Veg,120,291,171,143,Shah Ghouse,Swiggy,4.7
+495,2025-11-02,Hyderabad,Momos,Street Food,Veg,111,207,96,87,Street Treats,Magicpin,4.6
+496,2025-08-13,Chennai,Idli,South Indian,Veg,52,125,73,140,Food Junction,Swiggy,4.3
+497,2025-03-14,Mumbai,Coffee,Beverage,Veg,22,32,10,48,Shah Ghouse,Magicpin,4.0
+498,2025-09-22,Mumbai,Pani Puri,Street Food,Veg,53,104,50,95,Tasty Corner,Zomato,4.5
+499,2025-01-12,Hyderabad,Veg Puff,Bakery,Veg,33,79,47,142,Cafe Delight,Zomato,4.7
+500,2025-05-30,Delhi,Veg Biryani,Biryani,Veg,172,349,177,103,Cafe Delight,Magicpin,4.6
+501,2025-10-19,Kolkata,Idli,South Indian,Veg,59,117,58,98,Cafe Delight,Magicpin,4.8
+502,2025-05-30,Delhi,Fried Rice,Rice,Veg,81,128,47,58,Tasty Corner,Magicpin,4.6
+503,2025-05-25,Delhi,Chicken Burger,Fast Food,Non-Veg,114,195,81,71,Spice Hub,Zomato,3.8
+504,2025-05-18,Delhi,Veg Biryani,Biryani,Veg,165,268,103,63,Paradise,Zomato,4.5
+505,2025-01-21,Delhi,Pani Puri,Street Food,Veg,22,41,19,84,Tasty Corner,Swiggy,4.0
+506,2025-01-11,Mumbai,Idli,South Indian,Veg,31,67,36,114,Spice Hub,Magicpin,4.5
+507,2025-07-11,Bangalore,Veg Burger,Fast Food,Veg,83,114,31,37,Mehfil,Magicpin,3.8
+508,2025-09-13,Chennai,Veg Burger,Fast Food,Veg,83,169,87,105,Paradise,Zomato,4.8
+509,2025-10-22,Chennai,Idli,South Indian,Veg,44,111,67,150,Tasty Corner,Magicpin,4.0
+510,2025-08-06,Hyderabad,Fried Rice,Rice,Veg,149,329,180,120,Pista House,Swiggy,3.6
+511,2025-07-30,Hyderabad,Chicken Burger,Fast Food,Non-Veg,216,421,205,95,Shah Ghouse,Swiggy,4.4
+512,2025-12-08,Chennai,Sandwich,Fast Food,Veg,117,243,126,108,Paradise,Zomato,4.1
+513,2025-04-01,Hyderabad,Chicken Biryani,Biryani,Non-Veg,315,649,334,106,Paradise,Swiggy,4.8
+514,2025-09-11,Mumbai,Sandwich,Fast Food,Veg,60,140,80,133,Tasty Corner,Magicpin,3.7
+515,2025-05-02,Kolkata,Coffee,Beverage,Veg,25,53,28,112,Urban Bites,Magicpin,4.3
+516,2025-10-30,Kolkata,Veg Pulao,Rice,Veg,92,138,46,50,Cafe Delight,Magicpin,3.7
+517,2025-05-11,Kolkata,Fried Rice,Rice,Veg,105,140,35,34,Shah Ghouse,Swiggy,4.8
+518,2025-09-14,Delhi,Uttapam,South Indian,Veg,92,111,19,20,Mehfil,Zomato,4.5
+519,2025-04-29,Chennai,Sandwich,Fast Food,Veg,75,161,87,116,Shah Ghouse,Swiggy,3.7
+520,2025-05-05,Kolkata,Manchurian,Street Food,Veg,80,115,35,44,Tasty Corner,Magicpin,3.6
+521,2025-07-08,Delhi,Idli,South Indian,Veg,24,50,26,107,Shah Ghouse,Zomato,4.4
+522,2025-11-27,Delhi,Veg Puff,Bakery,Veg,39,73,33,84,Paradise,Zomato,4.9
+523,2025-09-16,Chennai,Uttapam,South Indian,Veg,65,133,68,105,Street Treats,Magicpin,4.4
+524,2025-03-05,Mumbai,Tea,Beverage,Veg,11,16,5,45,Pista House,Zomato,3.8
+525,2025-07-01,Hyderabad,Idli,South Indian,Veg,47,63,16,33,Cafe Delight,Swiggy,3.9
+526,2025-09-07,Hyderabad,Veg Pulao,Rice,Veg,107,213,107,100,Food Junction,Swiggy,4.2
+527,2025-04-20,Chennai,Pizza Slice,Fast Food,Veg,125,155,30,24,Pista House,Swiggy,3.7
+528,2025-01-29,Chennai,Sandwich,Fast Food,Veg,107,224,117,110,Tasty Corner,Zomato,4.6
+529,2025-07-25,Hyderabad,Vada,South Indian,Veg,49,120,71,146,Food Junction,Magicpin,3.7
+530,2025-08-12,Bangalore,Upma,South Indian,Veg,39,56,17,44,Street Treats,Swiggy,4.5
+531,2025-11-13,Bangalore,French Fries,Fast Food,Veg,113,274,161,143,Cafe Delight,Swiggy,3.7
+532,2025-04-07,Delhi,Uttapam,South Indian,Veg,65,87,22,33,Spice Hub,Magicpin,3.6
+533,2025-11-07,Delhi,Manchurian,Street Food,Veg,94,192,98,105,Shah Ghouse,Zomato,3.5
+534,2025-02-28,Bangalore,Chicken Biryani,Biryani,Non-Veg,227,283,56,24,Tasty Corner,Zomato,4.5
+535,2025-01-23,Hyderabad,Veg Pulao,Rice,Veg,174,410,236,135,Street Treats,Magicpin,3.7
+536,2025-08-23,Mumbai,Idli,South Indian,Veg,26,41,15,60,Mehfil,Magicpin,4.5
+537,2025-03-24,Delhi,Veg Puff,Bakery,Veg,29,61,32,110,Mehfil,Magicpin,3.5
+538,2025-06-24,Mumbai,Vada,South Indian,Veg,47,114,67,143,Mehfil,Swiggy,4.4
+539,2025-04-23,Delhi,Sandwich,Fast Food,Veg,90,135,44,49,Food Junction,Zomato,4.4
+540,2025-09-25,Bangalore,Plain Dosa,South Indian,Veg,60,93,33,56,Tasty Corner,Swiggy,4.2
+541,2025-05-26,Bangalore,Chicken Burger,Fast Food,Non-Veg,94,185,91,96,Street Treats,Magicpin,3.5
+542,2025-07-19,Bangalore,Noodles,Street Food,Veg,82,100,18,22,Spice Hub,Zomato,4.3
+543,2025-02-27,Bangalore,Sandwich,Fast Food,Veg,94,181,87,92,Spice Hub,Zomato,4.4
+544,2025-11-25,Mumbai,Veg Puff,Bakery,Veg,36,75,39,106,Tasty Corner,Magicpin,4.7
+545,2025-03-18,Chennai,Fried Rice,Rice,Veg,80,130,50,62,Urban Bites,Swiggy,3.6
+546,2025-09-29,Kolkata,Masala Dosa,South Indian,Veg,103,244,141,136,Spice Hub,Swiggy,4.6
+547,2025-06-08,Chennai,Coffee,Beverage,Veg,58,136,79,136,Shah Ghouse,Swiggy,3.6
+548,2025-09-20,Mumbai,Veg Burger,Fast Food,Veg,124,272,148,119,Urban Bites,Magicpin,4.2
+549,2025-05-23,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,169,206,37,22,Cafe Delight,Zomato,3.6
+550,2025-03-28,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,184,402,218,119,Pista House,Zomato,4.0
+551,2025-03-07,Kolkata,Pani Puri,Street Food,Veg,37,81,44,122,Mehfil,Zomato,4.1
+552,2025-01-21,Bangalore,Veg Pulao,Rice,Veg,95,133,38,39,Paradise,Magicpin,4.7
+553,2025-01-26,Mumbai,Coffee,Beverage,Veg,29,61,32,110,Pista House,Swiggy,4.1
+554,2025-06-03,Chennai,Grilled Sandwich,Fast Food,Veg,140,350,210,150,Food Junction,Swiggy,4.3
+555,2025-09-14,Kolkata,Veg Puff,Bakery,Veg,49,95,46,94,Spice Hub,Zomato,4.6
+556,2025-06-18,Delhi,Vada,South Indian,Veg,38,77,38,100,Pista House,Swiggy,3.7
+557,2025-11-29,Hyderabad,Paneer Biryani,Biryani,Veg,274,655,381,139,Street Treats,Swiggy,4.8
+558,2025-03-01,Chennai,Masala Dosa,South Indian,Veg,66,133,67,102,Street Treats,Magicpin,4.6
+559,2025-09-22,Mumbai,Veg Biryani,Biryani,Veg,205,417,212,103,Street Treats,Swiggy,3.6
+560,2025-11-15,Hyderabad,Plain Dosa,South Indian,Veg,34,43,9,27,Urban Bites,Swiggy,3.7
+561,2025-09-23,Hyderabad,Veg Puff,Bakery,Veg,41,97,56,137,Pista House,Zomato,4.3
+562,2025-08-23,Bangalore,Veg Biryani,Biryani,Veg,224,443,220,98,Tasty Corner,Zomato,4.1
+563,2025-09-09,Kolkata,Pizza Slice,Fast Food,Veg,110,195,85,78,Spice Hub,Swiggy,4.4
+564,2025-11-28,Delhi,Fried Rice,Rice,Veg,125,182,56,45,Cafe Delight,Zomato,4.3
+565,2025-01-30,Bangalore,Tea,Beverage,Veg,15,20,5,32,Pista House,Zomato,4.7
+566,2025-01-14,Bangalore,Chicken Burger,Fast Food,Non-Veg,155,201,46,30,Cafe Delight,Swiggy,3.7
+567,2025-07-25,Kolkata,Plain Dosa,South Indian,Veg,67,161,94,139,Mehfil,Swiggy,4.6
+568,2025-04-17,Chennai,Veg Biryani,Biryani,Veg,143,192,49,34,Spice Hub,Swiggy,4.2
+569,2025-07-05,Bangalore,Tea,Beverage,Veg,24,34,10,43,Spice Hub,Swiggy,4.7
+570,2025-04-20,Mumbai,Grilled Sandwich,Fast Food,Veg,79,167,88,111,Urban Bites,Zomato,4.8
+571,2025-09-27,Hyderabad,Plain Dosa,South Indian,Veg,47,90,43,90,Mehfil,Zomato,4.4
+572,2025-05-14,Mumbai,Uttapam,South Indian,Veg,103,190,87,84,Street Treats,Swiggy,4.2
+573,2025-11-18,Mumbai,French Fries,Fast Food,Veg,116,151,35,30,Urban Bites,Magicpin,4.4
+574,2025-12-17,Bangalore,Pani Puri,Street Food,Veg,59,96,37,63,Pista House,Magicpin,3.8
+575,2025-11-18,Hyderabad,Coffee,Beverage,Veg,27,36,9,33,Urban Bites,Swiggy,4.6
+576,2025-08-04,Hyderabad,Vada,South Indian,Veg,32,67,35,110,Pista House,Zomato,4.6
+577,2025-07-21,Hyderabad,Veg Puff,Bakery,Veg,49,85,36,74,Mehfil,Magicpin,4.9
+578,2025-01-23,Hyderabad,Veg Puff,Bakery,Veg,24,37,13,52,Tasty Corner,Swiggy,3.8
+579,2025-07-18,Kolkata,Veg Pulao,Rice,Veg,107,167,61,57,Urban Bites,Magicpin,4.6
+580,2025-10-12,Hyderabad,Masala Dosa,South Indian,Veg,72,135,63,88,Pista House,Magicpin,4.1
+581,2025-07-13,Hyderabad,Tea,Beverage,Veg,22,37,15,70,Food Junction,Swiggy,3.8
+582,2025-02-23,Kolkata,Chicken Burger,Fast Food,Non-Veg,143,191,48,34,Street Treats,Magicpin,4.8
+583,2025-03-25,Chennai,Paneer Biryani,Biryani,Veg,236,402,166,70,Spice Hub,Zomato,3.7
+584,2025-04-12,Delhi,Veg Biryani,Biryani,Veg,209,305,96,46,Street Treats,Swiggy,3.8
+585,2025-10-03,Kolkata,Plain Dosa,South Indian,Veg,48,101,53,110,Spice Hub,Zomato,3.6
+586,2025-09-08,Kolkata,Sandwich,Fast Food,Veg,60,80,20,34,Paradise,Magicpin,3.9
+587,2025-07-11,Kolkata,Grilled Sandwich,Fast Food,Veg,121,232,111,92,Street Treats,Magicpin,4.9
+588,2025-06-16,Chennai,Idli,South Indian,Veg,42,54,12,29,Street Treats,Swiggy,4.6
+589,2025-08-18,Delhi,Veg Biryani,Biryani,Veg,153,342,189,124,Spice Hub,Swiggy,4.6
+590,2025-07-04,Hyderabad,Momos,Street Food,Veg,122,162,39,32,Street Treats,Zomato,4.2
+591,2025-01-02,Hyderabad,Noodles,Street Food,Veg,65,106,41,64,Shah Ghouse,Zomato,4.9
+592,2025-01-16,Hyderabad,Coffee,Beverage,Veg,56,118,62,110,Shah Ghouse,Zomato,4.3
+593,2025-12-07,Hyderabad,Fried Rice,Rice,Veg,145,352,207,143,Tasty Corner,Zomato,4.7
+594,2025-09-20,Bangalore,Veg Pulao,Rice,Veg,133,281,148,111,Mehfil,Zomato,3.7
+595,2025-11-04,Chennai,Uttapam,South Indian,Veg,82,166,83,101,Pista House,Magicpin,4.0
+596,2025-12-25,Chennai,Idli,South Indian,Veg,43,100,57,133,Pista House,Magicpin,3.8
+597,2025-12-24,Bangalore,Paneer Biryani,Biryani,Veg,170,229,58,34,Cafe Delight,Swiggy,4.7
+598,2025-03-17,Chennai,Coffee,Beverage,Veg,21,51,30,146,Food Junction,Zomato,4.0
+599,2025-05-31,Kolkata,Grilled Sandwich,Fast Food,Veg,118,147,28,24,Pista House,Magicpin,3.9
+600,2025-06-28,Kolkata,Idli,South Indian,Veg,23,57,33,144,Mehfil,Zomato,3.9
+601,2025-02-13,Kolkata,Pani Puri,Street Food,Veg,20,26,6,28,Tasty Corner,Swiggy,4.7
+602,2025-11-14,Kolkata,Momos,Street Food,Veg,99,141,42,43,Cafe Delight,Zomato,3.6
+603,2025-07-16,Hyderabad,Plain Dosa,South Indian,Veg,53,79,26,48,Tasty Corner,Swiggy,4.8
+604,2025-01-08,Mumbai,Veg Pulao,Rice,Veg,96,171,74,77,Street Treats,Zomato,3.9
+605,2025-05-15,Kolkata,Masala Dosa,South Indian,Veg,77,109,32,41,Mehfil,Zomato,4.0
+606,2025-07-23,Delhi,Upma,South Indian,Veg,32,45,14,43,Street Treats,Zomato,4.1
+607,2025-04-06,Bangalore,Idli,South Indian,Veg,53,69,15,29,Shah Ghouse,Zomato,4.3
+608,2025-08-20,Hyderabad,Momos,Street Food,Veg,123,176,54,44,Food Junction,Swiggy,4.0
+609,2025-01-22,Mumbai,Uttapam,South Indian,Veg,104,156,53,51,Shah Ghouse,Zomato,4.3
+610,2025-04-09,Chennai,Upma,South Indian,Veg,45,75,30,65,Spice Hub,Zomato,4.8
+611,2025-11-02,Chennai,Coffee,Beverage,Veg,56,78,22,40,Food Junction,Magicpin,3.7
+612,2025-02-09,Bangalore,Grilled Sandwich,Fast Food,Veg,107,139,32,30,Mehfil,Zomato,4.8
+613,2025-01-13,Mumbai,Uttapam,South Indian,Veg,62,155,93,149,Paradise,Zomato,4.3
+614,2025-04-04,Bangalore,Fried Rice,Rice,Veg,150,193,43,29,Shah Ghouse,Zomato,3.8
+615,2025-12-08,Delhi,Noodles,Street Food,Veg,110,197,87,79,Cafe Delight,Magicpin,4.3
+616,2025-07-21,Bangalore,Manchurian,Street Food,Veg,163,294,130,80,Street Treats,Swiggy,4.7
+617,2025-12-26,Kolkata,Chicken Biryani,Biryani,Non-Veg,330,531,201,61,Mehfil,Swiggy,4.1
+618,2025-05-30,Hyderabad,Coffee,Beverage,Veg,44,85,41,93,Urban Bites,Zomato,4.5
+619,2025-08-31,Delhi,Veg Burger,Fast Food,Veg,86,140,54,63,Tasty Corner,Magicpin,4.9
+620,2025-05-09,Delhi,Masala Dosa,South Indian,Veg,102,124,21,21,Pista House,Swiggy,4.6
+621,2025-01-09,Kolkata,Upma,South Indian,Veg,31,55,24,78,Mehfil,Swiggy,3.9
+622,2025-05-16,Kolkata,Fried Rice,Rice,Veg,144,196,52,36,Paradise,Magicpin,4.1
+623,2025-07-17,Mumbai,Grilled Sandwich,Fast Food,Veg,79,134,56,70,Mehfil,Swiggy,4.8
+624,2025-02-25,Kolkata,Idli,South Indian,Veg,31,59,28,91,Paradise,Zomato,3.9
+625,2025-01-10,Mumbai,Noodles,Street Food,Veg,124,308,184,149,Cafe Delight,Swiggy,3.8
+626,2025-09-17,Mumbai,Chicken Biryani,Biryani,Non-Veg,292,624,332,114,Shah Ghouse,Zomato,4.2
+627,2025-06-12,Kolkata,Uttapam,South Indian,Veg,108,168,60,55,Pista House,Swiggy,4.9
+628,2025-04-21,Mumbai,Noodles,Street Food,Veg,115,240,124,108,Shah Ghouse,Magicpin,4.9
+629,2025-11-29,Chennai,Idli,South Indian,Veg,35,43,8,22,Food Junction,Swiggy,4.2
+630,2025-05-16,Delhi,Chicken Fried Rice,Rice,Non-Veg,171,374,203,119,Paradise,Zomato,3.5
+631,2025-01-27,Mumbai,Uttapam,South Indian,Veg,124,232,108,87,Spice Hub,Zomato,4.2
+632,2025-08-21,Hyderabad,Fried Rice,Rice,Veg,134,212,77,58,Pista House,Swiggy,4.5
+633,2025-07-21,Delhi,Veg Burger,Fast Food,Veg,95,172,76,80,Street Treats,Magicpin,4.8
+634,2025-03-01,Kolkata,Tea,Beverage,Veg,15,35,20,136,Pista House,Magicpin,4.5
+635,2025-06-15,Mumbai,Upma,South Indian,Veg,53,83,31,58,Urban Bites,Zomato,4.6
+636,2025-12-12,Delhi,Manchurian,Street Food,Veg,73,91,18,25,Shah Ghouse,Magicpin,4.2
+637,2025-01-18,Chennai,Manchurian,Street Food,Veg,67,81,14,21,Paradise,Swiggy,4.0
+638,2025-03-24,Bangalore,Idli,South Indian,Veg,33,41,9,27,Cafe Delight,Swiggy,3.9
+639,2025-08-04,Kolkata,Upma,South Indian,Veg,60,108,48,80,Cafe Delight,Magicpin,3.7
+640,2025-09-13,Chennai,Noodles,Street Food,Veg,85,168,83,98,Cafe Delight,Swiggy,4.1
+641,2025-01-27,Delhi,Sandwich,Fast Food,Veg,56,82,26,46,Street Treats,Swiggy,3.9
+642,2025-04-05,Mumbai,Plain Dosa,South Indian,Veg,63,109,47,75,Cafe Delight,Zomato,4.1
+643,2025-07-04,Chennai,Veg Biryani,Biryani,Veg,228,403,175,77,Tasty Corner,Swiggy,4.7
+644,2025-09-06,Mumbai,Manchurian,Street Food,Veg,88,214,127,145,Mehfil,Swiggy,3.8
+645,2025-10-24,Kolkata,Uttapam,South Indian,Veg,74,121,47,63,Food Junction,Zomato,3.8
+646,2025-05-26,Hyderabad,French Fries,Fast Food,Veg,73,145,73,100,Paradise,Swiggy,4.0
+647,2025-02-22,Chennai,Fried Rice,Rice,Veg,101,242,141,141,Paradise,Magicpin,4.0
+648,2025-12-05,Hyderabad,Upma,South Indian,Veg,68,155,88,130,Street Treats,Magicpin,3.8
+649,2025-08-18,Delhi,Momos,Street Food,Veg,124,226,102,83,Street Treats,Magicpin,4.8
+650,2025-03-18,Chennai,Uttapam,South Indian,Veg,73,119,45,62,Tasty Corner,Zomato,4.2
+651,2025-12-25,Hyderabad,Masala Dosa,South Indian,Veg,53,87,34,63,Urban Bites,Swiggy,4.6
+652,2025-03-24,Mumbai,Manchurian,Street Food,Veg,143,276,133,93,Pista House,Zomato,4.8
+653,2025-12-17,Kolkata,Chicken Biryani,Biryani,Non-Veg,245,516,271,110,Street Treats,Magicpin,4.1
+654,2025-04-15,Chennai,Idli,South Indian,Veg,48,120,72,149,Mehfil,Swiggy,4.3
+655,2025-04-04,Delhi,Chicken Fried Rice,Rice,Non-Veg,143,306,163,114,Shah Ghouse,Magicpin,4.6
+656,2025-07-26,Kolkata,Momos,Street Food,Veg,59,74,15,25,Shah Ghouse,Zomato,4.2
+657,2025-10-14,Chennai,Veg Pulao,Rice,Veg,164,234,69,42,Shah Ghouse,Swiggy,4.0
+658,2025-07-03,Delhi,Momos,Street Food,Veg,42,101,59,138,Street Treats,Zomato,4.2
+659,2025-10-01,Bangalore,Masala Dosa,South Indian,Veg,58,121,63,109,Pista House,Swiggy,3.8
+660,2025-05-23,Delhi,Chicken Biryani,Biryani,Non-Veg,223,274,51,23,Urban Bites,Magicpin,4.4
+661,2025-10-20,Hyderabad,Momos,Street Food,Veg,51,100,49,96,Street Treats,Swiggy,3.6
+662,2025-12-17,Bangalore,Chicken Fried Rice,Rice,Non-Veg,132,223,91,69,Cafe Delight,Zomato,4.1
+663,2025-08-27,Hyderabad,Paneer Biryani,Biryani,Veg,166,279,113,68,Paradise,Swiggy,4.9
+664,2025-10-20,Kolkata,Grilled Sandwich,Fast Food,Veg,118,275,158,134,Mehfil,Magicpin,4.8
+665,2025-02-07,Chennai,French Fries,Fast Food,Veg,86,163,77,89,Tasty Corner,Zomato,4.0
+666,2025-11-17,Delhi,French Fries,Fast Food,Veg,81,174,92,113,Food Junction,Magicpin,3.5
+667,2025-07-24,Hyderabad,Pizza Slice,Fast Food,Veg,180,270,90,50,Spice Hub,Zomato,3.6
+668,2025-08-02,Hyderabad,Veg Puff,Bakery,Veg,44,95,51,118,Shah Ghouse,Magicpin,3.8
+669,2025-01-03,Delhi,Pani Puri,Street Food,Veg,25,50,25,101,Mehfil,Swiggy,4.9
+670,2025-08-15,Bangalore,Masala Dosa,South Indian,Veg,110,159,49,44,Food Junction,Zomato,4.6
+671,2025-09-28,Bangalore,Vada,South Indian,Veg,41,62,20,50,Pista House,Swiggy,4.5
+672,2025-03-21,Chennai,Noodles,Street Food,Veg,90,149,59,66,Spice Hub,Magicpin,3.8
+673,2025-08-01,Mumbai,Uttapam,South Indian,Veg,127,278,151,119,Urban Bites,Swiggy,4.4
+674,2025-05-19,Hyderabad,Idli,South Indian,Veg,47,103,56,118,Tasty Corner,Magicpin,4.2
+675,2025-06-21,Bangalore,Vada,South Indian,Veg,33,52,19,59,Mehfil,Magicpin,4.4
+676,2025-09-27,Kolkata,Noodles,Street Food,Veg,74,157,83,112,Cafe Delight,Zomato,3.8
+677,2025-09-07,Mumbai,Idli,South Indian,Veg,50,78,28,56,Mehfil,Magicpin,3.7
+678,2025-12-14,Mumbai,French Fries,Fast Food,Veg,121,195,74,61,Street Treats,Swiggy,3.6
+679,2025-10-12,Kolkata,Veg Burger,Fast Food,Veg,125,214,89,72,Shah Ghouse,Magicpin,3.6
+680,2025-10-31,Chennai,Manchurian,Street Food,Veg,67,148,82,122,Food Junction,Zomato,3.5
+681,2025-08-30,Chennai,Chicken Biryani,Biryani,Non-Veg,241,539,298,124,Food Junction,Swiggy,4.8
+682,2025-09-20,Mumbai,Vada,South Indian,Veg,22,39,16,74,Paradise,Swiggy,4.2
+683,2025-08-06,Bangalore,Plain Dosa,South Indian,Veg,49,86,38,77,Tasty Corner,Magicpin,4.9
+684,2025-05-20,Hyderabad,Upma,South Indian,Veg,36,66,30,82,Urban Bites,Magicpin,4.3
+685,2025-12-07,Mumbai,Idli,South Indian,Veg,25,35,10,39,Tasty Corner,Swiggy,3.6
+686,2025-12-01,Delhi,Chicken Fried Rice,Rice,Non-Veg,135,166,31,23,Street Treats,Magicpin,4.9
+687,2025-07-23,Kolkata,Chicken Burger,Fast Food,Non-Veg,91,159,68,75,Tasty Corner,Swiggy,3.8
+688,2025-10-31,Kolkata,Veg Pulao,Rice,Veg,126,204,78,62,Pista House,Zomato,4.1
+689,2025-02-02,Kolkata,Chicken Biryani,Biryani,Non-Veg,312,481,169,54,Cafe Delight,Zomato,4.4
+690,2025-06-19,Hyderabad,Pizza Slice,Fast Food,Veg,82,168,86,105,Paradise,Swiggy,3.9
+691,2025-10-13,Mumbai,Veg Biryani,Biryani,Veg,149,308,159,106,Urban Bites,Zomato,4.5
+692,2025-12-25,Chennai,Veg Burger,Fast Food,Veg,136,316,180,132,Mehfil,Zomato,4.4
+693,2025-10-30,Delhi,Fried Rice,Rice,Veg,82,112,30,36,Mehfil,Zomato,4.7
+694,2025-05-22,Delhi,Plain Dosa,South Indian,Veg,54,110,56,105,Tasty Corner,Swiggy,4.5
+695,2025-12-14,Mumbai,Vada,South Indian,Veg,37,46,9,24,Paradise,Swiggy,4.9
+696,2025-12-15,Bangalore,Coffee,Beverage,Veg,24,50,26,110,Urban Bites,Zomato,4.2
+697,2025-11-22,Chennai,Pizza Slice,Fast Food,Veg,136,299,163,120,Food Junction,Magicpin,4.5
+698,2025-02-21,Mumbai,Veg Biryani,Biryani,Veg,236,572,336,143,Pista House,Zomato,3.7
+699,2025-06-08,Mumbai,Veg Burger,Fast Food,Veg,143,179,36,25,Street Treats,Zomato,3.9
+700,2025-03-15,Bangalore,Idli,South Indian,Veg,46,97,51,112,Cafe Delight,Zomato,4.2
+701,2025-07-23,Bangalore,Idli,South Indian,Veg,51,77,26,52,Cafe Delight,Swiggy,3.8
+702,2025-01-01,Hyderabad,Momos,Street Food,Veg,132,315,183,139,Tasty Corner,Magicpin,4.3
+703,2025-01-26,Bangalore,Chicken Biryani,Biryani,Non-Veg,237,443,207,87,Shah Ghouse,Magicpin,3.6
+704,2025-08-13,Mumbai,Upma,South Indian,Veg,56,81,25,46,Urban Bites,Zomato,3.8
+705,2025-05-07,Hyderabad,French Fries,Fast Food,Veg,130,290,160,123,Urban Bites,Zomato,4.2
+706,2025-07-09,Kolkata,Momos,Street Food,Veg,100,224,124,124,Mehfil,Swiggy,4.2
+707,2025-06-08,Hyderabad,Noodles,Street Food,Veg,118,279,161,137,Pista House,Swiggy,4.5
+708,2025-12-09,Delhi,Pani Puri,Street Food,Veg,60,73,13,22,Shah Ghouse,Magicpin,3.7
+709,2025-01-10,Hyderabad,Fried Rice,Rice,Veg,123,158,35,29,Mehfil,Zomato,4.1
+710,2025-10-02,Delhi,Noodles,Street Food,Veg,150,211,61,41,Pista House,Magicpin,4.8
+711,2025-09-17,Hyderabad,Vada,South Indian,Veg,37,82,45,121,Spice Hub,Zomato,3.8
+712,2025-01-15,Mumbai,Grilled Sandwich,Fast Food,Veg,144,290,146,102,Pista House,Zomato,4.5
+713,2025-09-01,Bangalore,Vada,South Indian,Veg,36,51,14,39,Cafe Delight,Magicpin,3.7
+714,2025-03-23,Delhi,Sandwich,Fast Food,Veg,107,203,97,90,Pista House,Zomato,3.7
+715,2025-05-03,Mumbai,Coffee,Beverage,Veg,28,38,11,39,Food Junction,Zomato,3.6
+716,2025-04-23,Bangalore,Vada,South Indian,Veg,27,63,36,135,Urban Bites,Magicpin,4.6
+717,2025-07-03,Kolkata,Sandwich,Fast Food,Veg,60,120,59,99,Street Treats,Magicpin,4.8
+718,2025-05-04,Hyderabad,Pizza Slice,Fast Food,Veg,152,260,109,72,Paradise,Zomato,4.2
+719,2025-09-01,Kolkata,Pani Puri,Street Food,Veg,26,37,11,43,Food Junction,Magicpin,3.9
+720,2025-10-26,Delhi,Chicken Burger,Fast Food,Non-Veg,164,217,53,33,Urban Bites,Zomato,3.9
+721,2025-02-06,Mumbai,Uttapam,South Indian,Veg,129,308,179,138,Spice Hub,Zomato,4.3
+722,2025-09-30,Chennai,Noodles,Street Food,Veg,69,139,70,102,Cafe Delight,Zomato,3.6
+723,2025-05-12,Chennai,Chicken Fried Rice,Rice,Non-Veg,137,320,183,134,Shah Ghouse,Magicpin,4.2
+724,2025-01-01,Kolkata,Veg Pulao,Rice,Veg,156,253,97,62,Paradise,Zomato,4.5
+725,2025-04-17,Mumbai,Chicken Fried Rice,Rice,Non-Veg,127,304,177,140,Paradise,Magicpin,4.1
+726,2025-04-08,Mumbai,Vada,South Indian,Veg,34,41,7,20,Urban Bites,Zomato,3.8
+727,2025-12-23,Hyderabad,Veg Puff,Bakery,Veg,31,43,12,40,Food Junction,Swiggy,4.7
+728,2025-05-26,Chennai,Veg Puff,Bakery,Veg,28,41,13,46,Street Treats,Swiggy,4.0
+729,2025-02-17,Delhi,Chicken Fried Rice,Rice,Non-Veg,162,226,64,39,Spice Hub,Swiggy,3.7
+730,2025-01-29,Delhi,Sandwich,Fast Food,Veg,51,123,72,141,Shah Ghouse,Magicpin,4.2
+731,2025-05-11,Mumbai,Paneer Biryani,Biryani,Veg,228,520,292,128,Cafe Delight,Zomato,3.9
+732,2025-03-13,Kolkata,Veg Puff,Bakery,Veg,39,72,34,87,Shah Ghouse,Swiggy,4.3
+733,2025-12-20,Kolkata,Veg Biryani,Biryani,Veg,234,512,277,119,Cafe Delight,Magicpin,3.6
+734,2025-04-28,Kolkata,Coffee,Beverage,Veg,58,126,67,115,Mehfil,Zomato,4.0
+735,2025-03-03,Hyderabad,Chicken Burger,Fast Food,Non-Veg,206,400,195,95,Tasty Corner,Magicpin,4.8
+736,2025-07-09,Mumbai,Plain Dosa,South Indian,Veg,47,95,47,100,Pista House,Swiggy,3.6
+737,2025-04-20,Chennai,Fried Rice,Rice,Veg,82,159,77,93,Street Treats,Magicpin,3.7
+738,2025-06-11,Chennai,Fried Rice,Rice,Veg,150,361,212,142,Paradise,Swiggy,4.3
+739,2025-03-18,Bangalore,Grilled Sandwich,Fast Food,Veg,82,170,88,107,Pista House,Swiggy,3.5
+740,2025-01-18,Kolkata,Idli,South Indian,Veg,58,117,60,104,Paradise,Magicpin,4.6
+741,2025-01-05,Bangalore,Pizza Slice,Fast Food,Veg,125,169,44,35,Shah Ghouse,Magicpin,4.8
+742,2025-11-05,Delhi,Fried Rice,Rice,Veg,161,334,173,107,Paradise,Zomato,3.7
+743,2025-08-15,Kolkata,Pizza Slice,Fast Food,Veg,96,186,90,94,Pista House,Swiggy,4.7
+744,2025-06-12,Hyderabad,Plain Dosa,South Indian,Veg,76,111,35,46,Spice Hub,Swiggy,4.0
+745,2025-02-25,Delhi,Chicken Biryani,Biryani,Non-Veg,247,428,181,74,Pista House,Zomato,3.7
+746,2025-10-09,Delhi,Idli,South Indian,Veg,37,69,32,85,Urban Bites,Zomato,4.9
+747,2025-08-30,Kolkata,Tea,Beverage,Veg,15,27,12,76,Food Junction,Swiggy,3.7
+748,2025-06-30,Chennai,Idli,South Indian,Veg,49,71,22,45,Urban Bites,Swiggy,4.1
+749,2025-12-27,Chennai,Tea,Beverage,Veg,23,48,25,111,Cafe Delight,Zomato,3.7
+750,2025-01-05,Hyderabad,Vada,South Indian,Veg,49,103,54,112,Pista House,Zomato,4.7
+751,2025-03-01,Kolkata,Uttapam,South Indian,Veg,110,202,93,84,Spice Hub,Swiggy,4.3
+752,2025-11-21,Chennai,Grilled Sandwich,Fast Food,Veg,138,339,201,146,Paradise,Magicpin,3.7
+753,2025-03-03,Chennai,Veg Pulao,Rice,Veg,178,314,136,77,Shah Ghouse,Magicpin,4.8
+754,2025-12-28,Bangalore,Sandwich,Fast Food,Veg,67,96,29,44,Spice Hub,Magicpin,4.7
+755,2025-07-16,Hyderabad,Momos,Street Food,Veg,101,129,28,28,Shah Ghouse,Swiggy,4.4
+756,2025-07-06,Hyderabad,French Fries,Fast Food,Veg,105,172,66,63,Urban Bites,Magicpin,4.8
+757,2025-01-11,Kolkata,Idli,South Indian,Veg,56,97,40,71,Shah Ghouse,Magicpin,3.9
+758,2025-02-24,Bangalore,Chicken Burger,Fast Food,Non-Veg,150,374,224,149,Cafe Delight,Zomato,4.9
+759,2025-02-24,Chennai,Pani Puri,Street Food,Veg,52,114,62,120,Urban Bites,Magicpin,4.6
+760,2025-08-07,Bangalore,Paneer Biryani,Biryani,Veg,231,362,131,57,Food Junction,Zomato,4.3
+761,2025-04-02,Bangalore,Masala Dosa,South Indian,Veg,118,226,108,91,Tasty Corner,Magicpin,4.5
+762,2025-12-31,Hyderabad,Masala Dosa,South Indian,Veg,60,77,17,28,Urban Bites,Magicpin,3.6
+763,2025-09-21,Hyderabad,Plain Dosa,South Indian,Veg,75,148,74,98,Tasty Corner,Magicpin,4.7
+764,2025-06-24,Mumbai,Uttapam,South Indian,Veg,114,141,27,23,Cafe Delight,Zomato,4.1
+765,2025-12-01,Kolkata,Manchurian,Street Food,Veg,113,209,96,85,Food Junction,Zomato,3.7
+766,2025-05-15,Hyderabad,Momos,Street Food,Veg,99,204,105,107,Tasty Corner,Magicpin,3.6
+767,2025-10-01,Kolkata,Sandwich,Fast Food,Veg,97,197,100,104,Street Treats,Zomato,4.1
+768,2025-07-14,Kolkata,Masala Dosa,South Indian,Veg,112,221,110,98,Spice Hub,Swiggy,4.4
+769,2025-03-28,Chennai,Coffee,Beverage,Veg,34,70,37,108,Mehfil,Zomato,3.9
+770,2025-08-15,Hyderabad,Pani Puri,Street Food,Veg,32,78,46,142,Food Junction,Magicpin,4.1
+771,2025-06-01,Bangalore,Pizza Slice,Fast Food,Veg,127,311,184,145,Mehfil,Zomato,4.4
+772,2025-09-01,Delhi,Uttapam,South Indian,Veg,77,180,103,134,Shah Ghouse,Magicpin,4.7
+773,2025-01-10,Mumbai,Sandwich,Fast Food,Veg,53,124,71,134,Food Junction,Zomato,4.2
+774,2025-03-03,Delhi,Uttapam,South Indian,Veg,69,108,39,56,Food Junction,Zomato,3.8
+775,2025-09-22,Kolkata,Pani Puri,Street Food,Veg,28,49,21,77,Urban Bites,Swiggy,3.6
+776,2025-09-10,Hyderabad,Chicken Burger,Fast Food,Non-Veg,109,170,60,55,Shah Ghouse,Swiggy,4.0
+777,2025-05-17,Hyderabad,Chicken Burger,Fast Food,Non-Veg,92,122,31,33,Street Treats,Swiggy,4.1
+778,2025-03-10,Delhi,Grilled Sandwich,Fast Food,Veg,88,176,88,100,Urban Bites,Magicpin,4.9
+779,2025-03-05,Kolkata,Paneer Biryani,Biryani,Veg,238,590,352,148,Urban Bites,Swiggy,4.4
+780,2025-07-21,Bangalore,Pizza Slice,Fast Food,Veg,151,296,144,95,Urban Bites,Magicpin,4.4
+781,2025-02-06,Bangalore,Pizza Slice,Fast Food,Veg,141,267,125,89,Spice Hub,Swiggy,4.6
+782,2025-12-01,Mumbai,Noodles,Street Food,Veg,60,91,31,52,Food Junction,Magicpin,3.8
+783,2025-01-19,Mumbai,Veg Biryani,Biryani,Veg,189,388,199,105,Pista House,Zomato,4.1
+784,2025-10-19,Chennai,Chicken Fried Rice,Rice,Non-Veg,175,329,154,88,Shah Ghouse,Zomato,4.3
+785,2025-05-07,Kolkata,Veg Puff,Bakery,Veg,47,108,62,131,Spice Hub,Zomato,3.7
+786,2025-10-14,Delhi,Tea,Beverage,Veg,24,38,14,60,Paradise,Swiggy,4.5
+787,2025-10-09,Chennai,Noodles,Street Food,Veg,140,246,106,76,Urban Bites,Zomato,4.1
+788,2025-07-26,Mumbai,Pani Puri,Street Food,Veg,26,55,29,109,Spice Hub,Zomato,4.9
+789,2025-08-23,Chennai,Masala Dosa,South Indian,Veg,106,169,63,59,Shah Ghouse,Zomato,3.7
+790,2025-02-25,Delhi,Noodles,Street Food,Veg,98,206,108,111,Urban Bites,Zomato,4.8
+791,2025-10-29,Bangalore,Fried Rice,Rice,Veg,120,157,37,31,Cafe Delight,Zomato,4.4
+792,2025-03-24,Bangalore,Chicken Burger,Fast Food,Non-Veg,165,325,160,97,Street Treats,Magicpin,3.9
+793,2025-08-29,Hyderabad,Manchurian,Street Food,Veg,141,239,98,70,Pista House,Swiggy,4.2
+794,2025-06-12,Kolkata,Plain Dosa,South Indian,Veg,72,107,34,47,Mehfil,Zomato,4.1
+795,2025-08-19,Kolkata,Grilled Sandwich,Fast Food,Veg,154,195,41,27,Cafe Delight,Magicpin,4.0
+796,2025-07-02,Chennai,Veg Burger,Fast Food,Veg,120,253,133,111,Tasty Corner,Zomato,4.2
+797,2025-07-08,Hyderabad,Chicken Biryani,Biryani,Non-Veg,194,392,199,103,Shah Ghouse,Magicpin,4.5
+798,2025-02-15,Delhi,French Fries,Fast Food,Veg,133,290,157,118,Street Treats,Zomato,4.8
+799,2025-03-17,Chennai,Manchurian,Street Food,Veg,168,384,216,128,Street Treats,Swiggy,4.8
+800,2025-12-08,Bangalore,French Fries,Fast Food,Veg,66,104,38,58,Mehfil,Magicpin,4.8
+801,2025-06-12,Mumbai,Grilled Sandwich,Fast Food,Veg,95,141,46,48,Pista House,Magicpin,4.3
+802,2025-11-24,Bangalore,Chicken Burger,Fast Food,Non-Veg,209,335,127,61,Food Junction,Zomato,3.7
+803,2025-06-02,Mumbai,Grilled Sandwich,Fast Food,Veg,109,175,66,60,Spice Hub,Swiggy,3.5
+804,2025-12-16,Chennai,Pani Puri,Street Food,Veg,29,64,35,120,Urban Bites,Magicpin,4.8
+805,2025-11-05,Delhi,Chicken Burger,Fast Food,Non-Veg,101,202,101,100,Urban Bites,Swiggy,4.6
+806,2025-10-07,Delhi,Noodles,Street Food,Veg,70,129,59,84,Urban Bites,Zomato,3.6
+807,2025-11-17,Mumbai,Fried Rice,Rice,Veg,124,154,30,24,Street Treats,Magicpin,3.9
+808,2025-02-15,Hyderabad,Pani Puri,Street Food,Veg,27,33,6,21,Urban Bites,Zomato,4.9
+809,2025-03-05,Bangalore,Manchurian,Street Food,Veg,87,148,61,70,Paradise,Magicpin,3.7
+810,2025-04-23,Kolkata,Veg Pulao,Rice,Veg,157,253,95,60,Pista House,Magicpin,3.7
+811,2025-10-27,Chennai,Chicken Fried Rice,Rice,Non-Veg,213,286,73,34,Tasty Corner,Magicpin,3.5
+812,2025-07-19,Bangalore,Veg Biryani,Biryani,Veg,234,296,62,27,Mehfil,Zomato,3.6
+813,2025-04-21,Kolkata,French Fries,Fast Food,Veg,88,159,71,81,Street Treats,Magicpin,3.9
+814,2025-08-27,Bangalore,Coffee,Beverage,Veg,45,100,55,123,Cafe Delight,Zomato,4.1
+815,2025-02-02,Bangalore,Paneer Biryani,Biryani,Veg,238,304,66,28,Paradise,Zomato,4.3
+816,2025-08-02,Mumbai,Veg Puff,Bakery,Veg,22,35,13,61,Shah Ghouse,Zomato,4.6
+817,2025-10-29,Kolkata,Uttapam,South Indian,Veg,83,175,92,111,Pista House,Zomato,3.9
+818,2025-01-31,Hyderabad,Fried Rice,Rice,Veg,89,135,46,52,Shah Ghouse,Zomato,4.5
+819,2025-11-26,Hyderabad,Uttapam,South Indian,Veg,67,164,97,144,Spice Hub,Swiggy,3.7
+820,2025-05-06,Hyderabad,Uttapam,South Indian,Veg,101,240,139,138,Tasty Corner,Magicpin,4.4
+821,2025-11-04,Kolkata,Veg Burger,Fast Food,Veg,150,302,152,102,Tasty Corner,Swiggy,3.7
+822,2025-01-08,Bangalore,Uttapam,South Indian,Veg,92,114,22,24,Shah Ghouse,Zomato,4.5
+823,2025-02-11,Bangalore,Pani Puri,Street Food,Veg,48,116,69,144,Pista House,Zomato,4.3
+824,2025-08-12,Hyderabad,Manchurian,Street Food,Veg,171,262,92,54,Food Junction,Zomato,4.4
+825,2025-08-05,Delhi,Veg Pulao,Rice,Veg,175,253,78,45,Paradise,Magicpin,4.7
+826,2025-02-08,Bangalore,Upma,South Indian,Veg,61,113,52,86,Tasty Corner,Swiggy,3.5
+827,2025-08-27,Mumbai,Veg Burger,Fast Food,Veg,136,198,62,45,Mehfil,Zomato,3.6
+828,2025-05-03,Mumbai,Pizza Slice,Fast Food,Veg,92,129,37,40,Paradise,Swiggy,4.6
+829,2025-10-23,Delhi,Plain Dosa,South Indian,Veg,43,80,37,86,Pista House,Swiggy,4.7
+830,2025-12-11,Hyderabad,Veg Pulao,Rice,Veg,102,167,65,64,Tasty Corner,Magicpin,3.9
+831,2025-07-18,Bangalore,Veg Pulao,Rice,Veg,133,177,44,33,Mehfil,Magicpin,4.2
+832,2025-01-08,Hyderabad,Veg Pulao,Rice,Veg,119,256,137,115,Spice Hub,Magicpin,3.7
+833,2025-08-28,Kolkata,Uttapam,South Indian,Veg,113,241,128,113,Spice Hub,Zomato,3.6
+834,2025-04-13,Mumbai,Chicken Burger,Fast Food,Non-Veg,163,226,64,39,Urban Bites,Swiggy,4.6
+835,2025-07-11,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,209,506,297,142,Urban Bites,Zomato,4.8
+836,2025-04-19,Bangalore,Chicken Biryani,Biryani,Non-Veg,272,639,367,135,Paradise,Zomato,3.5
+837,2025-05-23,Hyderabad,Plain Dosa,South Indian,Veg,44,83,39,89,Urban Bites,Zomato,4.3
+838,2025-05-07,Mumbai,Coffee,Beverage,Veg,54,109,55,103,Cafe Delight,Zomato,4.4
+839,2025-02-25,Bangalore,Uttapam,South Indian,Veg,104,224,121,117,Shah Ghouse,Zomato,3.7
+840,2025-03-04,Kolkata,Plain Dosa,South Indian,Veg,31,63,32,105,Paradise,Magicpin,4.2
+841,2025-05-15,Chennai,French Fries,Fast Food,Veg,79,99,20,25,Street Treats,Magicpin,4.4
+842,2025-02-25,Chennai,Grilled Sandwich,Fast Food,Veg,112,165,53,47,Cafe Delight,Magicpin,4.4
+843,2025-03-10,Kolkata,Chicken Burger,Fast Food,Non-Veg,182,444,263,144,Street Treats,Zomato,3.7
+844,2025-02-02,Bangalore,Pani Puri,Street Food,Veg,59,129,71,121,Shah Ghouse,Zomato,4.4
+845,2025-07-27,Delhi,Veg Puff,Bakery,Veg,27,53,26,94,Pista House,Zomato,4.8
+846,2025-03-03,Hyderabad,Tea,Beverage,Veg,22,32,10,48,Mehfil,Swiggy,4.6
+847,2025-07-08,Bangalore,Uttapam,South Indian,Veg,116,212,96,83,Cafe Delight,Magicpin,3.9
+848,2025-10-14,Delhi,Tea,Beverage,Veg,24,37,13,51,Mehfil,Zomato,4.9
+849,2025-03-27,Bangalore,Fried Rice,Rice,Veg,112,147,35,31,Spice Hub,Zomato,4.6
+850,2025-06-24,Hyderabad,Sandwich,Fast Food,Veg,93,171,78,84,Tasty Corner,Zomato,4.7
+851,2025-08-31,Delhi,Chicken Fried Rice,Rice,Non-Veg,163,363,201,123,Cafe Delight,Zomato,4.0
+852,2025-06-15,Chennai,Coffee,Beverage,Veg,20,42,21,107,Pista House,Swiggy,4.3
+853,2025-07-24,Delhi,Vada,South Indian,Veg,31,44,13,42,Cafe Delight,Swiggy,4.0
+854,2025-02-17,Delhi,Veg Pulao,Rice,Veg,141,280,140,99,Mehfil,Zomato,3.7
+855,2025-02-07,Hyderabad,Idli,South Indian,Veg,51,127,76,148,Street Treats,Magicpin,3.7
+856,2025-08-21,Hyderabad,Veg Biryani,Biryani,Veg,224,336,112,50,Pista House,Swiggy,4.6
+857,2025-08-08,Hyderabad,Momos,Street Food,Veg,79,167,88,112,Mehfil,Magicpin,4.5
+858,2025-10-06,Mumbai,French Fries,Fast Food,Veg,94,232,137,146,Paradise,Zomato,4.8
+859,2025-01-19,Hyderabad,Sandwich,Fast Food,Veg,71,91,20,28,Street Treats,Swiggy,4.4
+860,2025-12-02,Delhi,Veg Burger,Fast Food,Veg,136,186,50,37,Tasty Corner,Zomato,3.8
+861,2025-02-14,Delhi,Plain Dosa,South Indian,Veg,30,66,36,119,Paradise,Swiggy,4.9
+862,2025-02-15,Chennai,Plain Dosa,South Indian,Veg,34,49,15,42,Pista House,Swiggy,4.3
+863,2025-11-27,Mumbai,Veg Puff,Bakery,Veg,35,55,21,60,Urban Bites,Magicpin,4.6
+864,2025-10-08,Chennai,Tea,Beverage,Veg,15,37,22,147,Tasty Corner,Magicpin,4.4
+865,2025-12-17,Hyderabad,Masala Dosa,South Indian,Veg,64,158,93,145,Tasty Corner,Swiggy,4.6
+866,2025-05-10,Bangalore,Tea,Beverage,Veg,16,22,6,37,Cafe Delight,Magicpin,4.9
+867,2025-02-11,Chennai,Vada,South Indian,Veg,33,75,42,129,Shah Ghouse,Swiggy,3.6
+868,2025-12-21,Kolkata,Grilled Sandwich,Fast Food,Veg,84,130,46,55,Tasty Corner,Swiggy,4.6
+869,2025-02-18,Hyderabad,Pani Puri,Street Food,Veg,26,58,32,127,Food Junction,Zomato,4.5
+870,2025-04-18,Chennai,Veg Pulao,Rice,Veg,169,277,108,64,Spice Hub,Magicpin,4.5
+871,2025-07-16,Chennai,Sandwich,Fast Food,Veg,60,99,39,65,Shah Ghouse,Zomato,3.7
+872,2025-08-11,Chennai,Uttapam,South Indian,Veg,107,263,156,146,Street Treats,Swiggy,3.9
+873,2025-04-22,Delhi,Pani Puri,Street Food,Veg,40,77,38,95,Food Junction,Swiggy,4.7
+874,2025-01-14,Delhi,Fried Rice,Rice,Veg,135,280,145,108,Food Junction,Swiggy,4.5
+875,2025-06-08,Mumbai,French Fries,Fast Food,Veg,121,213,92,76,Cafe Delight,Swiggy,3.6
+876,2025-05-21,Mumbai,Manchurian,Street Food,Veg,140,206,66,47,Pista House,Swiggy,4.7
+877,2025-04-18,Hyderabad,Veg Puff,Bakery,Veg,38,58,20,54,Paradise,Magicpin,4.3
+878,2025-05-11,Chennai,Manchurian,Street Food,Veg,82,132,50,60,Spice Hub,Swiggy,4.0
+879,2025-06-26,Mumbai,Fried Rice,Rice,Veg,121,275,154,128,Urban Bites,Magicpin,4.6
+880,2025-05-03,Mumbai,Manchurian,Street Food,Veg,166,344,178,108,Mehfil,Swiggy,4.0
+881,2025-11-04,Mumbai,Grilled Sandwich,Fast Food,Veg,143,224,80,56,Tasty Corner,Magicpin,4.4
+882,2025-04-10,Kolkata,Tea,Beverage,Veg,17,34,18,105,Spice Hub,Zomato,4.6
+883,2025-05-24,Bangalore,Grilled Sandwich,Fast Food,Veg,136,313,177,130,Shah Ghouse,Zomato,4.1
+884,2025-05-23,Bangalore,Coffee,Beverage,Veg,21,49,28,131,Tasty Corner,Zomato,3.9
+885,2025-09-11,Hyderabad,Tea,Beverage,Veg,23,39,16,70,Cafe Delight,Zomato,4.8
+886,2025-12-30,Delhi,Paneer Biryani,Biryani,Veg,187,411,224,120,Cafe Delight,Swiggy,4.4
+887,2025-05-05,Bangalore,Plain Dosa,South Indian,Veg,67,85,19,28,Urban Bites,Swiggy,3.5
+888,2025-12-06,Delhi,Masala Dosa,South Indian,Veg,55,94,39,71,Food Junction,Zomato,3.8
+889,2025-03-25,Delhi,Veg Pulao,Rice,Veg,134,194,60,45,Food Junction,Zomato,4.8
+890,2025-09-16,Bangalore,Momos,Street Food,Veg,106,262,156,147,Urban Bites,Swiggy,4.7
+891,2025-12-21,Mumbai,Manchurian,Street Food,Veg,83,160,77,92,Cafe Delight,Swiggy,3.9
+892,2025-06-16,Hyderabad,Coffee,Beverage,Veg,39,94,55,140,Mehfil,Swiggy,3.8
+893,2025-02-09,Mumbai,Uttapam,South Indian,Veg,115,278,163,142,Urban Bites,Zomato,4.8
+894,2025-05-26,Delhi,Coffee,Beverage,Veg,28,61,33,118,Urban Bites,Zomato,4.4
+895,2025-02-18,Chennai,Paneer Biryani,Biryani,Veg,264,413,149,57,Pista House,Zomato,3.8
+896,2025-06-04,Mumbai,Veg Biryani,Biryani,Veg,204,303,99,48,Urban Bites,Magicpin,4.2
+897,2025-04-14,Delhi,Chicken Burger,Fast Food,Non-Veg,191,349,158,83,Street Treats,Zomato,4.3
+898,2025-05-21,Delhi,Masala Dosa,South Indian,Veg,119,228,109,91,Shah Ghouse,Swiggy,3.6
+899,2025-05-20,Bangalore,Momos,Street Food,Veg,90,122,32,36,Mehfil,Zomato,3.9
+900,2025-09-08,Hyderabad,Noodles,Street Food,Veg,144,223,79,55,Tasty Corner,Zomato,4.8
+901,2025-05-31,Kolkata,Paneer Biryani,Biryani,Veg,235,581,347,148,Mehfil,Magicpin,4.7
+902,2025-12-23,Kolkata,Chicken Burger,Fast Food,Non-Veg,187,280,93,50,Mehfil,Swiggy,4.8
+903,2025-06-29,Kolkata,Chicken Biryani,Biryani,Non-Veg,328,576,247,75,Cafe Delight,Swiggy,3.6
+904,2025-11-01,Bangalore,Veg Biryani,Biryani,Veg,177,439,262,148,Tasty Corner,Zomato,3.5
+905,2025-01-08,Chennai,Idli,South Indian,Veg,27,44,17,63,Street Treats,Magicpin,4.3
+906,2025-09-30,Chennai,Paneer Biryani,Biryani,Veg,174,389,215,124,Tasty Corner,Swiggy,4.4
+907,2025-08-06,Kolkata,Tea,Beverage,Veg,17,34,17,98,Spice Hub,Swiggy,3.9
+908,2025-02-05,Bangalore,Grilled Sandwich,Fast Food,Veg,75,170,95,127,Spice Hub,Magicpin,4.6
+909,2025-04-30,Chennai,Noodles,Street Food,Veg,118,228,111,94,Spice Hub,Magicpin,3.7
+910,2025-03-03,Hyderabad,Veg Pulao,Rice,Veg,142,193,51,36,Mehfil,Magicpin,3.6
+911,2025-08-07,Mumbai,Veg Puff,Bakery,Veg,34,65,31,93,Shah Ghouse,Magicpin,3.8
+912,2025-11-23,Delhi,Chicken Biryani,Biryani,Non-Veg,193,268,75,39,Urban Bites,Magicpin,4.2
+913,2025-12-02,Kolkata,Fried Rice,Rice,Veg,122,164,42,34,Cafe Delight,Magicpin,4.3
+914,2025-08-14,Kolkata,Paneer Biryani,Biryani,Veg,178,444,266,149,Spice Hub,Swiggy,3.6
+915,2025-01-18,Hyderabad,Pani Puri,Street Food,Veg,40,71,32,80,Mehfil,Swiggy,4.7
+916,2025-09-30,Mumbai,Veg Burger,Fast Food,Veg,117,168,51,43,Mehfil,Swiggy,3.6
+917,2025-02-20,Mumbai,Veg Burger,Fast Food,Veg,131,197,65,50,Urban Bites,Magicpin,3.9
+918,2025-04-16,Bangalore,Pizza Slice,Fast Food,Veg,176,301,126,71,Mehfil,Swiggy,3.8
+919,2025-11-04,Bangalore,Grilled Sandwich,Fast Food,Veg,106,162,56,53,Cafe Delight,Swiggy,3.8
+920,2025-01-22,Delhi,Veg Burger,Fast Food,Veg,114,150,36,31,Cafe Delight,Zomato,3.9
+921,2025-11-03,Bangalore,Momos,Street Food,Veg,119,215,96,80,Mehfil,Magicpin,4.0
+922,2025-10-14,Mumbai,Masala Dosa,South Indian,Veg,111,143,32,29,Street Treats,Zomato,4.9
+923,2025-06-10,Hyderabad,Veg Pulao,Rice,Veg,95,215,120,126,Paradise,Zomato,4.3
+924,2025-01-28,Kolkata,Chicken Burger,Fast Food,Non-Veg,181,418,237,131,Food Junction,Swiggy,4.6
+925,2025-12-21,Mumbai,Vada,South Indian,Veg,41,53,12,30,Shah Ghouse,Swiggy,4.6
+926,2025-01-11,Mumbai,Pani Puri,Street Food,Veg,24,37,14,58,Spice Hub,Magicpin,3.8
+927,2025-05-01,Chennai,Paneer Biryani,Biryani,Veg,150,184,34,23,Street Treats,Magicpin,3.9
+928,2025-03-14,Chennai,Grilled Sandwich,Fast Food,Veg,73,110,37,50,Shah Ghouse,Magicpin,4.5
+929,2025-09-09,Mumbai,Plain Dosa,South Indian,Veg,50,89,39,79,Street Treats,Swiggy,3.6
+930,2025-08-03,Bangalore,Uttapam,South Indian,Veg,110,175,65,59,Pista House,Magicpin,3.6
+931,2025-12-07,Delhi,Chicken Fried Rice,Rice,Non-Veg,186,323,137,74,Urban Bites,Zomato,4.8
+932,2025-10-29,Chennai,Chicken Biryani,Biryani,Non-Veg,203,405,202,100,Urban Bites,Swiggy,4.7
+933,2025-10-02,Chennai,Veg Puff,Bakery,Veg,34,76,43,127,Paradise,Swiggy,4.6
+934,2025-06-23,Delhi,Tea,Beverage,Veg,14,30,16,109,Pista House,Magicpin,4.9
+935,2025-04-11,Hyderabad,Paneer Biryani,Biryani,Veg,184,401,217,118,Pista House,Swiggy,4.4
+936,2025-08-23,Chennai,Chicken Biryani,Biryani,Non-Veg,323,680,356,110,Pista House,Swiggy,3.7
+937,2025-05-24,Hyderabad,Pani Puri,Street Food,Veg,23,49,26,114,Urban Bites,Zomato,4.4
+938,2025-12-24,Bangalore,Chicken Fried Rice,Rice,Non-Veg,144,360,216,149,Tasty Corner,Zomato,4.1
+939,2025-01-19,Delhi,Manchurian,Street Food,Veg,163,313,151,92,Street Treats,Zomato,4.1
+940,2025-06-25,Hyderabad,Chicken Biryani,Biryani,Non-Veg,266,637,371,140,Mehfil,Zomato,4.5
+941,2025-11-24,Delhi,Fried Rice,Rice,Veg,80,126,45,57,Food Junction,Swiggy,4.8
+942,2025-10-15,Delhi,Plain Dosa,South Indian,Veg,58,124,65,112,Urban Bites,Magicpin,3.8
+943,2025-10-21,Mumbai,Chicken Fried Rice,Rice,Non-Veg,145,362,217,150,Pista House,Swiggy,4.6
+944,2025-09-04,Delhi,Momos,Street Food,Veg,124,231,107,86,Food Junction,Swiggy,4.4
+945,2025-11-10,Mumbai,Chicken Burger,Fast Food,Non-Veg,171,401,230,134,Spice Hub,Swiggy,4.4
+946,2025-10-05,Bangalore,Noodles,Street Food,Veg,66,131,65,98,Spice Hub,Magicpin,3.9
+947,2025-10-18,Bangalore,Grilled Sandwich,Fast Food,Veg,93,228,135,146,Shah Ghouse,Magicpin,4.0
+948,2025-08-02,Mumbai,Paneer Biryani,Biryani,Veg,247,534,287,116,Tasty Corner,Magicpin,4.6
+949,2025-05-31,Mumbai,Chicken Fried Rice,Rice,Non-Veg,204,385,180,88,Urban Bites,Magicpin,4.5
+950,2025-05-26,Kolkata,Veg Biryani,Biryani,Veg,221,296,74,34,Shah Ghouse,Swiggy,3.6
+951,2025-07-11,Chennai,Idli,South Indian,Veg,46,83,37,79,Paradise,Swiggy,4.7
+952,2025-09-18,Hyderabad,French Fries,Fast Food,Veg,103,204,101,98,Food Junction,Zomato,4.1
+953,2025-08-23,Chennai,Paneer Biryani,Biryani,Veg,279,566,287,103,Food Junction,Magicpin,3.9
+954,2025-08-27,Delhi,Vada,South Indian,Veg,35,66,31,88,Pista House,Swiggy,4.8
+955,2025-12-16,Delhi,Manchurian,Street Food,Veg,169,302,133,79,Cafe Delight,Zomato,4.9
+956,2025-10-04,Delhi,Veg Biryani,Biryani,Veg,201,410,209,104,Cafe Delight,Zomato,3.6
+957,2025-02-07,Delhi,Veg Biryani,Biryani,Veg,218,307,90,41,Shah Ghouse,Swiggy,4.8
+958,2025-07-31,Kolkata,Manchurian,Street Food,Veg,148,253,105,71,Street Treats,Magicpin,4.8
+959,2025-10-25,Mumbai,French Fries,Fast Food,Veg,108,194,85,79,Food Junction,Zomato,3.7
+960,2025-07-01,Mumbai,French Fries,Fast Food,Veg,113,214,102,90,Food Junction,Zomato,3.6
+961,2025-06-09,Hyderabad,Noodles,Street Food,Veg,133,249,116,87,Paradise,Swiggy,4.8
+962,2025-07-18,Mumbai,Paneer Biryani,Biryani,Veg,276,482,206,75,Mehfil,Magicpin,4.2
+963,2025-08-30,Bangalore,Plain Dosa,South Indian,Veg,41,53,11,27,Urban Bites,Magicpin,4.8
+964,2025-01-08,Mumbai,Momos,Street Food,Veg,115,189,74,65,Tasty Corner,Magicpin,4.1
+965,2025-05-07,Delhi,Chicken Burger,Fast Food,Non-Veg,164,253,89,54,Street Treats,Magicpin,4.9
+966,2025-09-14,Chennai,Chicken Burger,Fast Food,Non-Veg,111,167,56,51,Street Treats,Swiggy,4.2
+967,2025-03-11,Kolkata,Veg Biryani,Biryani,Veg,138,309,171,124,Shah Ghouse,Swiggy,4.9
+968,2025-12-28,Bangalore,Momos,Street Food,Veg,69,96,26,38,Tasty Corner,Zomato,4.7
+969,2025-11-05,Mumbai,Chicken Biryani,Biryani,Non-Veg,187,284,98,52,Spice Hub,Swiggy,4.5
+970,2025-03-05,Mumbai,Momos,Street Food,Veg,74,91,18,24,Street Treats,Swiggy,4.8
+971,2025-02-03,Chennai,Chicken Fried Rice,Rice,Non-Veg,174,424,249,143,Food Junction,Zomato,4.7
+972,2025-11-24,Delhi,Fried Rice,Rice,Veg,139,192,53,38,Spice Hub,Zomato,4.8
+973,2025-06-19,Mumbai,Masala Dosa,South Indian,Veg,83,119,36,43,Spice Hub,Magicpin,4.4
+974,2025-09-03,Bangalore,Idli,South Indian,Veg,42,87,46,109,Pista House,Zomato,3.8
+975,2025-09-21,Mumbai,Manchurian,Street Food,Veg,167,239,71,43,Mehfil,Magicpin,4.1
+976,2025-06-17,Bangalore,Plain Dosa,South Indian,Veg,46,101,55,119,Food Junction,Swiggy,4.8
+977,2025-06-03,Mumbai,Chicken Burger,Fast Food,Non-Veg,110,232,122,111,Street Treats,Swiggy,3.8
+978,2025-09-19,Hyderabad,Uttapam,South Indian,Veg,70,125,55,79,Cafe Delight,Zomato,3.7
+979,2025-07-12,Hyderabad,Tea,Beverage,Veg,18,37,19,101,Tasty Corner,Magicpin,4.1
+980,2025-06-25,Hyderabad,Manchurian,Street Food,Veg,96,181,85,89,Mehfil,Magicpin,3.5
+981,2025-11-13,Mumbai,Pani Puri,Street Food,Veg,41,59,18,43,Urban Bites,Swiggy,4.6
+982,2025-02-17,Kolkata,Chicken Biryani,Biryani,Non-Veg,260,362,101,39,Mehfil,Zomato,4.0
+983,2025-04-29,Delhi,Chicken Fried Rice,Rice,Non-Veg,143,254,111,77,Spice Hub,Zomato,4.3
+984,2025-11-19,Kolkata,Pizza Slice,Fast Food,Veg,82,171,89,109,Street Treats,Zomato,4.4
+985,2025-10-07,Chennai,Vada,South Indian,Veg,35,54,19,55,Shah Ghouse,Zomato,4.0
+986,2025-08-12,Kolkata,Vada,South Indian,Veg,24,45,21,86,Street Treats,Swiggy,4.7
+987,2025-10-18,Delhi,Momos,Street Food,Veg,83,205,122,146,Shah Ghouse,Magicpin,3.8
+988,2025-11-03,Bangalore,Masala Dosa,South Indian,Veg,70,159,89,127,Paradise,Swiggy,4.3
+989,2025-01-31,Kolkata,Masala Dosa,South Indian,Veg,56,139,83,148,Paradise,Magicpin,4.6
+990,2025-07-19,Kolkata,Chicken Burger,Fast Food,Non-Veg,98,204,106,107,Urban Bites,Zomato,4.6
+991,2025-07-22,Kolkata,Grilled Sandwich,Fast Food,Veg,106,151,45,42,Mehfil,Magicpin,3.6
+992,2025-07-31,Delhi,Manchurian,Street Food,Veg,83,183,100,120,Food Junction,Swiggy,4.3
+993,2025-09-17,Kolkata,Coffee,Beverage,Veg,29,67,38,133,Tasty Corner,Magicpin,4.3
+994,2025-09-28,Kolkata,Sandwich,Fast Food,Veg,54,134,80,150,Tasty Corner,Zomato,3.9
+995,2025-11-04,Hyderabad,Pizza Slice,Fast Food,Veg,132,270,137,104,Cafe Delight,Magicpin,4.5
+996,2025-12-22,Delhi,Plain Dosa,South Indian,Veg,43,53,10,24,Paradise,Magicpin,3.9
+997,2025-09-05,Delhi,Chicken Fried Rice,Rice,Non-Veg,154,233,78,51,Urban Bites,Swiggy,3.5
+998,2025-09-15,Kolkata,Paneer Biryani,Biryani,Veg,185,411,226,122,Mehfil,Swiggy,4.1
+999,2025-01-23,Mumbai,Pani Puri,Street Food,Veg,24,41,17,72,Pista House,Magicpin,4.0
+1000,2025-03-10,Chennai,French Fries,Fast Food,Veg,128,288,160,126,Mehfil,Magicpin,4.8
+1001,2025-03-16,Chennai,Tea,Beverage,Veg,19,32,13,69,Street Treats,Zomato,4.0
+1002,2025-01-07,Kolkata,Chicken Burger,Fast Food,Non-Veg,169,315,145,86,Food Junction,Zomato,4.0
+1003,2025-08-10,Chennai,Sandwich,Fast Food,Veg,108,213,105,97,Tasty Corner,Zomato,4.3
+1004,2025-08-28,Bangalore,Coffee,Beverage,Veg,31,51,20,63,Tasty Corner,Swiggy,4.5
+1005,2025-03-12,Delhi,Pizza Slice,Fast Food,Veg,149,259,110,74,Street Treats,Magicpin,4.6
+1006,2025-02-23,Chennai,Tea,Beverage,Veg,20,47,27,132,Spice Hub,Zomato,4.0
+1007,2025-04-29,Chennai,Chicken Biryani,Biryani,Non-Veg,327,575,249,76,Tasty Corner,Zomato,3.7
+1008,2025-03-19,Bangalore,Sandwich,Fast Food,Veg,96,176,81,84,Pista House,Zomato,4.0
+1009,2025-06-17,Hyderabad,Plain Dosa,South Indian,Veg,76,97,21,27,Street Treats,Zomato,4.7
+1010,2025-08-27,Mumbai,Uttapam,South Indian,Veg,97,190,93,96,Pista House,Swiggy,4.3
+1011,2025-11-09,Mumbai,Sandwich,Fast Food,Veg,103,130,27,26,Tasty Corner,Zomato,4.7
+1012,2025-08-07,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,128,293,164,128,Street Treats,Swiggy,3.8
+1013,2025-07-24,Chennai,Veg Pulao,Rice,Veg,167,244,77,46,Tasty Corner,Zomato,4.9
+1014,2025-06-28,Kolkata,Manchurian,Street Food,Veg,99,119,20,21,Cafe Delight,Magicpin,3.9
+1015,2025-06-30,Delhi,French Fries,Fast Food,Veg,95,171,75,79,Mehfil,Zomato,4.8
+1016,2025-01-20,Mumbai,Sandwich,Fast Food,Veg,109,144,35,32,Tasty Corner,Magicpin,4.8
+1017,2025-05-03,Bangalore,Coffee,Beverage,Veg,26,43,17,65,Spice Hub,Swiggy,3.7
+1018,2025-12-10,Mumbai,French Fries,Fast Food,Veg,118,177,59,50,Cafe Delight,Swiggy,3.7
+1019,2025-04-22,Chennai,Fried Rice,Rice,Veg,96,152,56,59,Street Treats,Swiggy,4.7
+1020,2025-07-03,Mumbai,Momos,Street Food,Veg,53,70,17,32,Tasty Corner,Swiggy,4.2
+1021,2025-12-30,Kolkata,Veg Burger,Fast Food,Veg,83,189,106,128,Pista House,Swiggy,4.5
+1022,2025-11-19,Bangalore,Manchurian,Street Food,Veg,140,349,209,150,Spice Hub,Magicpin,4.7
+1023,2025-07-18,Bangalore,Plain Dosa,South Indian,Veg,34,59,25,73,Tasty Corner,Zomato,4.3
+1024,2025-03-03,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,130,209,79,61,Street Treats,Zomato,4.1
+1025,2025-02-23,Delhi,Plain Dosa,South Indian,Veg,39,62,24,60,Pista House,Magicpin,4.3
+1026,2025-09-04,Hyderabad,Veg Burger,Fast Food,Veg,104,196,92,89,Mehfil,Zomato,4.8
+1027,2025-01-17,Kolkata,Vada,South Indian,Veg,48,100,52,110,Shah Ghouse,Zomato,3.5
+1028,2025-11-10,Chennai,Uttapam,South Indian,Veg,72,169,98,136,Food Junction,Zomato,4.8
+1029,2025-03-21,Hyderabad,Vada,South Indian,Veg,37,77,41,110,Tasty Corner,Swiggy,3.7
+1030,2025-11-01,Chennai,Pizza Slice,Fast Food,Veg,105,228,123,116,Street Treats,Zomato,4.3
+1031,2025-02-14,Chennai,French Fries,Fast Food,Veg,64,93,29,45,Pista House,Swiggy,3.7
+1032,2025-03-16,Kolkata,Noodles,Street Food,Veg,70,167,97,138,Spice Hub,Magicpin,4.6
+1033,2025-11-30,Mumbai,Masala Dosa,South Indian,Veg,77,168,90,117,Food Junction,Swiggy,4.5
+1034,2025-03-18,Kolkata,Veg Pulao,Rice,Veg,109,142,33,31,Food Junction,Magicpin,3.6
+1035,2025-04-28,Kolkata,Grilled Sandwich,Fast Food,Veg,96,202,105,109,Urban Bites,Zomato,4.0
+1036,2025-05-30,Chennai,Pizza Slice,Fast Food,Veg,175,354,179,102,Mehfil,Zomato,4.6
+1037,2025-01-24,Bangalore,Chicken Fried Rice,Rice,Non-Veg,136,169,32,24,Shah Ghouse,Zomato,4.5
+1038,2025-04-01,Kolkata,Uttapam,South Indian,Veg,107,225,117,109,Cafe Delight,Zomato,3.9
+1039,2025-11-08,Kolkata,Momos,Street Food,Veg,114,201,86,76,Urban Bites,Swiggy,4.7
+1040,2025-09-14,Chennai,Veg Pulao,Rice,Veg,128,224,96,75,Shah Ghouse,Swiggy,4.6
+1041,2025-10-07,Bangalore,Pizza Slice,Fast Food,Veg,91,218,127,139,Shah Ghouse,Zomato,3.5
+1042,2025-07-08,Hyderabad,Paneer Biryani,Biryani,Veg,221,278,57,26,Mehfil,Magicpin,3.6
+1043,2025-08-28,Kolkata,Plain Dosa,South Indian,Veg,46,96,49,107,Urban Bites,Magicpin,3.6
+1044,2025-06-09,Hyderabad,Coffee,Beverage,Veg,54,87,32,60,Shah Ghouse,Magicpin,4.7
+1045,2025-05-20,Mumbai,Upma,South Indian,Veg,64,142,78,121,Urban Bites,Zomato,4.5
+1046,2025-06-19,Hyderabad,Veg Burger,Fast Food,Veg,124,298,174,141,Cafe Delight,Zomato,4.7
+1047,2025-04-26,Mumbai,Noodles,Street Food,Veg,143,268,124,87,Spice Hub,Swiggy,3.7
+1048,2025-10-01,Mumbai,Uttapam,South Indian,Veg,117,255,139,119,Spice Hub,Magicpin,4.5
+1049,2025-12-26,Hyderabad,Plain Dosa,South Indian,Veg,68,147,79,117,Spice Hub,Swiggy,4.0
+1050,2025-09-03,Mumbai,Momos,Street Food,Veg,55,118,63,114,Pista House,Swiggy,4.2
+1051,2025-08-08,Kolkata,Plain Dosa,South Indian,Veg,47,60,13,28,Pista House,Magicpin,3.9
+1052,2025-03-16,Hyderabad,Chicken Biryani,Biryani,Non-Veg,287,528,241,84,Cafe Delight,Magicpin,4.3
+1053,2025-08-11,Mumbai,Tea,Beverage,Veg,12,17,4,36,Paradise,Swiggy,4.2
+1054,2025-08-13,Mumbai,French Fries,Fast Food,Veg,140,181,41,29,Food Junction,Zomato,3.7
+1055,2025-05-03,Chennai,Pani Puri,Street Food,Veg,37,79,43,117,Street Treats,Zomato,4.4
+1056,2025-03-15,Mumbai,Manchurian,Street Food,Veg,176,332,157,89,Food Junction,Zomato,3.6
+1057,2025-08-10,Mumbai,Grilled Sandwich,Fast Food,Veg,77,130,53,69,Tasty Corner,Magicpin,3.5
+1058,2025-12-19,Mumbai,Veg Pulao,Rice,Veg,117,231,114,98,Paradise,Zomato,4.2
+1059,2025-05-27,Mumbai,French Fries,Fast Food,Veg,108,229,121,112,Urban Bites,Zomato,4.2
+1060,2025-10-07,Mumbai,Veg Puff,Bakery,Veg,50,92,42,84,Shah Ghouse,Magicpin,3.9
+1061,2025-03-16,Kolkata,Manchurian,Street Food,Veg,91,223,131,144,Food Junction,Swiggy,4.3
+1062,2025-06-27,Chennai,Coffee,Beverage,Veg,59,97,38,65,Cafe Delight,Swiggy,3.6
+1063,2025-10-09,Mumbai,Veg Puff,Bakery,Veg,40,96,55,137,Shah Ghouse,Swiggy,4.1
+1064,2025-06-19,Delhi,Pizza Slice,Fast Food,Veg,97,208,111,114,Cafe Delight,Swiggy,4.2
+1065,2025-02-07,Delhi,Chicken Biryani,Biryani,Non-Veg,302,664,362,120,Spice Hub,Magicpin,4.7
+1066,2025-08-14,Delhi,Uttapam,South Indian,Veg,83,113,30,36,Shah Ghouse,Zomato,4.6
+1067,2025-01-31,Mumbai,Chicken Fried Rice,Rice,Non-Veg,200,242,42,21,Food Junction,Zomato,4.6
+1068,2025-07-11,Delhi,Chicken Burger,Fast Food,Non-Veg,98,121,23,24,Tasty Corner,Zomato,4.8
+1069,2025-06-14,Chennai,Plain Dosa,South Indian,Veg,70,158,88,125,Pista House,Magicpin,4.5
+1070,2025-07-15,Mumbai,Pani Puri,Street Food,Veg,34,81,47,137,Street Treats,Zomato,4.3
+1071,2025-01-30,Hyderabad,Chicken Burger,Fast Food,Non-Veg,106,256,150,142,Urban Bites,Magicpin,4.6
+1072,2025-08-22,Chennai,Noodles,Street Food,Veg,84,195,111,131,Street Treats,Zomato,3.6
+1073,2025-12-16,Kolkata,Sandwich,Fast Food,Veg,114,212,97,85,Pista House,Zomato,3.6
+1074,2025-04-30,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,215,307,92,43,Urban Bites,Swiggy,3.6
+1075,2025-05-01,Hyderabad,Plain Dosa,South Indian,Veg,32,40,8,25,Paradise,Zomato,3.9
+1076,2025-08-09,Hyderabad,Uttapam,South Indian,Veg,102,251,149,146,Cafe Delight,Magicpin,4.3
+1077,2025-08-17,Kolkata,Masala Dosa,South Indian,Veg,71,103,32,45,Cafe Delight,Zomato,3.6
+1078,2025-04-03,Bangalore,Chicken Burger,Fast Food,Non-Veg,169,330,161,96,Mehfil,Zomato,3.8
+1079,2025-05-29,Bangalore,Pani Puri,Street Food,Veg,60,93,33,55,Pista House,Swiggy,4.7
+1080,2025-04-13,Hyderabad,French Fries,Fast Food,Veg,82,178,96,118,Urban Bites,Swiggy,4.9
+1081,2025-06-27,Bangalore,Pizza Slice,Fast Food,Veg,158,387,229,145,Street Treats,Swiggy,4.2
+1082,2025-03-17,Kolkata,Paneer Biryani,Biryani,Veg,207,348,142,68,Food Junction,Magicpin,3.8
+1083,2025-03-08,Mumbai,Coffee,Beverage,Veg,57,75,18,32,Food Junction,Swiggy,3.6
+1084,2025-06-24,Kolkata,Fried Rice,Rice,Veg,85,188,103,122,Cafe Delight,Swiggy,4.3
+1085,2025-09-23,Bangalore,Sandwich,Fast Food,Veg,116,249,133,115,Paradise,Magicpin,4.8
+1086,2025-11-10,Delhi,Masala Dosa,South Indian,Veg,53,121,68,130,Food Junction,Swiggy,3.8
+1087,2025-09-28,Mumbai,French Fries,Fast Food,Veg,62,116,53,86,Urban Bites,Swiggy,4.7
+1088,2025-10-25,Mumbai,Veg Pulao,Rice,Veg,98,137,38,39,Street Treats,Zomato,3.7
+1089,2025-08-29,Delhi,Veg Biryani,Biryani,Veg,147,308,161,109,Pista House,Zomato,4.0
+1090,2025-10-21,Hyderabad,Pizza Slice,Fast Food,Veg,121,270,150,124,Cafe Delight,Swiggy,4.2
+1091,2025-01-26,Delhi,Veg Puff,Bakery,Veg,26,32,6,23,Cafe Delight,Magicpin,3.9
+1092,2025-05-22,Delhi,Masala Dosa,South Indian,Veg,84,140,56,66,Food Junction,Magicpin,3.9
+1093,2025-09-17,Delhi,Noodles,Street Food,Veg,92,169,77,84,Street Treats,Zomato,3.9
+1094,2025-09-21,Hyderabad,Sandwich,Fast Food,Veg,86,183,97,113,Food Junction,Swiggy,4.1
+1095,2025-01-27,Bangalore,Coffee,Beverage,Veg,33,70,36,109,Mehfil,Zomato,4.8
+1096,2025-01-28,Bangalore,Upma,South Indian,Veg,63,128,65,103,Cafe Delight,Zomato,4.0
+1097,2025-11-21,Kolkata,Plain Dosa,South Indian,Veg,68,89,20,30,Pista House,Zomato,4.9
+1098,2025-09-09,Bangalore,Veg Biryani,Biryani,Veg,241,437,196,81,Tasty Corner,Swiggy,4.0
+1099,2025-01-26,Kolkata,Chicken Burger,Fast Food,Non-Veg,141,258,117,83,Tasty Corner,Zomato,4.1
+1100,2025-07-27,Chennai,Pani Puri,Street Food,Veg,55,111,56,101,Spice Hub,Magicpin,4.6
+1101,2025-02-16,Kolkata,Vada,South Indian,Veg,35,61,26,73,Mehfil,Swiggy,4.7
+1102,2025-11-04,Hyderabad,Pizza Slice,Fast Food,Veg,163,390,227,139,Spice Hub,Magicpin,4.5
+1103,2025-06-03,Kolkata,Chicken Biryani,Biryani,Non-Veg,336,451,114,34,Urban Bites,Zomato,4.0
+1104,2025-11-29,Hyderabad,Paneer Biryani,Biryani,Veg,222,343,121,54,Cafe Delight,Swiggy,4.4
+1105,2025-06-18,Delhi,Veg Puff,Bakery,Veg,23,42,19,83,Pista House,Swiggy,4.8
+1106,2025-01-21,Kolkata,French Fries,Fast Food,Veg,94,158,64,68,Urban Bites,Swiggy,3.9
+1107,2025-05-30,Chennai,Manchurian,Street Food,Veg,113,205,93,82,Shah Ghouse,Zomato,4.2
+1108,2025-10-02,Chennai,Veg Puff,Bakery,Veg,21,49,29,136,Shah Ghouse,Swiggy,4.8
+1109,2025-06-25,Mumbai,Uttapam,South Indian,Veg,112,238,126,112,Cafe Delight,Magicpin,3.9
+1110,2025-03-15,Delhi,Grilled Sandwich,Fast Food,Veg,127,171,45,35,Tasty Corner,Zomato,3.8
+1111,2025-06-23,Delhi,French Fries,Fast Food,Veg,57,78,21,38,Street Treats,Zomato,3.7
+1112,2025-12-05,Delhi,Manchurian,Street Food,Veg,135,169,34,25,Tasty Corner,Zomato,3.6
+1113,2025-04-15,Chennai,Plain Dosa,South Indian,Veg,55,103,48,87,Pista House,Zomato,4.6
+1114,2025-12-08,Delhi,Veg Pulao,Rice,Veg,138,331,193,139,Mehfil,Swiggy,4.2
+1115,2025-11-24,Hyderabad,Sandwich,Fast Food,Veg,116,222,106,91,Pista House,Zomato,3.8
+1116,2025-05-02,Chennai,Idli,South Indian,Veg,45,82,37,83,Pista House,Swiggy,3.6
+1117,2025-04-25,Bangalore,Chicken Biryani,Biryani,Non-Veg,260,333,73,28,Spice Hub,Swiggy,4.1
+1118,2025-06-28,Kolkata,Chicken Fried Rice,Rice,Non-Veg,146,313,167,115,Shah Ghouse,Swiggy,4.9
+1119,2025-03-01,Hyderabad,Plain Dosa,South Indian,Veg,58,82,24,40,Paradise,Swiggy,4.2
+1120,2025-12-22,Bangalore,Coffee,Beverage,Veg,53,112,59,112,Tasty Corner,Magicpin,3.7
+1121,2025-01-25,Mumbai,Sandwich,Fast Food,Veg,78,143,65,83,Mehfil,Zomato,3.8
+1122,2025-05-11,Delhi,Chicken Burger,Fast Food,Non-Veg,196,443,246,125,Cafe Delight,Zomato,4.7
+1123,2025-02-24,Bangalore,Fried Rice,Rice,Veg,88,148,60,68,Shah Ghouse,Zomato,4.3
+1124,2025-12-15,Kolkata,Veg Puff,Bakery,Veg,48,107,59,123,Street Treats,Zomato,4.8
+1125,2025-05-15,Mumbai,Vada,South Indian,Veg,37,47,10,26,Paradise,Magicpin,3.9
+1126,2025-09-04,Delhi,Pizza Slice,Fast Food,Veg,96,202,106,111,Spice Hub,Magicpin,4.7
+1127,2025-12-26,Mumbai,Uttapam,South Indian,Veg,125,223,98,78,Street Treats,Magicpin,4.3
+1128,2025-01-02,Hyderabad,Coffee,Beverage,Veg,21,42,20,95,Shah Ghouse,Magicpin,4.8
+1129,2025-08-17,Hyderabad,Uttapam,South Indian,Veg,72,137,65,91,Urban Bites,Magicpin,4.0
+1130,2025-08-04,Kolkata,Tea,Beverage,Veg,10,22,11,109,Mehfil,Magicpin,4.6
+1131,2025-08-15,Kolkata,Plain Dosa,South Indian,Veg,75,138,63,83,Paradise,Magicpin,4.5
+1132,2025-12-29,Mumbai,Veg Burger,Fast Food,Veg,108,208,100,92,Paradise,Swiggy,4.9
+1133,2025-10-28,Hyderabad,Vada,South Indian,Veg,42,56,14,34,Street Treats,Zomato,4.2
+1134,2025-11-28,Delhi,Plain Dosa,South Indian,Veg,69,115,47,68,Pista House,Zomato,4.2
+1135,2025-02-16,Mumbai,Idli,South Indian,Veg,44,75,32,73,Paradise,Swiggy,4.4
+1136,2025-02-17,Bangalore,Upma,South Indian,Veg,55,129,74,135,Urban Bites,Magicpin,3.9
+1137,2025-04-16,Chennai,Chicken Fried Rice,Rice,Non-Veg,151,251,100,66,Mehfil,Zomato,4.7
+1138,2025-05-14,Chennai,Noodles,Street Food,Veg,56,68,12,21,Pista House,Swiggy,4.4
+1139,2025-07-05,Hyderabad,Uttapam,South Indian,Veg,90,145,55,61,Spice Hub,Swiggy,4.1
+1140,2025-11-26,Chennai,Veg Biryani,Biryani,Veg,195,293,98,50,Urban Bites,Zomato,4.8
+1141,2025-07-25,Chennai,French Fries,Fast Food,Veg,70,156,86,123,Tasty Corner,Swiggy,4.8
+1142,2025-04-08,Hyderabad,Paneer Biryani,Biryani,Veg,233,559,325,139,Street Treats,Swiggy,3.8
+1143,2025-11-06,Bangalore,Veg Puff,Bakery,Veg,30,64,33,111,Pista House,Magicpin,4.6
+1144,2025-11-30,Hyderabad,Veg Pulao,Rice,Veg,178,234,56,31,Paradise,Swiggy,4.6
+1145,2025-02-03,Delhi,Masala Dosa,South Indian,Veg,104,236,132,127,Urban Bites,Swiggy,4.3
+1146,2025-06-18,Delhi,Paneer Biryani,Biryani,Veg,148,340,192,130,Tasty Corner,Zomato,3.7
+1147,2025-10-29,Delhi,Grilled Sandwich,Fast Food,Veg,90,126,36,41,Cafe Delight,Magicpin,3.9
+1148,2025-02-20,Delhi,Chicken Burger,Fast Food,Non-Veg,102,244,142,139,Tasty Corner,Zomato,4.1
+1149,2025-11-29,Hyderabad,Veg Burger,Fast Food,Veg,83,178,95,115,Mehfil,Magicpin,4.2
+1150,2025-12-16,Chennai,Veg Burger,Fast Food,Veg,134,288,154,115,Spice Hub,Swiggy,3.7
+1151,2025-05-05,Bangalore,Chicken Burger,Fast Food,Non-Veg,154,312,158,102,Paradise,Magicpin,4.0
+1152,2025-04-13,Mumbai,Sandwich,Fast Food,Veg,119,232,114,96,Cafe Delight,Magicpin,4.5
+1153,2025-09-08,Delhi,Vada,South Indian,Veg,42,62,20,48,Cafe Delight,Zomato,4.1
+1154,2025-07-03,Hyderabad,Chicken Biryani,Biryani,Non-Veg,229,395,166,72,Tasty Corner,Swiggy,4.6
+1155,2025-01-27,Chennai,Upma,South Indian,Veg,57,93,36,63,Pista House,Magicpin,3.5
+1156,2025-09-19,Chennai,Uttapam,South Indian,Veg,124,295,171,138,Cafe Delight,Zomato,4.5
+1157,2025-08-06,Mumbai,French Fries,Fast Food,Veg,119,220,102,86,Paradise,Swiggy,4.3
+1158,2025-11-20,Bangalore,Veg Biryani,Biryani,Veg,178,346,168,94,Pista House,Magicpin,4.5
+1159,2025-01-12,Hyderabad,Paneer Biryani,Biryani,Veg,238,502,265,111,Cafe Delight,Magicpin,4.8
+1160,2025-02-07,Delhi,Idli,South Indian,Veg,28,46,18,66,Urban Bites,Magicpin,4.8
+1161,2025-01-07,Bangalore,Noodles,Street Food,Veg,55,120,65,119,Street Treats,Zomato,4.7
+1162,2025-02-06,Kolkata,Coffee,Beverage,Veg,28,42,14,50,Urban Bites,Magicpin,4.0
+1163,2025-11-19,Delhi,Veg Pulao,Rice,Veg,174,252,78,45,Tasty Corner,Swiggy,3.8
+1164,2025-04-06,Kolkata,Vada,South Indian,Veg,42,61,19,45,Pista House,Swiggy,4.4
+1165,2025-09-14,Delhi,Idli,South Indian,Veg,31,66,36,117,Street Treats,Swiggy,4.0
+1166,2025-12-29,Chennai,Chicken Biryani,Biryani,Non-Veg,324,614,290,90,Urban Bites,Zomato,3.6
+1167,2025-09-04,Mumbai,Sandwich,Fast Food,Veg,99,195,96,97,Pista House,Zomato,4.6
+1168,2025-01-16,Chennai,Chicken Fried Rice,Rice,Non-Veg,185,257,72,39,Urban Bites,Swiggy,3.8
+1169,2025-12-17,Delhi,Plain Dosa,South Indian,Veg,40,76,36,91,Food Junction,Magicpin,4.3
+1170,2025-12-07,Hyderabad,Grilled Sandwich,Fast Food,Veg,90,142,53,59,Urban Bites,Swiggy,3.9
+1171,2025-09-20,Hyderabad,Plain Dosa,South Indian,Veg,73,142,69,94,Shah Ghouse,Magicpin,4.8
+1172,2025-04-13,Bangalore,Pizza Slice,Fast Food,Veg,123,217,94,76,Food Junction,Swiggy,3.7
+1173,2025-07-09,Chennai,Veg Puff,Bakery,Veg,40,95,55,137,Pista House,Magicpin,4.5
+1174,2025-06-05,Chennai,Coffee,Beverage,Veg,39,58,19,49,Pista House,Magicpin,3.6
+1175,2025-01-31,Kolkata,French Fries,Fast Food,Veg,117,262,145,124,Paradise,Magicpin,4.2
+1176,2025-11-04,Kolkata,Veg Pulao,Rice,Veg,146,329,183,125,Pista House,Swiggy,3.9
+1177,2025-08-18,Chennai,Idli,South Indian,Veg,47,96,50,106,Cafe Delight,Swiggy,3.9
+1178,2025-09-27,Bangalore,Idli,South Indian,Veg,30,55,25,83,Food Junction,Zomato,4.1
+1179,2025-06-15,Mumbai,Grilled Sandwich,Fast Food,Veg,154,372,217,141,Mehfil,Zomato,4.7
+1180,2025-06-08,Hyderabad,Fried Rice,Rice,Veg,145,352,208,144,Food Junction,Magicpin,4.3
+1181,2025-05-11,Hyderabad,Pizza Slice,Fast Food,Veg,134,315,180,134,Paradise,Magicpin,4.5
+1182,2025-12-02,Bangalore,Tea,Beverage,Veg,11,24,13,111,Shah Ghouse,Magicpin,4.7
+1183,2025-02-13,Mumbai,Veg Puff,Bakery,Veg,37,92,55,149,Tasty Corner,Swiggy,4.0
+1184,2025-09-29,Bangalore,Pizza Slice,Fast Food,Veg,168,418,250,149,Spice Hub,Swiggy,4.7
+1185,2025-10-21,Bangalore,Tea,Beverage,Veg,10,12,2,22,Spice Hub,Magicpin,4.4
+1186,2025-07-28,Kolkata,Fried Rice,Rice,Veg,96,147,51,54,Cafe Delight,Swiggy,4.0
+1187,2025-06-18,Delhi,Chicken Biryani,Biryani,Non-Veg,288,515,228,79,Tasty Corner,Swiggy,4.6
+1188,2025-09-17,Bangalore,Vada,South Indian,Veg,34,67,34,99,Mehfil,Swiggy,4.2
+1189,2025-08-20,Kolkata,Sandwich,Fast Food,Veg,96,231,135,142,Spice Hub,Magicpin,4.1
+1190,2025-05-19,Kolkata,Fried Rice,Rice,Veg,162,330,168,104,Street Treats,Magicpin,4.5
+1191,2025-07-09,Bangalore,Veg Burger,Fast Food,Veg,74,165,91,123,Spice Hub,Swiggy,3.7
+1192,2025-06-25,Bangalore,Veg Pulao,Rice,Veg,170,417,247,146,Pista House,Swiggy,4.3
+1193,2025-01-04,Kolkata,Coffee,Beverage,Veg,38,74,36,95,Mehfil,Zomato,3.6
+1194,2025-05-04,Chennai,Pizza Slice,Fast Food,Veg,105,203,98,93,Tasty Corner,Zomato,4.1
+1195,2025-07-18,Hyderabad,Uttapam,South Indian,Veg,91,190,99,109,Paradise,Magicpin,3.7
+1196,2025-06-09,Kolkata,Noodles,Street Food,Veg,159,286,127,80,Mehfil,Zomato,4.7
+1197,2025-07-09,Mumbai,Vada,South Indian,Veg,44,101,57,130,Shah Ghouse,Zomato,4.6
+1198,2025-04-05,Bangalore,Chicken Fried Rice,Rice,Non-Veg,139,270,130,93,Urban Bites,Zomato,3.8
+1199,2025-05-02,Hyderabad,Chicken Biryani,Biryani,Non-Veg,304,565,261,86,Urban Bites,Zomato,4.8
+1200,2025-02-28,Chennai,Grilled Sandwich,Fast Food,Veg,148,310,162,110,Pista House,Zomato,4.1
+1201,2025-02-17,Hyderabad,Tea,Beverage,Veg,15,23,8,54,Spice Hub,Magicpin,3.9
+1202,2025-02-11,Hyderabad,Plain Dosa,South Indian,Veg,79,182,102,130,Street Treats,Swiggy,3.9
+1203,2025-03-11,Mumbai,Pizza Slice,Fast Food,Veg,98,161,63,65,Shah Ghouse,Magicpin,4.5
+1204,2025-12-08,Mumbai,Chicken Burger,Fast Food,Non-Veg,188,230,42,22,Mehfil,Swiggy,4.3
+1205,2025-11-16,Hyderabad,Veg Biryani,Biryani,Veg,137,266,129,94,Paradise,Magicpin,4.6
+1206,2025-03-09,Hyderabad,Chicken Burger,Fast Food,Non-Veg,123,294,171,139,Spice Hub,Magicpin,4.6
+1207,2025-10-12,Bangalore,Chicken Fried Rice,Rice,Non-Veg,158,217,60,38,Mehfil,Zomato,4.7
+1208,2025-07-13,Mumbai,Sandwich,Fast Food,Veg,58,112,54,92,Cafe Delight,Magicpin,3.9
+1209,2025-07-11,Kolkata,Pizza Slice,Fast Food,Veg,95,215,120,127,Food Junction,Magicpin,4.2
+1210,2025-02-21,Hyderabad,Veg Puff,Bakery,Veg,23,51,27,118,Shah Ghouse,Zomato,3.6
+1211,2025-06-08,Mumbai,Pani Puri,Street Food,Veg,49,77,28,58,Street Treats,Swiggy,3.6
+1212,2025-08-20,Chennai,Masala Dosa,South Indian,Veg,89,214,125,139,Food Junction,Zomato,4.8
+1213,2025-03-15,Delhi,Idli,South Indian,Veg,51,101,50,97,Shah Ghouse,Swiggy,3.9
+1214,2025-03-03,Delhi,French Fries,Fast Food,Veg,122,164,41,34,Pista House,Magicpin,4.5
+1215,2025-01-05,Mumbai,Veg Biryani,Biryani,Veg,235,543,308,131,Mehfil,Zomato,4.2
+1216,2025-05-20,Hyderabad,Chicken Burger,Fast Food,Non-Veg,180,247,67,37,Street Treats,Swiggy,4.5
+1217,2025-01-06,Hyderabad,Chicken Biryani,Biryani,Non-Veg,292,585,293,101,Tasty Corner,Swiggy,3.7
+1218,2025-07-01,Chennai,Chicken Biryani,Biryani,Non-Veg,290,391,101,35,Food Junction,Swiggy,4.6
+1219,2025-07-30,Mumbai,Veg Puff,Bakery,Veg,29,35,6,20,Spice Hub,Swiggy,4.2
+1220,2025-09-15,Hyderabad,Idli,South Indian,Veg,45,55,10,23,Shah Ghouse,Zomato,4.6
+1221,2025-10-03,Delhi,Veg Burger,Fast Food,Veg,125,156,31,25,Pista House,Zomato,4.6
+1222,2025-11-26,Chennai,Upma,South Indian,Veg,52,106,54,103,Street Treats,Swiggy,4.3
+1223,2025-02-28,Kolkata,Grilled Sandwich,Fast Food,Veg,73,100,27,38,Pista House,Magicpin,4.1
+1224,2025-04-04,Hyderabad,Sandwich,Fast Food,Veg,58,74,16,27,Street Treats,Swiggy,4.0
+1225,2025-12-08,Mumbai,Pani Puri,Street Food,Veg,59,85,26,45,Mehfil,Zomato,3.6
+1226,2025-12-26,Chennai,Coffee,Beverage,Veg,52,76,24,46,Food Junction,Magicpin,3.7
+1227,2025-12-16,Delhi,Veg Burger,Fast Food,Veg,116,148,32,28,Paradise,Magicpin,4.9
+1228,2025-03-04,Mumbai,Paneer Biryani,Biryani,Veg,239,433,194,81,Food Junction,Swiggy,4.2
+1229,2025-08-02,Chennai,Manchurian,Street Food,Veg,96,130,34,35,Food Junction,Magicpin,3.7
+1230,2025-10-01,Bangalore,Chicken Biryani,Biryani,Non-Veg,341,507,166,49,Tasty Corner,Magicpin,4.7
+1231,2025-12-06,Chennai,Vada,South Indian,Veg,33,64,32,97,Food Junction,Zomato,3.8
+1232,2025-04-18,Hyderabad,Chicken Biryani,Biryani,Non-Veg,347,646,299,86,Food Junction,Magicpin,3.5
+1233,2025-12-17,Kolkata,Chicken Fried Rice,Rice,Non-Veg,187,301,114,61,Tasty Corner,Zomato,4.9
+1234,2025-05-30,Chennai,Fried Rice,Rice,Veg,151,318,167,110,Spice Hub,Zomato,4.7
+1235,2025-01-18,Hyderabad,Grilled Sandwich,Fast Food,Veg,96,156,60,62,Mehfil,Swiggy,3.8
+1236,2025-12-24,Mumbai,Vada,South Indian,Veg,24,46,21,87,Street Treats,Zomato,3.6
+1237,2025-02-14,Kolkata,Tea,Beverage,Veg,15,31,16,106,Shah Ghouse,Swiggy,4.2
+1238,2025-03-18,Chennai,Pizza Slice,Fast Food,Veg,125,250,124,99,Food Junction,Swiggy,4.6
+1239,2025-07-08,Kolkata,Masala Dosa,South Indian,Veg,119,211,93,78,Food Junction,Swiggy,4.7
+1240,2025-12-08,Kolkata,Chicken Fried Rice,Rice,Non-Veg,137,164,28,20,Mehfil,Magicpin,4.1
+1241,2025-11-30,Mumbai,Noodles,Street Food,Veg,53,126,73,137,Tasty Corner,Swiggy,4.1
+1242,2025-04-15,Kolkata,Idli,South Indian,Veg,51,126,75,145,Food Junction,Swiggy,4.5
+1243,2025-12-10,Chennai,Masala Dosa,South Indian,Veg,78,132,55,70,Spice Hub,Swiggy,4.5
+1244,2025-09-04,Hyderabad,Momos,Street Food,Veg,58,108,49,85,Spice Hub,Swiggy,3.8
+1245,2025-10-09,Bangalore,Chicken Fried Rice,Rice,Non-Veg,142,216,75,53,Pista House,Swiggy,4.2
+1246,2025-07-13,Bangalore,Momos,Street Food,Veg,130,198,68,52,Shah Ghouse,Zomato,3.8
+1247,2025-09-23,Chennai,Veg Burger,Fast Food,Veg,97,126,29,30,Food Junction,Swiggy,4.4
+1248,2025-12-16,Mumbai,Vada,South Indian,Veg,31,56,25,83,Cafe Delight,Swiggy,3.5
+1249,2025-11-20,Delhi,Vada,South Indian,Veg,31,40,9,30,Mehfil,Zomato,4.2
+1250,2025-05-23,Kolkata,Upma,South Indian,Veg,64,115,51,79,Shah Ghouse,Magicpin,4.8
+1251,2025-05-29,Chennai,Chicken Biryani,Biryani,Non-Veg,193,410,217,113,Street Treats,Zomato,3.6
+1252,2025-09-14,Mumbai,Plain Dosa,South Indian,Veg,68,169,101,149,Spice Hub,Zomato,3.8
+1253,2025-12-07,Mumbai,Pani Puri,Street Food,Veg,48,120,72,148,Spice Hub,Magicpin,4.7
+1254,2025-02-26,Delhi,Chicken Burger,Fast Food,Non-Veg,110,145,35,32,Spice Hub,Swiggy,3.9
+1255,2025-02-19,Delhi,Paneer Biryani,Biryani,Veg,174,319,144,83,Urban Bites,Swiggy,3.9
+1256,2025-08-05,Hyderabad,Masala Dosa,South Indian,Veg,118,278,160,135,Cafe Delight,Swiggy,4.6
+1257,2025-06-21,Kolkata,Chicken Biryani,Biryani,Non-Veg,338,544,207,61,Shah Ghouse,Magicpin,4.2
+1258,2025-08-05,Chennai,Vada,South Indian,Veg,20,32,12,60,Tasty Corner,Swiggy,4.3
+1259,2025-08-23,Bangalore,Chicken Biryani,Biryani,Non-Veg,185,371,185,100,Urban Bites,Zomato,4.1
+1260,2025-02-18,Delhi,Uttapam,South Indian,Veg,129,232,103,80,Street Treats,Zomato,4.5
+1261,2025-05-02,Delhi,Uttapam,South Indian,Veg,126,310,184,146,Tasty Corner,Zomato,3.7
+1262,2025-04-29,Chennai,Grilled Sandwich,Fast Food,Veg,98,127,29,29,Mehfil,Zomato,3.8
+1263,2025-02-22,Chennai,Coffee,Beverage,Veg,36,68,32,90,Paradise,Zomato,4.1
+1264,2025-08-17,Hyderabad,Veg Biryani,Biryani,Veg,151,282,131,87,Cafe Delight,Magicpin,4.5
+1265,2025-12-06,Bangalore,Chicken Burger,Fast Food,Non-Veg,196,438,242,123,Pista House,Zomato,4.1
+1266,2025-02-10,Kolkata,Pani Puri,Street Food,Veg,40,86,46,116,Shah Ghouse,Magicpin,4.2
+1267,2025-05-03,Delhi,Veg Burger,Fast Food,Veg,107,207,100,93,Shah Ghouse,Swiggy,3.8
+1268,2025-11-17,Chennai,Uttapam,South Indian,Veg,109,246,137,126,Shah Ghouse,Swiggy,4.8
+1269,2025-03-27,Kolkata,Manchurian,Street Food,Veg,78,146,68,87,Spice Hub,Zomato,3.6
+1270,2025-02-13,Chennai,Masala Dosa,South Indian,Veg,104,201,97,94,Mehfil,Magicpin,3.7
+1271,2025-12-29,Mumbai,Momos,Street Food,Veg,58,141,82,142,Street Treats,Zomato,3.8
+1272,2025-06-07,Delhi,Momos,Street Food,Veg,67,124,57,84,Tasty Corner,Magicpin,4.3
+1273,2025-01-17,Delhi,Plain Dosa,South Indian,Veg,42,62,20,48,Paradise,Zomato,4.5
+1274,2025-03-27,Kolkata,Veg Burger,Fast Food,Veg,78,150,72,92,Pista House,Magicpin,3.6
+1275,2025-07-05,Hyderabad,Veg Burger,Fast Food,Veg,68,101,33,48,Food Junction,Swiggy,4.6
+1276,2025-05-04,Bangalore,Vada,South Indian,Veg,37,70,33,89,Paradise,Zomato,3.5
+1277,2025-04-22,Mumbai,Fried Rice,Rice,Veg,138,345,207,150,Tasty Corner,Magicpin,4.3
+1278,2025-07-16,Kolkata,French Fries,Fast Food,Veg,121,271,150,124,Cafe Delight,Swiggy,4.7
+1279,2025-12-22,Hyderabad,Tea,Beverage,Veg,15,29,14,97,Pista House,Zomato,4.4
+1280,2025-03-21,Mumbai,Fried Rice,Rice,Veg,83,141,58,70,Shah Ghouse,Swiggy,3.6
+1281,2025-12-02,Delhi,Fried Rice,Rice,Veg,178,397,220,124,Shah Ghouse,Zomato,4.2
+1282,2025-07-04,Delhi,Manchurian,Street Food,Veg,126,188,62,49,Food Junction,Magicpin,3.7
+1283,2025-07-07,Bangalore,French Fries,Fast Food,Veg,73,107,34,47,Mehfil,Magicpin,4.8
+1284,2025-03-16,Mumbai,French Fries,Fast Food,Veg,120,219,99,82,Spice Hub,Zomato,4.1
+1285,2025-06-15,Bangalore,Noodles,Street Food,Veg,60,100,40,67,Shah Ghouse,Zomato,4.7
+1286,2025-05-26,Chennai,Fried Rice,Rice,Veg,113,252,138,122,Tasty Corner,Swiggy,4.1
+1287,2025-10-14,Hyderabad,Tea,Beverage,Veg,24,40,16,65,Urban Bites,Magicpin,3.6
+1288,2025-11-14,Chennai,Vada,South Indian,Veg,46,80,35,76,Paradise,Magicpin,3.6
+1289,2025-06-04,Bangalore,Tea,Beverage,Veg,19,44,25,131,Urban Bites,Magicpin,3.6
+1290,2025-09-09,Kolkata,Veg Pulao,Rice,Veg,111,235,124,112,Shah Ghouse,Swiggy,4.4
+1291,2025-12-30,Hyderabad,Grilled Sandwich,Fast Food,Veg,81,153,73,90,Tasty Corner,Zomato,3.6
+1292,2025-11-13,Hyderabad,Veg Burger,Fast Food,Veg,61,146,85,139,Pista House,Swiggy,4.0
+1293,2025-07-03,Bangalore,Noodles,Street Food,Veg,91,197,106,117,Paradise,Swiggy,4.1
+1294,2025-01-06,Bangalore,Pizza Slice,Fast Food,Veg,108,258,150,139,Cafe Delight,Zomato,4.1
+1295,2025-04-13,Kolkata,Sandwich,Fast Food,Veg,83,161,78,94,Urban Bites,Zomato,4.0
+1296,2025-04-06,Hyderabad,Momos,Street Food,Veg,91,172,80,88,Shah Ghouse,Magicpin,4.6
+1297,2025-08-01,Delhi,Pani Puri,Street Food,Veg,28,53,26,93,Cafe Delight,Swiggy,4.3
+1298,2025-02-26,Delhi,Plain Dosa,South Indian,Veg,53,114,61,114,Tasty Corner,Magicpin,4.1
+1299,2025-08-15,Hyderabad,Upma,South Indian,Veg,68,131,63,93,Shah Ghouse,Zomato,4.5
+1300,2025-12-31,Delhi,Pani Puri,Street Food,Veg,28,59,31,111,Food Junction,Magicpin,4.8
+1301,2025-04-04,Mumbai,Manchurian,Street Food,Veg,115,230,115,100,Street Treats,Zomato,4.5
+1302,2025-12-27,Hyderabad,Veg Biryani,Biryani,Veg,142,299,156,110,Cafe Delight,Swiggy,4.1
+1303,2025-09-15,Mumbai,Paneer Biryani,Biryani,Veg,200,292,92,46,Cafe Delight,Zomato,4.4
+1304,2025-01-23,Mumbai,Veg Burger,Fast Food,Veg,85,102,17,20,Mehfil,Zomato,4.1
+1305,2025-08-09,Chennai,French Fries,Fast Food,Veg,96,187,91,95,Food Junction,Magicpin,4.0
+1306,2025-10-29,Mumbai,Sandwich,Fast Food,Veg,68,151,83,122,Food Junction,Magicpin,4.3
+1307,2025-08-23,Chennai,Noodles,Street Food,Veg,127,307,180,141,Urban Bites,Swiggy,3.7
+1308,2025-07-02,Mumbai,Chicken Biryani,Biryani,Non-Veg,279,657,378,135,Tasty Corner,Swiggy,4.8
+1309,2025-05-17,Delhi,Momos,Street Food,Veg,59,125,66,113,Mehfil,Swiggy,3.8
+1310,2025-11-28,Delhi,Masala Dosa,South Indian,Veg,111,237,126,114,Shah Ghouse,Swiggy,3.8
+1311,2025-08-15,Chennai,Upma,South Indian,Veg,47,90,43,90,Shah Ghouse,Magicpin,4.3
+1312,2025-03-06,Mumbai,Coffee,Beverage,Veg,34,82,48,142,Pista House,Swiggy,4.1
+1313,2025-10-29,Mumbai,Paneer Biryani,Biryani,Veg,261,575,314,120,Shah Ghouse,Magicpin,4.5
+1314,2025-01-10,Delhi,French Fries,Fast Food,Veg,50,107,56,112,Pista House,Swiggy,4.4
+1315,2025-05-07,Hyderabad,Uttapam,South Indian,Veg,106,260,154,146,Spice Hub,Zomato,3.8
+1316,2025-03-05,Delhi,Veg Biryani,Biryani,Veg,166,363,197,118,Spice Hub,Swiggy,4.7
+1317,2025-03-13,Mumbai,Grilled Sandwich,Fast Food,Veg,122,152,30,25,Paradise,Swiggy,4.5
+1318,2025-02-11,Bangalore,Chicken Burger,Fast Food,Non-Veg,213,338,125,59,Food Junction,Swiggy,4.0
+1319,2025-10-02,Delhi,Fried Rice,Rice,Veg,82,181,99,121,Shah Ghouse,Swiggy,3.7
+1320,2025-07-28,Bangalore,Tea,Beverage,Veg,21,45,24,114,Paradise,Swiggy,4.0
+1321,2025-08-01,Chennai,Chicken Burger,Fast Food,Non-Veg,188,249,61,33,Food Junction,Swiggy,3.5
+1322,2025-11-29,Chennai,Vada,South Indian,Veg,27,65,38,144,Tasty Corner,Swiggy,4.3
+1323,2025-07-06,Bangalore,Vada,South Indian,Veg,47,92,44,94,Street Treats,Zomato,4.2
+1324,2025-10-08,Chennai,Fried Rice,Rice,Veg,174,384,210,121,Urban Bites,Zomato,3.6
+1325,2025-08-02,Bangalore,Coffee,Beverage,Veg,39,79,40,103,Urban Bites,Magicpin,4.7
+1326,2025-08-23,Mumbai,French Fries,Fast Food,Veg,124,205,81,65,Cafe Delight,Zomato,4.5
+1327,2025-05-26,Kolkata,Chicken Fried Rice,Rice,Non-Veg,207,477,269,130,Cafe Delight,Swiggy,3.7
+1328,2025-08-14,Kolkata,Fried Rice,Rice,Veg,94,140,46,49,Street Treats,Swiggy,4.5
+1329,2025-01-15,Mumbai,Coffee,Beverage,Veg,39,93,55,141,Tasty Corner,Swiggy,3.9
+1330,2025-09-26,Kolkata,Vada,South Indian,Veg,29,46,18,61,Paradise,Zomato,3.9
+1331,2025-07-02,Kolkata,Veg Puff,Bakery,Veg,47,114,67,141,Paradise,Swiggy,4.4
+1332,2025-03-11,Hyderabad,Masala Dosa,South Indian,Veg,98,180,82,84,Urban Bites,Swiggy,4.1
+1333,2025-05-19,Delhi,Veg Puff,Bakery,Veg,39,74,36,92,Food Junction,Magicpin,4.7
+1334,2025-03-22,Hyderabad,Upma,South Indian,Veg,43,91,48,112,Pista House,Magicpin,3.9
+1335,2025-05-17,Hyderabad,Paneer Biryani,Biryani,Veg,218,337,120,55,Urban Bites,Swiggy,4.6
+1336,2025-05-01,Bangalore,Grilled Sandwich,Fast Food,Veg,120,259,138,115,Cafe Delight,Swiggy,4.9
+1337,2025-05-05,Bangalore,Upma,South Indian,Veg,51,110,58,113,Pista House,Magicpin,3.5
+1338,2025-01-22,Delhi,Grilled Sandwich,Fast Food,Veg,91,158,67,73,Paradise,Zomato,4.8
+1339,2025-08-15,Bangalore,Upma,South Indian,Veg,39,59,20,52,Spice Hub,Swiggy,4.5
+1340,2025-12-08,Mumbai,Masala Dosa,South Indian,Veg,76,126,50,65,Urban Bites,Swiggy,4.4
+1341,2025-08-02,Chennai,Plain Dosa,South Indian,Veg,40,88,48,119,Food Junction,Magicpin,3.9
+1342,2025-04-20,Chennai,Plain Dosa,South Indian,Veg,43,94,50,117,Street Treats,Zomato,4.4
+1343,2025-03-08,Delhi,Plain Dosa,South Indian,Veg,76,101,25,33,Pista House,Swiggy,4.1
+1344,2025-09-08,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,192,378,186,97,Street Treats,Zomato,3.8
+1345,2025-08-12,Chennai,Paneer Biryani,Biryani,Veg,202,359,157,78,Mehfil,Zomato,4.5
+1346,2025-01-23,Delhi,Veg Pulao,Rice,Veg,102,239,137,135,Pista House,Magicpin,3.6
+1347,2025-12-14,Hyderabad,Fried Rice,Rice,Veg,139,271,132,95,Street Treats,Magicpin,3.8
+1348,2025-07-07,Hyderabad,Chicken Burger,Fast Food,Non-Veg,185,417,232,126,Tasty Corner,Swiggy,3.6
+1349,2025-01-18,Chennai,Chicken Burger,Fast Food,Non-Veg,135,165,30,22,Cafe Delight,Zomato,4.6
+1350,2025-09-13,Chennai,Momos,Street Food,Veg,139,278,139,100,Paradise,Magicpin,4.9
+1351,2025-10-18,Hyderabad,Uttapam,South Indian,Veg,99,187,89,90,Shah Ghouse,Magicpin,4.4
+1352,2025-12-03,Chennai,Paneer Biryani,Biryani,Veg,270,601,331,122,Tasty Corner,Zomato,4.2
+1353,2025-01-23,Mumbai,Veg Puff,Bakery,Veg,33,48,16,48,Food Junction,Zomato,3.6
+1354,2025-03-12,Kolkata,French Fries,Fast Food,Veg,83,198,116,139,Food Junction,Zomato,4.6
+1355,2025-07-07,Kolkata,Noodles,Street Food,Veg,80,183,102,127,Food Junction,Magicpin,3.5
+1356,2025-02-08,Kolkata,Chicken Burger,Fast Food,Non-Veg,172,318,146,85,Cafe Delight,Swiggy,4.7
+1357,2025-07-26,Bangalore,Vada,South Indian,Veg,22,55,33,150,Mehfil,Magicpin,4.3
+1358,2025-06-09,Kolkata,Veg Pulao,Rice,Veg,154,237,83,54,Street Treats,Swiggy,4.8
+1359,2025-07-08,Delhi,Chicken Fried Rice,Rice,Non-Veg,213,303,90,42,Street Treats,Zomato,4.3
+1360,2025-06-16,Delhi,Fried Rice,Rice,Veg,162,246,84,52,Shah Ghouse,Zomato,3.5
+1361,2025-07-05,Hyderabad,Upma,South Indian,Veg,44,57,12,28,Spice Hub,Magicpin,4.6
+1362,2025-04-15,Bangalore,Pani Puri,Street Food,Veg,27,66,39,141,Street Treats,Swiggy,3.7
+1363,2025-08-30,Chennai,Upma,South Indian,Veg,43,88,46,107,Urban Bites,Zomato,4.1
+1364,2025-12-07,Chennai,Paneer Biryani,Biryani,Veg,160,281,122,76,Paradise,Swiggy,4.2
+1365,2025-07-05,Chennai,Chicken Biryani,Biryani,Non-Veg,337,593,256,76,Mehfil,Magicpin,3.8
+1366,2025-04-20,Kolkata,Idli,South Indian,Veg,47,79,32,69,Paradise,Zomato,3.6
+1367,2025-10-21,Mumbai,Upma,South Indian,Veg,66,127,60,91,Tasty Corner,Swiggy,4.7
+1368,2025-02-24,Delhi,Grilled Sandwich,Fast Food,Veg,139,231,91,66,Street Treats,Zomato,4.6
+1369,2025-11-23,Mumbai,Uttapam,South Indian,Veg,95,162,67,70,Cafe Delight,Swiggy,4.3
+1370,2025-01-02,Hyderabad,Masala Dosa,South Indian,Veg,109,250,141,130,Shah Ghouse,Magicpin,4.2
+1371,2025-08-30,Delhi,Chicken Fried Rice,Rice,Non-Veg,159,277,118,74,Shah Ghouse,Magicpin,4.8
+1372,2025-02-18,Hyderabad,Coffee,Beverage,Veg,41,102,60,145,Tasty Corner,Swiggy,4.2
+1373,2025-08-23,Bangalore,Uttapam,South Indian,Veg,76,169,93,122,Pista House,Zomato,4.8
+1374,2025-08-15,Bangalore,Plain Dosa,South Indian,Veg,71,92,21,29,Tasty Corner,Zomato,3.8
+1375,2025-03-22,Bangalore,Vada,South Indian,Veg,49,86,37,76,Tasty Corner,Zomato,4.9
+1376,2025-11-27,Kolkata,Veg Burger,Fast Food,Veg,98,161,63,64,Paradise,Magicpin,4.6
+1377,2025-12-16,Hyderabad,Paneer Biryani,Biryani,Veg,195,443,248,128,Mehfil,Swiggy,3.9
+1378,2025-08-17,Delhi,Veg Burger,Fast Food,Veg,95,207,112,117,Food Junction,Magicpin,3.9
+1379,2025-09-23,Hyderabad,Fried Rice,Rice,Veg,122,260,138,113,Tasty Corner,Magicpin,4.7
+1380,2025-01-18,Bangalore,Masala Dosa,South Indian,Veg,75,160,85,114,Pista House,Swiggy,4.2
+1381,2025-06-27,Kolkata,Paneer Biryani,Biryani,Veg,205,331,125,61,Spice Hub,Swiggy,4.8
+1382,2025-01-17,Bangalore,French Fries,Fast Food,Veg,106,171,65,61,Food Junction,Zomato,4.5
+1383,2025-08-20,Hyderabad,Pizza Slice,Fast Food,Veg,164,229,65,40,Shah Ghouse,Zomato,4.1
+1384,2025-04-20,Mumbai,Momos,Street Food,Veg,116,197,81,70,Food Junction,Swiggy,4.9
+1385,2025-08-11,Delhi,Manchurian,Street Food,Veg,113,261,148,131,Shah Ghouse,Zomato,3.8
+1386,2025-11-13,Kolkata,Upma,South Indian,Veg,35,74,38,109,Paradise,Swiggy,4.2
+1387,2025-06-01,Mumbai,Noodles,Street Food,Veg,76,176,100,132,Paradise,Swiggy,4.2
+1388,2025-03-03,Hyderabad,Pani Puri,Street Food,Veg,40,75,35,86,Urban Bites,Zomato,4.2
+1389,2025-10-25,Kolkata,Chicken Burger,Fast Food,Non-Veg,197,474,277,140,Urban Bites,Swiggy,4.3
+1390,2025-04-05,Bangalore,Veg Burger,Fast Food,Veg,145,287,143,99,Cafe Delight,Swiggy,3.5
+1391,2025-12-04,Mumbai,Sandwich,Fast Food,Veg,63,118,55,87,Food Junction,Magicpin,4.6
+1392,2025-01-11,Hyderabad,Chicken Burger,Fast Food,Non-Veg,129,177,48,38,Street Treats,Swiggy,4.5
+1393,2025-06-28,Mumbai,Momos,Street Food,Veg,74,177,103,138,Pista House,Swiggy,4.3
+1394,2025-06-23,Hyderabad,Chicken Biryani,Biryani,Non-Veg,220,491,271,124,Paradise,Zomato,4.8
+1395,2025-05-08,Kolkata,French Fries,Fast Food,Veg,117,186,68,58,Mehfil,Magicpin,4.1
+1396,2025-10-27,Hyderabad,Fried Rice,Rice,Veg,113,219,106,93,Shah Ghouse,Magicpin,3.8
+1397,2025-05-20,Delhi,Chicken Biryani,Biryani,Non-Veg,243,429,186,77,Urban Bites,Swiggy,4.7
+1398,2025-09-08,Delhi,Sandwich,Fast Food,Veg,74,183,109,147,Mehfil,Magicpin,4.7
+1399,2025-11-10,Delhi,Masala Dosa,South Indian,Veg,84,154,70,83,Food Junction,Magicpin,3.7
+1400,2025-01-01,Delhi,Veg Burger,Fast Food,Veg,119,145,26,22,Tasty Corner,Magicpin,4.1
+1401,2025-10-17,Hyderabad,Plain Dosa,South Indian,Veg,67,88,21,32,Mehfil,Magicpin,3.7
+1402,2025-12-22,Hyderabad,Pizza Slice,Fast Food,Veg,112,168,57,51,Tasty Corner,Swiggy,3.8
+1403,2025-04-30,Kolkata,Chicken Fried Rice,Rice,Non-Veg,194,469,275,142,Tasty Corner,Magicpin,4.4
+1404,2025-11-08,Delhi,Paneer Biryani,Biryani,Veg,227,526,299,132,Mehfil,Swiggy,4.8
+1405,2025-06-05,Bangalore,Paneer Biryani,Biryani,Veg,235,475,240,102,Paradise,Zomato,4.4
+1406,2025-11-24,Delhi,Pizza Slice,Fast Food,Veg,145,192,46,32,Spice Hub,Zomato,4.1
+1407,2025-10-20,Delhi,Vada,South Indian,Veg,39,54,16,40,Street Treats,Magicpin,4.0
+1408,2025-04-30,Hyderabad,Idli,South Indian,Veg,33,45,12,37,Tasty Corner,Swiggy,4.7
+1409,2025-03-05,Delhi,Fried Rice,Rice,Veg,118,175,57,48,Food Junction,Zomato,3.5
+1410,2025-11-26,Hyderabad,Veg Puff,Bakery,Veg,24,42,17,71,Paradise,Magicpin,3.8
+1411,2025-08-29,Hyderabad,Veg Burger,Fast Food,Veg,139,264,125,90,Shah Ghouse,Swiggy,4.7
+1412,2025-02-25,Bangalore,Uttapam,South Indian,Veg,101,157,56,55,Food Junction,Zomato,4.5
+1413,2025-05-20,Chennai,Veg Puff,Bakery,Veg,22,44,22,104,Cafe Delight,Zomato,3.7
+1414,2025-03-24,Delhi,Pizza Slice,Fast Food,Veg,138,270,132,96,Food Junction,Swiggy,3.7
+1415,2025-01-07,Hyderabad,French Fries,Fast Food,Veg,79,182,103,130,Mehfil,Swiggy,3.8
+1416,2025-12-05,Mumbai,Momos,Street Food,Veg,41,101,61,150,Spice Hub,Magicpin,4.9
+1417,2025-09-21,Mumbai,Chicken Fried Rice,Rice,Non-Veg,127,286,159,125,Food Junction,Zomato,3.7
+1418,2025-08-28,Chennai,Momos,Street Food,Veg,107,246,139,129,Cafe Delight,Swiggy,4.8
+1419,2025-09-10,Kolkata,Pizza Slice,Fast Food,Veg,87,201,114,132,Paradise,Swiggy,3.8
+1420,2025-03-28,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,136,339,203,149,Street Treats,Magicpin,4.1
+1421,2025-04-20,Mumbai,Noodles,Street Food,Veg,70,93,23,33,Cafe Delight,Magicpin,4.6
+1422,2025-06-26,Hyderabad,Momos,Street Food,Veg,111,217,106,96,Paradise,Magicpin,3.6
+1423,2025-08-18,Mumbai,Pizza Slice,Fast Food,Veg,139,176,37,27,Shah Ghouse,Swiggy,4.3
+1424,2025-02-10,Chennai,Grilled Sandwich,Fast Food,Veg,143,313,170,119,Pista House,Zomato,4.8
+1425,2025-02-23,Kolkata,Masala Dosa,South Indian,Veg,62,107,45,73,Tasty Corner,Swiggy,4.6
+1426,2025-04-02,Hyderabad,Veg Burger,Fast Food,Veg,130,193,63,49,Tasty Corner,Magicpin,3.6
+1427,2025-03-19,Bangalore,Pizza Slice,Fast Food,Veg,122,279,157,129,Street Treats,Magicpin,3.6
+1428,2025-09-04,Kolkata,Grilled Sandwich,Fast Food,Veg,72,114,42,58,Cafe Delight,Magicpin,3.5
+1429,2025-02-27,Hyderabad,Pani Puri,Street Food,Veg,40,51,11,27,Paradise,Swiggy,3.6
+1430,2025-12-23,Hyderabad,Plain Dosa,South Indian,Veg,64,77,14,22,Pista House,Magicpin,3.7
+1431,2025-04-07,Mumbai,French Fries,Fast Food,Veg,74,117,44,60,Urban Bites,Zomato,4.3
+1432,2025-10-08,Mumbai,Pani Puri,Street Food,Veg,45,61,16,35,Food Junction,Magicpin,3.8
+1433,2025-10-02,Mumbai,Noodles,Street Food,Veg,53,94,41,76,Food Junction,Zomato,4.8
+1434,2025-03-15,Delhi,Chicken Biryani,Biryani,Non-Veg,250,466,216,86,Paradise,Swiggy,4.7
+1435,2025-10-22,Kolkata,Paneer Biryani,Biryani,Veg,231,380,149,64,Urban Bites,Magicpin,3.7
+1436,2025-03-23,Delhi,Grilled Sandwich,Fast Food,Veg,90,212,122,136,Shah Ghouse,Magicpin,4.2
+1437,2025-01-15,Delhi,Sandwich,Fast Food,Veg,70,120,50,72,Mehfil,Swiggy,4.5
+1438,2025-05-31,Bangalore,Paneer Biryani,Biryani,Veg,225,411,186,83,Street Treats,Swiggy,4.7
+1439,2025-05-30,Chennai,Vada,South Indian,Veg,32,48,16,51,Paradise,Magicpin,3.7
+1440,2025-03-23,Chennai,Vada,South Indian,Veg,32,66,34,104,Urban Bites,Zomato,4.4
+1441,2025-09-15,Delhi,Chicken Fried Rice,Rice,Non-Veg,143,208,65,45,Street Treats,Zomato,4.9
+1442,2025-09-22,Delhi,Coffee,Beverage,Veg,47,70,23,49,Food Junction,Zomato,4.3
+1443,2025-03-09,Bangalore,Veg Puff,Bakery,Veg,21,27,7,33,Cafe Delight,Swiggy,4.3
+1444,2025-04-09,Bangalore,Noodles,Street Food,Veg,116,247,130,112,Cafe Delight,Swiggy,3.5
+1445,2025-01-30,Delhi,Momos,Street Food,Veg,136,230,94,69,Urban Bites,Swiggy,4.4
+1446,2025-12-04,Delhi,Pizza Slice,Fast Food,Veg,127,170,43,34,Shah Ghouse,Zomato,3.7
+1447,2025-05-22,Delhi,Chicken Burger,Fast Food,Non-Veg,204,438,234,115,Mehfil,Swiggy,4.8
+1448,2025-09-24,Mumbai,Chicken Fried Rice,Rice,Non-Veg,197,340,143,73,Street Treats,Swiggy,4.1
+1449,2025-12-02,Delhi,Sandwich,Fast Food,Veg,99,150,51,52,Street Treats,Magicpin,3.9
+1450,2025-10-31,Bangalore,Grilled Sandwich,Fast Food,Veg,143,329,186,130,Urban Bites,Magicpin,3.7
+1451,2025-02-27,Bangalore,Noodles,Street Food,Veg,107,174,67,63,Tasty Corner,Magicpin,4.1
+1452,2025-07-11,Kolkata,Plain Dosa,South Indian,Veg,74,129,54,73,Cafe Delight,Magicpin,3.8
+1453,2025-06-29,Bangalore,Grilled Sandwich,Fast Food,Veg,78,111,33,42,Mehfil,Magicpin,4.5
+1454,2025-08-01,Kolkata,Sandwich,Fast Food,Veg,68,155,86,126,Mehfil,Magicpin,3.6
+1455,2025-05-25,Mumbai,Noodles,Street Food,Veg,158,346,188,119,Food Junction,Zomato,4.2
+1456,2025-02-12,Bangalore,Uttapam,South Indian,Veg,115,285,170,148,Spice Hub,Zomato,3.8
+1457,2025-06-12,Bangalore,Veg Burger,Fast Food,Veg,74,111,38,51,Paradise,Zomato,3.9
+1458,2025-06-07,Hyderabad,Veg Pulao,Rice,Veg,105,154,50,48,Pista House,Magicpin,3.8
+1459,2025-07-23,Chennai,Momos,Street Food,Veg,42,80,38,92,Street Treats,Magicpin,3.9
+1460,2025-02-11,Mumbai,Paneer Biryani,Biryani,Veg,215,396,181,84,Tasty Corner,Swiggy,4.0
+1461,2025-02-03,Mumbai,Tea,Beverage,Veg,16,37,20,125,Pista House,Zomato,3.9
+1462,2025-12-19,Mumbai,Paneer Biryani,Biryani,Veg,236,574,338,143,Shah Ghouse,Swiggy,4.0
+1463,2025-05-15,Kolkata,Plain Dosa,South Indian,Veg,56,130,74,133,Paradise,Zomato,4.4
+1464,2025-02-08,Hyderabad,Sandwich,Fast Food,Veg,59,109,49,83,Cafe Delight,Magicpin,3.8
+1465,2025-06-07,Kolkata,Noodles,Street Food,Veg,115,145,30,26,Pista House,Zomato,4.2
+1466,2025-04-18,Delhi,Upma,South Indian,Veg,43,105,62,142,Street Treats,Swiggy,3.6
+1467,2025-11-12,Bangalore,Pani Puri,Street Food,Veg,57,74,17,30,Urban Bites,Zomato,4.2
+1468,2025-01-01,Bangalore,Upma,South Indian,Veg,36,57,21,59,Street Treats,Zomato,4.3
+1469,2025-06-14,Mumbai,Noodles,Street Food,Veg,115,243,128,112,Tasty Corner,Swiggy,4.5
+1470,2025-05-01,Mumbai,Fried Rice,Rice,Veg,102,209,107,105,Cafe Delight,Swiggy,4.1
+1471,2025-08-06,Delhi,Uttapam,South Indian,Veg,108,152,44,40,Cafe Delight,Swiggy,4.0
+1472,2025-10-15,Kolkata,Coffee,Beverage,Veg,45,105,60,134,Paradise,Zomato,4.5
+1473,2025-04-06,Hyderabad,French Fries,Fast Food,Veg,106,217,111,105,Shah Ghouse,Swiggy,3.7
+1474,2025-06-16,Chennai,Chicken Biryani,Biryani,Non-Veg,320,570,251,78,Food Junction,Zomato,4.8
+1475,2025-09-08,Chennai,Veg Puff,Bakery,Veg,48,98,50,103,Tasty Corner,Magicpin,3.9
+1476,2025-03-25,Kolkata,Chicken Fried Rice,Rice,Non-Veg,210,317,107,51,Spice Hub,Magicpin,3.8
+1477,2025-09-10,Mumbai,Grilled Sandwich,Fast Food,Veg,155,328,174,112,Paradise,Swiggy,4.5
+1478,2025-11-30,Delhi,Coffee,Beverage,Veg,29,67,38,132,Paradise,Swiggy,4.4
+1479,2025-03-15,Hyderabad,Masala Dosa,South Indian,Veg,115,269,154,133,Spice Hub,Magicpin,4.1
+1480,2025-10-14,Hyderabad,Plain Dosa,South Indian,Veg,59,78,19,32,Cafe Delight,Swiggy,4.2
+1481,2025-04-27,Hyderabad,Paneer Biryani,Biryani,Veg,202,341,139,69,Cafe Delight,Swiggy,3.8
+1482,2025-06-04,Kolkata,Uttapam,South Indian,Veg,95,225,130,136,Food Junction,Zomato,3.8
+1483,2025-07-25,Mumbai,Chicken Biryani,Biryani,Non-Veg,223,522,299,134,Food Junction,Swiggy,3.7
+1484,2025-10-29,Mumbai,Uttapam,South Indian,Veg,130,257,128,98,Food Junction,Swiggy,4.6
+1485,2025-09-03,Delhi,Chicken Fried Rice,Rice,Non-Veg,164,313,148,90,Tasty Corner,Swiggy,4.7
+1486,2025-10-28,Delhi,Grilled Sandwich,Fast Food,Veg,123,171,48,39,Cafe Delight,Zomato,4.8
+1487,2025-09-17,Mumbai,Upma,South Indian,Veg,39,64,26,67,Paradise,Zomato,3.7
+1488,2025-05-31,Delhi,French Fries,Fast Food,Veg,106,158,52,49,Food Junction,Zomato,4.0
+1489,2025-01-08,Mumbai,Upma,South Indian,Veg,45,78,33,73,Spice Hub,Swiggy,4.1
+1490,2025-04-13,Delhi,Tea,Beverage,Veg,19,42,23,124,Urban Bites,Zomato,3.6
+1491,2025-12-31,Hyderabad,Noodles,Street Food,Veg,74,138,64,87,Pista House,Magicpin,4.2
+1492,2025-12-21,Hyderabad,Chicken Fried Rice,Rice,Non-Veg,204,494,290,142,Mehfil,Magicpin,4.0
+1493,2025-02-18,Mumbai,Uttapam,South Indian,Veg,85,165,80,95,Street Treats,Magicpin,4.8
+1494,2025-04-06,Delhi,Chicken Fried Rice,Rice,Non-Veg,198,386,188,95,Paradise,Swiggy,3.6
+1495,2025-10-24,Hyderabad,Momos,Street Food,Veg,107,218,111,104,Food Junction,Magicpin,4.3
+1496,2025-03-05,Mumbai,Pani Puri,Street Food,Veg,46,62,16,35,Street Treats,Swiggy,3.7
+1497,2025-11-06,Hyderabad,Veg Burger,Fast Food,Veg,145,254,109,75,Spice Hub,Swiggy,3.5
+1498,2025-03-26,Kolkata,Chicken Burger,Fast Food,Non-Veg,145,208,62,43,Street Treats,Zomato,4.3
+1499,2025-01-09,Bangalore,Sandwich,Fast Food,Veg,78,139,61,78,Mehfil,Swiggy,3.7
+1500,2025-09-15,Kolkata,Uttapam,South Indian,Veg,115,193,77,67,Urban Bites,Zomato,4.9
