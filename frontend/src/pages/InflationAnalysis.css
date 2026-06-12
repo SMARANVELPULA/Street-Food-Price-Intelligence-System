@@ -1,0 +1,269 @@
+.inflation-page {
+  flex: 1;
+  padding: 20px;
+  background: #f9fafb;
+  overflow-y: auto;
+}
+
+.inflation-header {
+  margin-bottom: 30px;
+}
+
+.inflation-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 8px 0;
+}
+
+.inflation-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* KPI Grid */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.kpi-card {
+  background: white;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.kpi-card:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.kpi-icon {
+  font-size: 24px;
+  width: fit-content;
+}
+
+.kpi-label {
+  font-size: 12px;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.kpi-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.kpi-subtext {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Charts */
+.charts-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+  .charts-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: white;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-large {
+  grid-column: 1 / -1;
+}
+
+
+.card-header {
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 4px 0;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.card-note {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 0.5px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Insights Section */
+.insights-section {
+  background: white;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.insights-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.insights-header i {
+  font-size: 18px;
+  color: #534AB7;
+}
+
+.insights-title {
+  flex: 1;
+}
+
+.insights-badge {
+  font-size: 11px;
+  padding: 4px 10px;
+  background: #EEEDFE;
+  color: #3C3489;
+  border-radius: 12px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .insights-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.insight-item {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 0.5px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.insight-item:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+}
+
+.insight-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 20px;
+}
+
+.insight-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.insight-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.insight-description {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .inflation-page {
+    padding: 16px;
+  }
+
+  .inflation-title {
+    font-size: 24px;
+  }
+
+  .kpi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .kpi-card {
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .kpi-value {
+    font-size: 20px;
+  }
+
+  .charts-row {
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .insights-section {
+    padding: 16px;
+  }
+}

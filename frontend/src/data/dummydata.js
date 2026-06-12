@@ -160,3 +160,27 @@ export const dashboardKPIs = {
   appPremium: 2.1,
   records: 1240,
 };
+
+export const itemMetadata = {
+  'Biryani': { type: 'non-veg', category: 'main' },
+  'Dosa': { type: 'veg', category: 'main' },
+  'Vada Pav': { type: 'veg', category: 'snack' },
+  'Pani Puri': { type: 'veg', category: 'snack' },
+  'Samosa': { type: 'veg', category: 'snack' },
+  'Chai': { type: 'veg', category: 'beverage' },
+};
+
+export const categoryInflation = [
+  { category: "Main Course", inflation: 9.8 },
+  { category: "Snacks", inflation: 8.2 },
+  { category: "Beverages", inflation: 6.5 },
+];
+
+export const itemInflation = [
+  { item: "Biryani", inflation: 12.5, change: "+12.5%" },
+  { item: "Dosa", inflation: 10.2, change: "+10.2%" },
+  { item: "Pani Puri", inflation: 9.1, change: "+9.1%" },
+  { item: "Vada Pav", inflation: 7.8, change: "+7.8%" },
+  { item: "Samosa", inflation: 8.5, change: "+8.5%" },
+  { item: "Chai", inflation: 6.3, change: "+6.3%" },
+];

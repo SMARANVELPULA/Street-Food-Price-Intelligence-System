@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useMemo } from "react";
 import "./Dashboard.css";
 
 import {
@@ -18,20 +18,21 @@ import { ResponsiveHeatMap } from "@nivo/heatmap";
 import {
   foodPrices,
   inflationData,
-  cityComparison,
-  affordabilityMatrix,
-  appVsStreetPrices,
-  dashboardKPIs
+  itemMetadata,
 } from "../data/dummyData";
-import { getItemAverages } from "../utils/dataCalculations";
+import { getItemAverages, applyFilters } from "../utils/dataCalculations";
 
 const transformHeatMapData = (data) => {
-  const cities = ["Hyderabad", "Mumbai", "Delhi", "Bengaluru", "Chennai"];
+  if (!data || data.length === 0) return [];
+
+  // Get cities from the first item's keys (excluding 'item')
+  const cities = Object.keys(data[0]).filter(key => key !== 'item');
+
   return cities.map(city => ({
     id: city,
     data: data.map(item => ({
       x: item.item,
-      y: item[city],
+      y: item[city] || 0,
     })),
   }));
 };
@@ -48,46 +49,6 @@ const insights = [
     sub: "Central zones price 34% above peripheral on average" },
 ];
 
-// KPI summary cards (sparkline data, deltas, etc.)
-const kpis = [
-  {
-    label: "Avg Price",
-    val: `₹${dashboardKPIs.avgPrice}`,
-    stroke: "#1D9E75",
-    points: "0,18 9,16 18,15 28,13 37,10 46,8 56,6",
-    delta: "+6.2% this quarter",
-    cls: "delta-up",
-    icon: "ti-trending-up",
-  },
-  {
-    label: "SFPI Inflation",
-    val: `${dashboardKPIs.sfpiInflation}%`,
-    stroke: "#D85A30",
-    points: "0,18 9,17 18,15 28,13 37,11 46,9 56,7",
-    delta: "vs CPI food 5.1%",
-    cls: "delta-up",
-    icon: "ti-alert-triangle",
-  },
-  {
-    label: "App Premium",
-    val: `${dashboardKPIs.appPremium}×`,
-    stroke: "#534AB7",
-    points: "0,16 9,15 18,14 28,12 37,10 46,8 56,6",
-    delta: "app prices 110% higher",
-    cls: "delta-up",
-    icon: "ti-device-mobile",
-  },
-  {
-    label: "Records",
-    val: dashboardKPIs.records,
-    stroke: "#888780",
-    points: "0,20 9,18 18,16 28,14 37,11 46,9 56,7",
-    delta: "5 cities · 14 items",
-    cls: "delta-neu",
-    icon: "ti-database",
-  },
-];
-
 // City comparison table data (Biryani street prices vs median)
 const cityData = [
   { city: "Hyderabad", avg: 135, vs: "-5%",  cls: "tlo", trend: "▼ stable", tcolor: "#085041" },
@@ -98,10 +59,118 @@ const cityData = [
 ];
 
 function Dashboard() {
-  const chartData = getItemAverages(foodPrices).map(({ item, avg }) => ({
-    item,
-    price: Math.round(avg * 10) / 10,
-  }));
+  // Filter state
+  const [selectedCities, setSelectedCities] = useState(["Hyderabad", "Mumbai", "Delhi", "Bengaluru", "Chennai"]);
+  const [selectedItems, setSelectedItems] = useState(["Biryani", "Dosa", "Vada Pav", "Pani Puri", "Samosa", "Chai"]);
+  const [selectedZones, setSelectedZones] = useState(["Central", "Suburban", "Peripheral"]);
+  const [dateRange, setDateRange] = useState("Apr – Jun 2025");
+  const [showApp, setShowApp] = useState(true);
+  const [showStreet, setShowStreet] = useState(true);
+  const [showVeg, setShowVeg] = useState(true);
+  const [showNonVeg, setShowNonVeg] = useState(true);
+
+  // Filtered data computed from state
+  const filteredFoodPrices = useMemo(() => {
+    const filtered = applyFilters(foodPrices, itemMetadata, {
+      selectedItems,
+      selectedCities,
+      showVeg,
+      showNonVeg,
+    });
+    // Fallback to full data if filtering results in empty array
+    return filtered && filtered.length > 0 ? filtered : foodPrices;
+  }, [selectedItems, selectedCities, showVeg, showNonVeg]);
+
+  // Calculate KPI values from filtered data
+  const calculatedKPIs = useMemo(() => {
+    const itemAvgs = getItemAverages(filteredFoodPrices);
+    const avgPrice = itemAvgs.length ? Math.round(itemAvgs.reduce((sum, i) => sum + i.avg, 0) / itemAvgs.length) : 0;
+    return {
+      avgPrice,
+      sfpiInflation: 8.4,
+      appPremium: 2.1,
+      records: filteredFoodPrices.length * selectedCities.length,
+    };
+  }, [filteredFoodPrices, selectedCities]);
+
+  const kpis = [
+    {
+      label: "Avg Price",
+      val: `₹${calculatedKPIs.avgPrice}`,
+      stroke: "#1D9E75",
+      points: "0,18 9,16 18,15 28,13 37,10 46,8 56,6",
+      delta: "+6.2% this quarter",
+      cls: "delta-up",
+      icon: "ti-trending-up",
+    },
+    {
+      label: "SFPI Inflation",
+      val: `${calculatedKPIs.sfpiInflation}%`,
+      stroke: "#D85A30",
+      points: "0,18 9,17 18,15 28,13 37,11 46,9 56,7",
+      delta: "vs CPI food 5.1%",
+      cls: "delta-up",
+      icon: "ti-alert-triangle",
+    },
+    {
+      label: "App Premium",
+      val: `${calculatedKPIs.appPremium}×`,
+      stroke: "#534AB7",
+      points: "0,16 9,15 18,14 28,12 37,10 46,8 56,6",
+      delta: "app prices 110% higher",
+      cls: "delta-up",
+      icon: "ti-device-mobile",
+    },
+    {
+      label: "Records",
+      val: calculatedKPIs.records,
+      stroke: "#888780",
+      points: "0,20 9,18 18,16 28,14 37,11 46,9 56,7",
+      delta: "5 cities · 14 items",
+      cls: "delta-neu",
+      icon: "ti-database",
+    },
+  ];
+
+  const chartData = useMemo(() => {
+    const itemAvgs = getItemAverages(filteredFoodPrices || []);
+    return itemAvgs.map(({ item, avg }) => ({
+      item,
+      price: Math.round(avg * 10) / 10,
+    }));
+  }, [filteredFoodPrices]);
+
+  // Event handlers
+  const handleCityChange = (e) => {
+    const value = e.target.value;
+    if (value === "All cities") {
+      setSelectedCities(["Hyderabad", "Mumbai", "Delhi", "Bengaluru", "Chennai"]);
+    } else {
+      setSelectedCities([value]);
+    }
+  };
+
+  const handleItemChange = (e) => {
+    const value = e.target.value;
+    if (value === "All items") {
+      setSelectedItems(["Biryani", "Dosa", "Vada Pav", "Pani Puri", "Samosa", "Chai"]);
+    } else {
+      setSelectedItems([value]);
+    }
+  };
+
+  const handleZoneChange = (e) => {
+    const value = e.target.value;
+    if (value === "All zones") {
+      setSelectedZones(["Central", "Suburban", "Peripheral"]);
+    } else {
+      setSelectedZones([value]);
+    }
+  };
+
+  const handleDateRangeChange = (e) => {
+    setDateRange(e.target.value);
+  };
 
   return (
     <div className="db" style={{ margin: '20px' }}>
@@ -125,22 +194,40 @@ function Dashboard() {
 
       <div className="filter-bar">
         <span className="flabel">Filters</span>
-        {[
-          ["All cities","Hyderabad","Mumbai","Delhi","Bengaluru","Chennai"],
-          ["All items","Biryani","Vada pav","Dosa","Chai","Samosa"],
-          ["All zones","Central","Suburban","Peripheral"],
-          ["Apr – Jun 2025","Jan – Mar 2025","Oct – Dec 2024"],
-        ].map((opts, i) => (
-          <select key={i} className="fsel">
-            {opts.map(o => <option key={o}>{o}</option>)}
-          </select>
-        ))}
+        <select className="fsel" onChange={handleCityChange} value={selectedCities.length === 5 ? "All cities" : (selectedCities[0] || "All cities")}>
+          <option>All cities</option>
+          <option>Hyderabad</option>
+          <option>Mumbai</option>
+          <option>Delhi</option>
+          <option>Bengaluru</option>
+          <option>Chennai</option>
+        </select>
+        <select className="fsel" onChange={handleItemChange} value={selectedItems.length === 6 ? "All items" : (selectedItems[0] || "All items")}>
+          <option>All items</option>
+          <option>Biryani</option>
+          <option>Dosa</option>
+          <option>Vada Pav</option>
+          <option>Pani Puri</option>
+          <option>Samosa</option>
+          <option>Chai</option>
+        </select>
+        <select className="fsel" onChange={handleZoneChange} value={selectedZones.length === 3 ? "All zones" : (selectedZones[0] || "All zones")}>
+          <option>All zones</option>
+          <option>Central</option>
+          <option>Suburban</option>
+          <option>Peripheral</option>
+        </select>
+        <select className="fsel" onChange={handleDateRangeChange} value={dateRange}>
+          <option>Apr – Jun 2025</option>
+          <option>Jan – Mar 2025</option>
+          <option>Oct – Dec 2024</option>
+        </select>
         <div className="fsep" />
-        <button className="ftoggle on">App</button>
-        <button className="ftoggle on">Street</button>
+        <button className={`ftoggle ${showApp ? 'on' : ''}`} onClick={() => setShowApp(!showApp)}>App</button>
+        <button className={`ftoggle ${showStreet ? 'on' : ''}`} onClick={() => setShowStreet(!showStreet)}>Street</button>
         <div className="fsep" />
-        <button className="ftoggle on">Veg</button>
-        <button className="ftoggle on">Non-veg</button>
+        <button className={`ftoggle ${showVeg ? 'on' : ''}`} onClick={() => setShowVeg(!showVeg)}>Veg</button>
+        <button className={`ftoggle ${showNonVeg ? 'on' : ''}`} onClick={() => setShowNonVeg(!showNonVeg)}>Non-veg</button>
       </div>
 
       <div className="body">
@@ -168,9 +255,9 @@ function Dashboard() {
           <div className="card">
             <div className="ctitle">Price heat map — by item &amp; city</div>
             <div className="csub">Street food prices (₹) · darker = costlier</div>
-            <div className="nivo-heatmap-container">
+            <div className="nivo-heatmap-container" style={{ height: "400px" }}> {/* Added explicit height here */}
               <ResponsiveHeatMap
-                data={transformHeatMapData(affordabilityMatrix)}
+                data={transformHeatMapData(filteredFoodPrices)}
                 margin={{ top: 30, right: 120, bottom: 40, left: 60 }}
                 valueFormat=">-.0f"
                 colors={{

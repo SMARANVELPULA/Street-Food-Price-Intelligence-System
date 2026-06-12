@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./pages/Dashboard";
 import PriceAnalysis from "./pages/PriceAnalysis";
+import InflationAnalysis from "./pages/InflationAnalysis";
 import ErrorBoundary from "./components/ErrorBoundary";
 
 function NotFound() {
@@ -25,6 +26,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/price-analysis" element={<PriceAnalysis />} />
+              <Route path="/inflation-analysis" element={<InflationAnalysis />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </ErrorBoundary>
